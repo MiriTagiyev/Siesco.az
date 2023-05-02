@@ -1239,7 +1239,7 @@ section {
 .products .product {
   width: 31%;
   height: 180px;
-  background-color: #1EC8DB;
+  background-color: #1ec8db;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -1248,7 +1248,7 @@ section {
 }
 
 .products .hover {
-  background-color: #467AA9 ;
+  background-color: #467aa9;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2912,7 +2912,7 @@ li {
 .info6 i {
   color: green;
 }
-.active {
+.productions-wrapper .active {
   color: #e02a1c;
   transform: scale(1.1);
 }
