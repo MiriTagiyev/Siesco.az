@@ -452,10 +452,10 @@ window.addEventListener("scroll", function () {
     this.document.querySelector(".counter").getBoundingClientRect().top < 800 &&
     document.querySelector(".counter").className == "counter"
   ) {
-    counter("projectcount", 0, 300, 3000, "+");
-    counter("clientount", 0, 10, 3000, null);
-    counter("branchcount", 0, 25, 3000, null);
-    counter("yearcount", 0, 350, 3000, "+");
+    counter("projectcount", 0, 300, 1000, "+");
+    counter("clientount", 0, 10, 1000, null);
+    counter("branchcount", 0, 25, 1000, null);
+    counter("yearcount", 0, 350, 1000, "+");
     document.querySelector(".counter").classList.add("counted");
   } else if (
     this.document.querySelector(".counter").getBoundingClientRect().top > 800
