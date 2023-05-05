@@ -1530,6 +1530,21 @@ header .lotties .current {
   width: 30%;
   position: relative;
 }
+.detail-text a{
+  padding: 10px 10px;
+  background-color: green;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 3cm;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+
+}
+.detail-text i{
+  margin-left: 8px;
+  font-weight: 600;
+}
 .detail-texts .detail-text {
   position: absolute;
   width: 100%;
