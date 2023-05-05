@@ -1260,7 +1260,7 @@ section {
 }
 
 .products .product img {
-  width: 150px;
+  width: 40%;
   display: block;
   transition: 0.3s;
   position: relative;
