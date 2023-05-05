@@ -230,7 +230,7 @@ $(".about-me-img").hover(
   function () {
     $(".authorWindowWrapper").stop().fadeIn("fast").find("p").addClass("trans");
   },
-  function () { 
+  function () {
     $(".authorWindowWrapper")
       .stop()
       .fadeOut("fast")
@@ -241,56 +241,86 @@ $(".about-me-img").hover(
 
 //oclock end
 
-
 (function (e) {
   e.fn.circle = function (t) {
-    var n = e.extend({
-      speed: "5000"
-    }, t);
+    var n = e.extend(
+      {
+        speed: "5000",
+      },
+      t
+    );
     return this.each(function () {
       function t() {
         var e = i.find("li.block.active").index();
-        c.removeClass("active"), c.eq(e).addClass("active")
+        c.removeClass("active"), c.eq(e).addClass("active");
       }
 
       function o() {
         var n;
-        i.addClass("disable-hover"), i.stop(!0, !0).animate({
-          rotatedeg: p.deg += p.step
-        }, {
-          duration: 400,
-          step: function (t) {
-            t >= 360 ? t -= 360 : t <= -360 && (t += 360), e(this).css("transform", "rotate(" + t + "deg)"), e(this).css("-webkit-transform", "rotate(" + t + "deg)")
-          },
-          complete: function () {
-            p.active = i.find("li.active").removeClass("active"), "right" == p.direction && p.step == d && (p.active.prev() && p.active.prev().length ? (n = p.active.prev().index(), p.active.prev().addClass("active")) : (p.active.siblings(":last-child").addClass("active"), n = 9)), "left" == p.direction && p.step == u && (p.active.next() && p.active.next().length ? (n = p.active.next().index(), p.active.next().addClass("active")) : (p.active.siblings(":first-child").addClass("active"), n = 0)), i.is(":animated"), i.removeClass("disable-hover"), t()
-            $('header .lotties .current').removeClass('current')
-            $(`header .lotties .lottie:eq(${n})`).addClass('current')
-            $('header .detail-texts .current').removeClass('current')
-            $(`header .detail-texts .detail-text:eq(${n})`).addClass('current')
-          }
-        }, "ease")
+        i.addClass("disable-hover"),
+          i.stop(!0, !0).animate(
+            {
+              rotatedeg: (p.deg += p.step),
+            },
+            {
+              duration: 400,
+              step: function (t) {
+                t >= 360 ? (t -= 360) : t <= -360 && (t += 360),
+                  e(this).css("transform", "rotate(" + t + "deg)"),
+                  e(this).css("-webkit-transform", "rotate(" + t + "deg)");
+              },
+              complete: function () {
+                (p.active = i.find("li.active").removeClass("active")),
+                  "right" == p.direction &&
+                    p.step == d &&
+                    (p.active.prev() && p.active.prev().length
+                      ? ((n = p.active.prev().index()),
+                        p.active.prev().addClass("active"))
+                      : (p.active.siblings(":last-child").addClass("active"),
+                        (n = 9))),
+                  "left" == p.direction &&
+                    p.step == u &&
+                    (p.active.next() && p.active.next().length
+                      ? ((n = p.active.next().index()),
+                        p.active.next().addClass("active"))
+                      : (p.active.siblings(":first-child").addClass("active"),
+                        (n = 0))),
+                  i.is(":animated"),
+                  i.removeClass("disable-hover"),
+                  t();
+                $("header .lotties .current").removeClass("current");
+                $(`header .lotties .lottie:eq(${n})`).addClass("current");
+                $("header .detail-texts .current").removeClass("current");
+                $(`header .detail-texts .detail-text:eq(${n})`).addClass(
+                  "current"
+                );
+              },
+            },
+            "ease"
+          );
       }
 
       function r() {
         i.addClass("disable-hover"),
           i.stop(!0, !0).animate(
             {
-              rotatedeg: p.deg += p.step
+              rotatedeg: (p.deg += p.step),
             },
             {
               duration: 400,
               step: function (t) {
-                t >= 360 ? t -= 360 : t <= -360 && (t += 360),
+                t >= 360 ? (t -= 360) : t <= -360 && (t += 360),
                   e(this).css("transform", "rotate(" + t + "deg)"),
-                  e(this).css("-webkit-transform", "rotate(" + t + "deg)")
+                  e(this).css("-webkit-transform", "rotate(" + t + "deg)");
               },
               complete: function () {
-                p.active = i.find("li.active"),
+                (p.active = i.find("li.active")),
                   i.is(":animated"),
-                  i.removeClass("disable-hover")
-              }
-            }, "ease")
+                  i.removeClass("disable-hover");
+              },
+            },
+            "ease"
+          );
       }
       var i = e(this),
         s = i.find("li").length,
@@ -303,7 +333,7 @@ $(".about-me-img").hover(
           deg: 0,
           step: u,
           active: i.find("li.active"),
-          direction: "left"
+          direction: "left",
         };
       switch (s) {
         case 10:
@@ -334,7 +364,7 @@ $(".about-me-img").hover(
           u = -180;
           break;
         case 1:
-          u = -360
+          u = -360;
       }
       i.addClass(l);
       var d = u - 2 * u;
@@ -342,62 +372,69 @@ $(".about-me-img").hover(
         i.find("> li").first().find("a").attr("href"),
         c.eq(0).addClass("active"),
         e(a).on("click", function () {
-          $('header .lotties .current').removeClass('current')
-          $(`header .lotties .lottie:eq(${e(this).parent().index()})`).addClass('current')
-          $('header .detail-texts .current').removeClass('current')
-          $(`header .detail-texts .detail-text:eq(${e(this).parent().index()})`).addClass('current')
+          $("header .lotties .current").removeClass("current");
+          $(`header .lotties .lottie:eq(${e(this).parent().index()})`).addClass(
+            "current"
+          );
+          $("header .detail-texts .current").removeClass("current");
+          $(
+            `header .detail-texts .detail-text:eq(${e(this).parent().index()})`
+          ).addClass("current");
           var n = e(this).parent().index() - i.find("li.active").index();
           i.children("li").removeClass("active"),
             e(this).parent().addClass("active"),
-            p.step = -n * d, n * d >= 288 && (p.step = -n * d + 360),
+            (p.step = -n * d),
+            n * d >= 288 && (p.step = -n * d + 360),
             n * d <= -288 && (p.step = -n * d - 360),
-            r(), p.step = u, p.direction = "left", t()
-        }); 
+            r(),
+            (p.step = u),
+            (p.direction = "left"),
+            t();
+        });
       var f = i.parent().find("div.next"),
         h = i.parent().find("div.prev");
       f.on("click", function () {
         //sag click
-        i.is(":animated") || (p.direction = "left", p.step = u, o())
-
-      }), h.on("click", function () {
-        //sol click
-        i.is(":animated") || (p.direction = "right", p.step = d, o())
-      })
-    })
-  }
+        i.is(":animated") || ((p.direction = "left"), (p.step = u), o());
+      }),
+        h.on("click", function () {
+          //sol click
+          i.is(":animated") || ((p.direction = "right"), (p.step = d), o());
+        });
+    });
+  };
   setInterval(() => {
-    $('.next').click()
-  }, 8000)
+    $(".next").click();
+  }, 8000);
 
-  $('header>.prev').click(()=>{
-    $('header .services .prev').click()
-  })
-  $('header>.next').click(()=>{
-    $('header .services .next').click()
-  })
-}(jQuery));
-
+  $("header>.prev").click(() => {
+    $("header .services .prev").click();
+  });
+  $("header>.next").click(() => {
+    $("header .services .next").click();
+  });
+})(jQuery);
 
 $(function () {
   //Background image
-  $('div').each(function () {
-    var url = $(this).attr('data-image');
+  $("div").each(function () {
+    var url = $(this).attr("data-image");
     if (url) {
-      $(this).css('background-image', 'url(' + url + ')');
+      $(this).css("background-image", "url(" + url + ")");
     }
   });
 
-  $('section').each(function () {
-    var url = $(this).attr('data-image');
+  $("section").each(function () {
+    var url = $(this).attr("data-image");
     if (url) {
-      $(this).css('background-image', 'url(' + url + ')');
+      $(this).css("background-image", "url(" + url + ")");
     }
   });
 
-  // Service Auto height circle 
+  // Service Auto height circle
   function autoHeightCircle() {
-    var circle = $('.circle--rotate'),
-      circleInner = $('.animate-wrapper'),
+    var circle = $(".circle--rotate"),
+      circleInner = $(".animate-wrapper"),
       circleH = circle.width(),
       circleInnerH = circleInner.width();
     circle.height(circleH);
@@ -410,3 +447,33 @@ $(function () {
     autoHeightCircle();
   });
 });
+window.addEventListener("scroll", function () {
+  if (
+    this.document.querySelector(".counter").getBoundingClientRect().top < 800 &&
+    document.querySelector(".counter").className == "counter"
+  ) {
+    counter("projectcount", 0, 300, 3000, "+");
+    counter("clientount", 0, 10, 3000, null);
+    counter("branchcount", 0, 25, 3000, null);
+    counter("yearcount", 0, 350, 3000, "+");
+    document.querySelector(".counter").classList.add("counted");
+  } else if (
+    this.document.querySelector(".counter").getBoundingClientRect().top > 800
+  ) {
+    document.querySelector(".counter").classList.remove("counted");
+  }
+});
+function counter(id, start, end, duration, plus) {
+  let obj = document.getElementById(id),
+    current = start,
+    range = end - start,
+    increment = end > start ? 1 : -1,
+    step = Math.abs(Math.floor(duration / range)),
+    timer = setInterval(() => {
+      current += increment;
+      obj.textContent = current + plus;
+      if (current == end) {
+        clearInterval(timer);
+      }
+    }, step);
+}

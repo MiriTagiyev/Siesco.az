@@ -2975,3 +2975,33 @@ li {
   transform: scale(1.1);
 } */
 /* ! Status page css end */
+.counter {
+  background-color: #477aa9;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.counter ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 10%;
+}
+.counter ul li {
+  position: relative;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  width: 25%;
+}
+.counter ul li span:first-child {
+  font-size: 90px;
+  opacity: 0.3;
+}
+.counter ul li span:last-child {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  white-space: nowrap;
+}
