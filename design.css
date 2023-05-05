@@ -1334,24 +1334,38 @@ footer {
   margin-top: 15px;
   font-size: 15px;
   text-decoration: none;
-  color: #000;
+  color: black;
+}
+.footer-right1 ul li {
+  list-style: none;
+  color: black !important;
+  font-weight: 400;
 }
 
 .footer-right1 h5 {
   color: rgb(0, 0, 0);
   font-size: 18px;
-  color: rgb(75, 0, 251);
+  color: #009de0;
   font-weight: 600;
 }
 .footer-right2 {
   width: 49%;
   height: 180px;
 }
+.footer-right2 h5 {
+  font-size: 18px;
+  color: #009de0 !important;
+  font-weight: 600;
+}
 
 .footer-right2 a {
   font-size: 28px;
   margin-right: 10px;
   margin-left: 5px;
+}
+.footer-right2 a i:hover {
+  transform: scale(1.2);
+  transition: all 1ms;
 }
 .footer-right2 h5 {
   font-weight: 600;
@@ -1375,16 +1389,16 @@ footer {
 }
 .footer-right2 h5 {
   font-size: 18px;
-  color: rgb(75, 0, 251);
+  color: #009de0 !important;
 }
 .footer-right2 h4 {
   font-size: 18px;
   margin-top: 20px;
   font-weight: 600;
-  color: rgb(75, 0, 251);
+  color: #009de0 !important;
 }
 .footer-right2 p {
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 #footer-links ul li {
@@ -2387,186 +2401,6 @@ header > .prev {
   animation-fill-mode: backwards;
 }
 /* ! Customers page css end */
-/* ! TEAM page css start */
-li {
-  list-style: none;
-}
-
-/* style member component */
-.list-members {
-  background-color: #028cbe;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.siescoperson {
-  height: 580px;
-  overflow: hidden;
-  overflow-y: scroll;
-  margin-top: 0px;
-}
-.person-vektor {
-  width: 100%;
-  height: auto;
-  display: flex;
-}
-
-.siescoperson p {
-  color: white;
-  font-weight: 200;
-}
-
-.siescoperson h3 {
-  color: white;
-  font-weight: 200;
-}
-
-.member {
-  flex-basis: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.member-image {
-  width: 50%;
-  height: 100%;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-}
-
-.member-image img {
-  width: 100%;
-  height: 100%;
-  transition: 1s;
-}
-
-.member-image:hover img {
-  transform: scale(1.1);
-}
-
-.member-info {
-  width: 50%;
-  text-align: center;
-}
-
-.member-info p {
-  margin: 20px 0;
-}
-
-/* style social link */
-.social-link .fab {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  border: 1px solid white;
-  border-radius: 100%;
-  margin: 0 7px;
-  cursor: pointer;
-  transition: transform 0.5s;
-  color: white;
-}
-
-.social-link .fab:hover {
-  transform: translateY(-7px);
-}
-
-.social-link .fa-facebook-f:hover {
-  background-color: #1773ea !important;
-}
-
-.social-link .fa-linkedin-in:hover {
-  background-color: #0a63bc !important;
-}
-
-.social-link .fa-instagram:hover {
-  background-color: #fe0180 !important;
-}
-
-.siescoperson::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-.siescoperson::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-.siescoperson::-webkit-scrollbar-thumb {
-  background: #04daf6;
-  border-radius: 10px;
-}
-
-/* Membuat segitiga */
-.member-image::after {
-  content: "";
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-}
-
-/* Merubah posisi member-image dengan member-info */
-@media screen and (min-width: 771px) {
-  .member:nth-child(4n + 3) .member-info,
-  .member:nth-child(4n + 4) .member-info {
-    order: 1;
-  }
-
-  .member:nth-child(4n + 3) .member-image,
-  .member:nth-child(4n + 4) .member-image {
-    order: 2;
-  }
-
-  /* Merubah posisi sigitiga pada baris genap */
-  .member:nth-child(4n + 3) .member-image::after,
-  .member:nth-child(4n + 4) .member-image::after {
-    left: 0;
-    right: auto;
-    transform: translateY(-50%) rotateZ(180deg);
-  }
-}
-
-/* Mobile Styles */
-@media screen and (max-width: 770px) {
-  .list-members {
-    width: 95%;
-  }
-
-  .member {
-    flex-basis: 100%;
-    font-size: 14px;
-  }
-
-  .social-link .fab {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-
-  .member:nth-child(even) .member-info {
-    order: 1;
-  }
-
-  .member:nth-child(even) .member-image {
-    order: 2;
-  }
-
-  /* Merubah posisi sigitiga elemen genap */
-  .member:nth-child(even) .member-image::after {
-    left: 0;
-    right: auto;
-    transform: translateY(-50%) rotateZ(180deg);
-  }
-}
-
-/* ! TEAM page css end */
 /* ! News page css start */
 .news-vektor {
   width: 100%;
@@ -2975,6 +2809,7 @@ li {
   transform: scale(1.1);
 } */
 /* ! Status page css end */
+/* ! Calculyator page css start */
 .counter {
   background-color: #477aa9;
   padding: 20px;
@@ -3005,3 +2840,4 @@ li {
   transform: translate(-50%, -40%);
   white-space: nowrap;
 }
+/* ! Calculyator page css end */
