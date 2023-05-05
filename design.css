@@ -455,6 +455,9 @@ section {
   width: 50%;
   height: auto;
 }
+.lottie-about p{
+  color: #000000;
+}
 
 .lottie-about h2 {
   margin-bottom: 15px;
@@ -470,7 +473,7 @@ section {
 .lottie-about p {
   font-weight: 300;
   font-size: 13.5px;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
 }
 
 .Partner-info {
