@@ -21,28 +21,27 @@ var situation = [
     sual: "1C:Françayzinq nədir?",
     photo: "/img/Mikro.png",
     info1:
-      "Əməkdaşlarımız 1C tərəfindən sertifikatlaşdırılmış mütəxəssislərdir və 1C proqramının sadə quraşdırılması və konfiqurasiyasından tutmuş proqramın digər paketlərlə inteqrasiyasına, istifadəçilərin təliminə, mühasibat və ofis işlərinin avtomatlaşdırılmasına qədər bir sıra xidmətləri yüksək keyfiyyətlə yerinə yetirə bilirlər.",
+      "Əməkdaşlarımız - «1С» tərəfindən sertifikatlaşdırılmış, «1С» proqramının sadə quraşdırılması və konfiqurasiyasından başlayaraq proqramın digər paketlərlə inteqrasiyasına, istifadəçi təlimlərinə, mühasibat uçotunun və ofis işlərinin avtomatlaşdırılmasına qədər hərtərəfli xidmətləri yerinə yetirmək qabiliyyətinə malik mütəxəssislərdir.",
   },
   {
     basliq: "1C:Real Avtomatlaşdırma Mərkəzi",
     sual: "1C:Real Avtomatlaşdırma Mərkəzi nədir?",
     photo: "/img/1CNew.png",
     info1:
-      "Real Avtomatlaşdırma Mərkəzlərinin işçiləri ehtiyacların səriştəli müəyyən edilməsi texnologiyasına uyğun olaraq təlim keçmiş və sertifikatlaşdırılmışdır - onlar 1C standartlarına uyğun olaraq şirkətin biznes proseslərinin ilkin sorğusunu tez və səmərəli keçirməyə kömək edəcək və işin səmərəliliyini artırmaq yollarını təklif edəcəklər.",
+      "Real Avtomatlaşdırma Mərkəzlərinin əməkdaşları tələblərin səmərəli müəyyən edilməsi texnologiyası üzrə təlim keçmiş və sertifikatlaşdırılmışdırlar – onlar «1С» standartlarına uyğun olaraq şirkətin biznes proseslərinin ilkin qiymətləndirilməsini tez və keyfiyyətli şəkildə aparmağa kömək edəcək və müştərinin biznes effektivliyini artırma metodlarını təklif edəcəklər",
   },
   {
     basliq: "1C:ERP Mərkəzi - namizəd",
     sual: "1C:ERP Mərkəzi nədir?",
     photo: "/img/it.png",
     info1:
-      "'1C: ERP Mərkəzi' statusuna malik tərəfdaş 1C ERP həllərinin müntəzəm satışı, tətbiqlərin həyata keçirilməsi, həmçinin digər tərəfdaşlar tərəfindən həyata keçirilən layihələrə nəzarət etmək hüququna malikdir.Vəziyyət müəssisənin idarə edilməsi üçün '1C' şirkətinin ERP-həllərində səlahiyyətlərin mövcudluğu deməkdir; bütün alt sistemlərdə mütəxəssislər: məsləhətçilər, sertifikatlı layihə menecerləri; uğurlu tətbiqlər; keyfiyyət idarəetmə sistemləri.",
+      "'1C: ERP Mərkəzi' statusuna malik tərəfdaş 1C ERP həllərinin müntəzəm satışı,tətbiqlərin həyata keçirilməsi, habelə digər tərəfdaşlar tərəfindən həyata keçirilən layihələrə nəzarət etmək hüququna malikdir.Status müəssisənin idarə edilməsi üçün «1С» şirkətinin ERP-həllərində səlahiyyətlərin olmasını ifadə edir; bütün alt sistemlər üzrə mütəxəssislər: Konsultantlar, sertifikatlı layihə menecerləri; uğurlu tətbiqlər; keyfiyyət idarəetmə sistemləri.",
   },
   {
     basliq: "1C-Bitriks tərəfdaşı",
     sual: "1C-Bitriks nədir?",
     photo: "/img/bitrix.png",
-    info1:
-      "Real Avtomatlaşdırma Mərkəzlərinin işçiləri ehtiyacların səriştəli müəyyən edilməsi texnologiyasına uyğun olaraq təlim keçmiş və sertifikatlaşdırılmışdır - onlar 1C standartlarına uyğun olaraq şirkətin biznes proseslərinin ilkin sorğusunu tez və səmərəli keçirməyə kömək edəcək və işin səmərəliliyini artırmaq yollarını təklif edəcəklər.",
+    info1: "1C-Bitriks tərəfdaşı",
   },
 ];
 
