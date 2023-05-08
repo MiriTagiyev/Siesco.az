@@ -26,6 +26,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  padding-top: 130px;
 }
 
 /* ! Nav css start */
@@ -1527,7 +1528,6 @@ header {
   padding: 20px 3%;
   justify-content: space-between;
   overflow: hidden;
-  margin-top: 130px;
 }
 
 header .lotties {
@@ -2035,6 +2035,7 @@ header > .prev {
   width: 100%;
   display: flex;
   height: auto;
+  margin-bottom: 60px;
 }
 .vakancy-lottie {
   width: 50%;
@@ -2296,7 +2297,7 @@ header > .prev {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0px 80px;
+  padding: 0px;
 }
 .customers-vektor {
   width: 100%;
