@@ -477,3 +477,12 @@ function counter(id, start, end, duration, plus) {
       }
     }, step);
 }
+
+document.querySelector("body").onscroll = function () {
+  console.log(window.scrollY);
+  if (window.scrollY > 30) {
+    document.querySelector("nav").classList.add("fixed");
+  } else {
+    document.querySelector("nav").classList.remove("fixed");
+  }
+};

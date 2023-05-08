@@ -30,10 +30,24 @@ body {
 
 /* ! Nav css start */
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 15%;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  top: 0;
+}
+nav.fixed {
+}
+nav img {
+  transition: 0.2s;
+}
+nav.fixed img {
+  width: 140px;
 }
 .about-menu li a:hover {
   color: #f30909;
@@ -455,7 +469,7 @@ section {
   width: 50%;
   height: auto;
 }
-.lottie-about p{
+.lottie-about p {
   color: #000000;
 }
 
@@ -1515,6 +1529,7 @@ header {
   padding: 20px 3%;
   justify-content: space-between;
   overflow: hidden;
+  margin-top: 130px;
 }
 
 header .lotties {
