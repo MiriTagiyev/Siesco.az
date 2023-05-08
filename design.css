@@ -41,8 +41,6 @@ nav {
   z-index: 1000;
   top: 0;
 }
-nav.fixed {
-}
 nav img {
   transition: 0.2s;
 }
