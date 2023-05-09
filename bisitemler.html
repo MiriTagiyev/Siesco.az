@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/design.css" />
+    <link rel="stylesheet" href="./design.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -32,7 +32,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./design.css" />
   </head>
+
   <body>
     <!-- ! Nav  start -->
     <nav>
@@ -114,55 +116,137 @@
       </div>
     </nav>
     <!-- ! Nav  end -->
-    <!-- ! Partners  start -->
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-    <section>
-        <div class="productions-container">
-          <div class="productions-vektor">
-            <div class="productions-img">
-                <img id="bi-img" src="/img/BI_logo.svg.png" alt="">
+
+    <section id="bi-services">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <ul>
+        <li href="web">BI Sistemləri</li>
+        <li href="mobile">Qlik Sense</li>
+        <li href="power">Power BI</li>
+        <li href="analtik">1С Аnalitika</li>
+      </ul>
+      <div class="bi-detail">
+        <div class="bi-detail-text web-text">
+            <div class="bi-detail-title">
+                <img src="/img/BI_logo.svg.png" alt="">
             </div>
-            <div class="productions-lottie">
-              <lottie-player
-                id="partners-lottie"
-                src="/lottiefiles/128040-searching.json"
-                mode="bounce"
-                background="rgba(0, 0, 0, 0)"
-                speed="2"
-                style="
-                  width: 46%;
-                  height: 100%;
-                  transform: scale(1.4);
-                  margin-bottom: 0%;
-                  margin-left: 12%;
-                "
-                loop
-                autoplay
-              >
-              </lottie-player>
-          </div>
-          </div>
-            <div class="productions-title">
-                <h3>BI SİSTEMLƏR PROQRAMI NƏDİR ?</h3>
-            </div>
-            <div class="productions-info">
-              <p class="info1">BI sistemi müxtəlif mənbələrdən məlumatları toplayan, təhlil edən və vizual formada təqdim edən biznes alətləri və proqramları toplusudur. Proqram böyük həcmdə məlumatları toplayır və təhlil edir, sonra onları cədvəllər, qrafiklər, tablolar və diaqramlar şəklində bir ekranda göstərir.</p><br>
-              <p class="info2">BI sistemlərinin üstünlükləri və imkanları:</p><br>
-                  <p class="info5"><i class="bi bi-check-circle"></i> 1. Məlumatların toplanması və saxlanması</p>
-                  <p class="info6"><i class="bi bi-check-circle"></i> 2. İstənilən mürəkkəblikdə verilənlərin təhlili</p>
-                  <p class="info6"><i class="bi bi-check-circle"></i> 3. Rahat formatda məlumatların vizuallaşdırılması</p>
-                  <p class="info6"><i class="bi bi-check-circle"></i> 4. Trendləri izləmək və gələcək nəticələrin proqnozlaşdırılması</p>
-                  <p class="info6"><i class="bi bi-check-circle"></i> 5. Məlumatlar əsasında idarəetmə qərarlarının qəbul edilməsi</p>
-                  <p class="info6"><i class="bi bi-check-circle"></i> 6.Proseslərin optimallaşdırılması və biznesin səmərəliliyinin artırılması</p><br/>
-                  <p class="info1">  Əlavə məlumat üçün  aşağıdakı düyməyə klikləyin :</p>
-                  <div class="productions-btn">        <a href="https://a2c.by/ru/produkty.html">DAHA ÇOX</a></div>
-          
-            </div>
+            <h2>Bi Sistemləri</h2>
+          <p>
+            İstənilən biznesin əsas məqsədi - qazanc əldə etməkdir. Bunun üçün dəqiq məlumatlara və analitikaya əsaslanaraq qərarlar qəbul etmək lazımdır. Qlik Sense, Power BI və 1C: Analitika kimi BI sistemləri şirkətlərə böyük həcmdə məlumatları emal və təhlil etmək, onları vizuallaşdırmaq və gizli tendensiyaları və əlaqələri aşkar etmək imkanı verirlər. Bu məhsullar biznes performansını təhlil etmək üçün güclü alətlər təqdim edir. Hər üç BI sistemi müxtəlif mənbələrdən məlumatların toplanması, vizuallaşdırılması və təhlili imkanları, hesabatlar və idarə panelləri, eləcə də digər müəssisə idarəetmə sistemləri ilə inteqrasiya kimi bir çox faydalı xüsusiyyətlərə malikdir.
+          </p>
         </div>
-  </section>
-    <!-- ! Partners  end -->
+        <div class="bi-detail-img web-img">
+          <lottie-player
+            id="partners-lottie"
+            src="/lottiefiles/42637-site-update.json"
+            mode="bounce"
+            background="rgba(0, 0, 0, 0)"
+            speed="2"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </div>
+        <div class="bi-detail-text mobile-text">
+            <div class="bi-detail-title">
+                <img id="qlik" src="/img/qlik-sense-1.png" alt="">
+            </div>
+            <h2>Qlik Sense</h2>
+          <p>
+            Qlik Sense - məlumatların, hesabatların, informasiya panellərinin və idarə olunan analitikanın vizuallaşdırılmasını təmin edən vizual analitika alətidir. Qlik Sense müasir açıq API-lərdən istifadə edərək fərdi, daxili və idarə olunan analitik proqramlar yaratmağa imkan verən Qlik Analytics Platformasına əsaslanır. Qlik Sense sizə vizual təsvirlərin birləşmələrini cəld yaratmağa, məlumatları dərindən araşdırmağa, əlaqələri dərhal müəyyən etməyə və istənilən perspektiv vəsaitləri nəzərdən keçirməyə imkan verir. <br>
+
+            Qlik Sense-in xüsusiyyətləri aşağıda təsvir edilmişdir: <br>
+            
+            • Asan interfeys və istifadə rahatlığı <br>
+            • Asanlıqla quraşdırıla və dəyişdirilə bilən interaktiv tablolar və hesabatlar <br>
+            • Dəyişə bilən filtrlər və seçimlər sistemi <br>
+            • Müxtəlif mühasibat sistemləri ilə asan inteqrasiya <br>
+            • Daxili məlumatlarda təhlil funksiyaları və əlaqələrin avtomatik axtarışı <br>
+            • Həm şirkət daxilində, həm də müştərilər, təchizatçılar və podratçılarla birlikdə işləmək imkanı <br>
+            • Yüksək performans və genişlənmə qabiliyyəti <br>
+            • Bulud və lokal quraşdırmaların dəstəklənməsi
+          </p>
+        </div>
+        <div class="bi-detail-img mobile-img">
+          <lottie-player
+            id="partners-lottie"
+            src="/lottiefiles/42637-site-update.json"
+            mode="bounce"
+            background="rgba(0, 0, 0, 0)"
+            speed="2"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </div>
+        <div class="bi-detail-text power-text">
+            <div class="bi-detail-title">
+                <img id="power" src="/img/PowerBi.png" alt="">
+            </div>
+            <h2>Power BI</h2>
+          <p>
+            Power BI real vaxt rejimində hesabatlar və daşbordlar yaratmağa imkan verən, məlumatların təhlili və vizuallaşdırma vasitəsidir. Sistem bulud məlumat mənbələri də daxil olmaqla, müxtəlif növ məlumat mənbələri ilə inteqrasiya imkanı yaradır. Güclü analitik funksionallığı və intuitiv rahat idarə edilə bilən interfeysi ilə Power BI, iş analitikası və datalara əsaslanan vacib qərarların qəbulu üçün ideal bir vasitədir. <br>
+
+            Power BI-ın xüsusiyyətləri aşağıda təsvir edilmişdir:<br>
+            
+            • Microsoft məhsulları ilə inteqrasiya <br>
+            • Vizuallaşdırma imkanları <br>
+            • Fərdiləşdirilə bilən panellər <br>
+            • Asan məlumat əldə etmə imkanı <br>
+            • İnteraktiv idarəetmə panelləri <br>
+            • Məlumat hesabatları <br>
+            • Məlumat siyahılarının filtrlənməsi
+          </p>
+        </div>
+        <div class="bi-detail-img analtik-img">
+          <lottie-player
+            id="partners-lottie"
+            src="/lottiefiles/42637-site-update.json"
+            mode="bounce"
+            background="rgba(0, 0, 0, 0)"
+            speed="2"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </div>
+        <div class="bi-detail-text analtik-text">
+            <div class="bi-detail-title">
+                <img id="analtik" src="/img/1CAnaltik.png" alt="">
+            </div>
+            <h2>1С Аnalitika</h2>
+          <p>
+            1C: Analitika - 1C: Müəssisə 8 platformasının bir hissəsi olan, hesabatlar və tablolar yaratmaq üçün nəzərdə tutulan BI sistemidir. Vahid uçot sistemindən 1C: Analitik-ə keçid imkanı verir və bu sistemlə işləmək üçün əlavə giriş və ya hüquqlar tələb etmir.
+Rahat şəkildə diaqramlar və qrafiklər yaratmağa, həmçinin filtrləri, çıxış məlumatlarının tərkibini redaktə və əlavə etməyə imkan verir. <br>
+
+1C: Analitika-nın xüsusiyyətləri aşağıda təsvir edilmişdir:<br>
+            
+• Diaqramlar, qrafiklər, cədvəllər və tablolar kimi geniş çeşidli məlumatların vizuallaşdırılması alətlərindən istifadə imkanı. <br>
+• Biznes prosesləri haqqında daha dolğun təsəvvür əldə etmək üçün 1C: ERP və 1C: CRM kimi digər 1C sistemləri ilə inteqrasiya etmək imkanı. <br>
+• "1С: Müəssisə" təyinatlı standart metadata mənbələrindən istifadə imkanı <br>
+• Real vaxt rejimində məlumatların və hesabatların avtomatik yenilənməsi.<br>
+• Qüsurların avtomatik yoxlanılması.<br>
+• Desktop-da və ya mobil cihazda brauzer vasitəsilə hesabatlara baxmaq imkanı. <br>
+• 1С -lə xüsusi bilik və təcrübə olmadan işləmək imkanı.
+          </p>
+        </div>
+        <div class="bi-detail-img power-img">
+          <lottie-player
+            id="partners-lottie"
+            src="/lottiefiles/42637-site-update.json"
+            mode="bounce"
+            background="rgba(0, 0, 0, 0)"
+            speed="2"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </div>
+      </div>
+    </section>
+
   <!-- ! Footer page start -->
   <footer>
     <div class="footer-left"><iframe
@@ -231,7 +315,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.5.1/dist/lottie-player.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js"></script>
-    <script src="custom.js"></script>
+    <script src="./bisistem.js"></script>
   </body>
 </html>
-
