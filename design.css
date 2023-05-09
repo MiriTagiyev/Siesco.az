@@ -2312,6 +2312,16 @@ header > .prev {
   height: 18rem;
   margin: 10px;
 }
+#haus {
+  object-fit: fill;
+  width: 100%;
+  margin: auto;
+}
+#olive {
+  object-fit: contain;
+  width: 100%;
+  margin: auto;
+}
 .card_side {
   height: 295px;
   transition: all 0.8s;
@@ -2468,7 +2478,7 @@ header > .prev {
     60deg,
     #00aeef 50%,
     #00aeef 50%,
-    #ffffff 50%
+    #d0eef9fa 50%
   );
   bottom: 0;
   left: -50%;
