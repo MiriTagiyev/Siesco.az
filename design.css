@@ -2964,6 +2964,7 @@ header > .prev {
   display: flex;
   list-style: none;
   justify-content: center;
+  cursor: pointer;
 }
 #bi-services ul li {
   border-radius: 8px;
@@ -3054,3 +3055,4 @@ header > .prev {
   font-size: 18px;
   font-weight: 600;
 }
+/* ! BISISTEMLER page css end */
