@@ -284,9 +284,16 @@ section {
 .About-Container {
   width: 100%;
   height: auto;
-  display: flex;
   background-color: #f4f4f4c6;
   align-items: center;
+}
+.About-Container p{
+  text-align: center;
+  font-family: "Calibri";
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #000;
 }
 
 .bubbles {
