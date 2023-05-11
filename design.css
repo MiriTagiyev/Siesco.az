@@ -1389,7 +1389,7 @@ footer {
 .footer-right1 h5 {
   color: rgb(0, 0, 0);
   font-size: 18px;
-  color: #009de0;
+  color: #000000;
   font-weight: 600;
 }
 .footer-right2 {
@@ -1398,7 +1398,7 @@ footer {
 }
 .footer-right2 h5 {
   font-size: 18px;
-  color: #009de0 !important;
+  color: #000000 !important;
   font-weight: 600;
 }
 
@@ -1433,13 +1433,17 @@ footer {
 }
 .footer-right2 h5 {
   font-size: 18px;
-  color: #009de0 !important;
+  color: #000000 !important;
 }
 .footer-right2 h4 {
   font-size: 18px;
   margin-top: 20px;
   font-weight: 600;
-  color: #009de0 !important;
+  color: #000000 !important;
+}
+.footer-right1 ul li:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 .footer-right2 p {
   margin-top: 3px;
