@@ -2908,8 +2908,8 @@ header > .prev {
 }
 .counter ul li span:first-child {
   font-size: 90px;
-  opacity: 0.3;
-  color: red;
+  opacity: 0.9;
+  color: #467aa9;
 }
 
 .counter ul li span:last-child {
