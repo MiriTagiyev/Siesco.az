@@ -233,10 +233,13 @@ section {
   position: relative;
   width: fit-content;
   margin: auto;
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 40px;
+  font-family: "Calibri";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2;
   color: #25376a;
+  margin-bottom: 40px;
+  
 }
 
 .section-title::after {
@@ -294,6 +297,10 @@ section {
   font-weight: normal;
   line-height: 36px;
   color: #000;
+}
+.About-Container a{
+  font-size: 25px;
+  text-decoration: none;
 }
 
 .bubbles {
