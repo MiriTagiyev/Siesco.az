@@ -289,6 +289,10 @@ section {
   background-color: #f4f4f4c6;
   align-items: center;
 }
+.About-Container span{
+  font-weight: bolder;
+  font-size: 22px;
+}
 .About-Container p {
   text-align: center;
   font-family: "Calibri";
