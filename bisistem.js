@@ -14,3 +14,21 @@ $("#bi-services>ul>li").click(function () {
 window.onload = () => {
   $("#bi-services>ul>li:first-child").click();
 };
+
+let lastStatus = "web";
+$(document).ready(function () {
+  $("#bi-services>ul>li:first").addClass("active");
+  $("#bi-services>ul>li").click(function () {
+    $("#bi-services>ul>li.active").removeClass("active");
+    $(this).addClass("active");
+  });
+});
+
+document.querySelector("body").onscroll = function () {
+  console.log(window.scrollY);
+  if (window.scrollY > 30) {
+    document.querySelector("nav").classList.add("fixed");
+  } else {
+    document.querySelector("nav").classList.remove("fixed");
+  }
+};

@@ -1445,7 +1445,7 @@ footer {
   font-weight: 600;
   color: #000000 !important;
 }
-.footer-right1 ul li:hover{
+.footer-right1 ul li:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
