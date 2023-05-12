@@ -2242,7 +2242,9 @@ header > .prev {
   margin: 0 3rem;
 }
 .about-intro h3 {
-  color: #08b6f5;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .about-btn a {
