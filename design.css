@@ -289,7 +289,7 @@ section {
   background-color: #f4f4f4c6;
   align-items: center;
 }
-.About-Container span{
+.About-Container span {
   font-weight: bolder;
   font-size: 22px;
 }
@@ -3184,6 +3184,41 @@ td {
 
 .readmore-text tr:hover {
   background-color: #466dec;
+}
+.contact-about {
+  width: 100%;
+  height: auto;
+}
+.contact-about h5 {
+  font-size: 17px;
+}
+.contact-about a {
+  color: black;
+  font-size: 16px;
+}
+.contact-about p {
+  color: black;
+  font-size: 16px;
+}
+.matrial-about {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.matrial-pdf {
+  width: 10%;
+}
+.matrial-pdf img {
+  width: 100%;
+}
+.matrial-info {
+  width: 85%;
+  margin-left: 10px;
+}
+.matrial-info p {
+  font-size: 20px;
 }
 
 /* ! 1C Readmore page css end */
