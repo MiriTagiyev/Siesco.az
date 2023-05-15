@@ -2220,7 +2220,7 @@ header > .prev {
 
 .about-img {
   width: 500px;
-  height: 300px;
+  height: auto;
 }
 
 .about-img-title {
@@ -2242,8 +2242,8 @@ header > .prev {
 .about-intro {
   color: black;
   width: 550px;
-  border-left: 3px solid red;
-  padding-left: 2rem;
+  border-right: 3px solid red;
+  padding-right: 2rem;
   margin: 0 3rem;
 }
 .about-intro h3 {
