@@ -289,7 +289,7 @@ section {
   background-color: #f4f4f4c6;
   align-items: center;
 }
-.About-Container span{
+.About-Container span {
   font-weight: bolder;
   font-size: 22px;
 }
@@ -2927,7 +2927,34 @@ header > .prev {
   color: #467aa9;
 }
 
-.counter ul li span:last-child {
+/* .counter ul li span:last-child {
+  font-size: 16px;
+  position: absolute;
+  top: 107%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  white-space: nowrap;
+  color: #003d6a;
+} */
+.counter ul li #partnerscount {
+  font-size: 16px;
+  position: absolute;
+  top: 107%;
+  left: 42%;
+  transform: translate(-50%, -40%);
+  white-space: nowrap;
+  color: #003d6a;
+}
+.counter ul li #peoplecount {
+  font-size: 16px;
+  position: absolute;
+  top: 107%;
+  left: 53%;
+  transform: translate(-50%, -40%);
+  white-space: nowrap;
+  color: #003d6a;
+}
+.counter ul li #userscount {
   font-size: 16px;
   position: absolute;
   top: 107%;
@@ -2936,6 +2963,16 @@ header > .prev {
   white-space: nowrap;
   color: #003d6a;
 }
+.counter ul li #staticcount {
+  font-size: 16px;
+  position: absolute;
+  top: 107%;
+  left: 42%;
+  transform: translate(-50%, -40%);
+  white-space: nowrap;
+  color: #003d6a;
+}
+
 /* ! Calculyator page css end */
 /* ! 1C page css start */
 
@@ -3191,6 +3228,42 @@ td {
 
 .readmore-text tr:hover {
   background-color: #466dec;
+}
+.contact-about {
+  width: 100%;
+  height: auto;
+}
+.contact-about h5 {
+  font-size: 17px;
+}
+.contact-about a {
+  color: black;
+  font-size: 16px;
+}
+.contact-about p {
+  color: black;
+  font-size: 16px;
+}
+.matrial-about {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.matrial-pdf {
+  width: 10%;
+}
+.matrial-pdf img {
+  width: 100%;
+}
+.matrial-info {
+  width: 85%;
+  margin-left: 10px;
+}
+.matrial-info p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* ! 1C Readmore page css end */
