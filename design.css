@@ -1576,6 +1576,12 @@ header .lotties {
   height: 100%;
   position: relative;
 }
+.lotties img{
+  width: 95%;
+  height: 75%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
 
 header .lotties .lottie {
   width: 100%;
