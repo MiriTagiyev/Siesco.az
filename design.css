@@ -2686,6 +2686,81 @@ header > .prev {
 .contacts-vektor {
   width: 100%;
 }
+
+.contacts-form {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.name-input {
+  width: 100%;
+}
+.name-input input {
+  width: 30%;
+  padding: 12px 20px 12px 20px;
+  text-align: left;
+  font-family: "Calibri";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #363636;
+}
+.mail-input input {
+  width: 60.3%;
+  padding: 12px 20px 12px 20px;
+  margin-top: 10px;
+  font-family: "Calibri";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #363636;
+}
+
+.textarea-input textarea {
+  width: 60.3%;
+  min-height: 170px;
+  padding: 16px 20px 16px 20px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #0e1013;
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  opacity: 1;
+  outline: none;
+  margin-top: 10px;
+}
+.send-button {
+  width: 100%;
+}
+.send-button button {
+  padding: 12px 32px 12px 32px;
+  width: auto;
+  margin-top: 15px;
+  font-family: "Calibri";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #fff;
+  opacity: 1;
+  background-color: #115dc4;
+  border: 1px solid #115dc4;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.send-button button:hover {
+  background-color: #073473;
+}
 /* ! Contact page css end */
 /* ! Productions page css start */
 .productions-container {
