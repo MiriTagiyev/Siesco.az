@@ -2294,6 +2294,7 @@ header > .prev {
 
 .about-intro ul li {
   margin-top: 10px;
+  list-style-type: none;
 }
 
 .about-intro ul li i {
