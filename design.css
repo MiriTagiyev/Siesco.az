@@ -1587,6 +1587,12 @@ header .lotties .lottie {
   top: 0;
   transition: 0.5s;
 }
+.k{
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-left: 10%;
+}
 
 header .lotties .current {
   left: 0;
