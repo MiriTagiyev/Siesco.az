@@ -3,11 +3,13 @@
   overflow: hidden;
 
 }
+
 #it-services ul {
   display: flex;
   list-style: none;
   justify-content: center;
 }
+
 #it-services ul li {
   border-radius: 8px;
   padding: 12px 20px;
@@ -21,16 +23,20 @@
   color: white;
   cursor: pointer;
 }
+
 #it-services ul li:hover {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 #it-services ul li.active {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: rgb(70, 109, 236);
 }
+
 body {
   background-color: #7cd4f5;
 }
+
 .it-detail {
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +47,7 @@ body {
   height: 450px;
   width: 100%;
 }
+
 .it-detail .detail-text {
   width: 45%;
   text-align: justify;
@@ -51,14 +58,17 @@ body {
   top: 0;
   margin-left: 100px;
 }
+
 .it-detail p {
   font-size: 16px;
 }
+
 .it-detail h2 {
   font-size: 26px;
   margin-bottom: 20px;
   font-weight: 600;
 }
+
 .it-detail .detail-img {
   width: 50%;
   position: relative;
@@ -67,6 +77,74 @@ body {
   right: -100%;
   top: 0;
 }
+
 .it-detail .detail-img lottie-player {
   width: 100%;
+}
+.webtemp{
+  padding: 20px 7.9%;
+}
+
+.templatewebsite {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.web {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.templatewebsite>div {
+  width: 31%;
+  height: 250px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.templatewebsite>div:hover{
+  transform: scale(1.02);
+}
+
+.webproductimg {
+  width: 100%;
+  height: 70%;
+}
+
+.webproductimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.webprodactwords {
+  display: flex;
+  justify-content: space-around;
+}
+
+.webprodactwords button {
+  margin-top: 20px;
+  --color-ui--custom-blue: #087096;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #087096;
+  border: 1px solid var(--color-ui--custom-blue);
+  width: 30%;
+  height: 35px;
+  color: #087096;;
+}
+.webprodactwords button:hover{
+  color: white;
+  background-color: #087096;
+  transition: 0.5s;
+}
+.webprodactwords h5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
 }
