@@ -1576,7 +1576,7 @@ header .lotties {
   height: 100%;
   position: relative;
 }
-.lotties img{
+.lotties img {
   width: 95%;
   height: 75%;
   margin-top: 40px;
@@ -1593,7 +1593,7 @@ header .lotties .lottie {
   top: 0;
   transition: 0.5s;
 }
-.k{
+.k {
   width: 100%;
   height: auto;
   padding-top: 60px;
@@ -3181,6 +3181,7 @@ header > .prev {
   list-style: none;
   justify-content: center;
 }
+
 #readmore-services ul li {
   border-radius: 8px;
   padding: 12px 20px;
