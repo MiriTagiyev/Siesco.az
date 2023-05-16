@@ -2703,17 +2703,30 @@ header > .prev {
 .contacts-vektor {
   width: 100%;
 }
-
+.Contact-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.contact-container1 {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+.contact-container2 {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
 .contacts-form {
   width: 100%;
   height: auto;
-  text-align: center;
 }
 .name-input {
   width: 100%;
 }
 .name-input input {
-  width: 30%;
+  width: 40%;
   padding: 12px 20px 12px 20px;
   text-align: left;
   font-family: "Calibri";
@@ -2724,7 +2737,7 @@ header > .prev {
   color: #363636;
 }
 .mail-input input {
-  width: 60.3%;
+  width: 80.3%;
   padding: 12px 20px 12px 20px;
   margin-top: 10px;
   font-family: "Calibri";
@@ -2734,9 +2747,23 @@ header > .prev {
   letter-spacing: 0px;
   color: #363636;
 }
+.sirket-input input {
+  width: 80.3%;
+  padding: 12px 20px 12px 20px;
+  margin-top: 10px;
+  font-family: "Calibri";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #363636;
+}
+.sirket-input {
+  margin-bottom: 10px;
+}
 
 .textarea-input textarea {
-  width: 60.3%;
+  width: 80.3%;
   min-height: 170px;
   padding: 16px 20px 16px 20px;
   font-family: "Montserrat";
@@ -2948,17 +2975,33 @@ header > .prev {
   justify-content: space-around;
   list-style: none;
   padding: 0 10%;
+  cursor: pointer;
 }
 .counter ul li {
   position: relative;
   text-align: center;
   font-family: "Outfit", sans-serif;
   width: 25%;
+  transition: all 0.5s;
 }
 .counter ul li span:first-child {
   font-size: 90px;
   opacity: 0.9;
   color: #467aa9;
+  transform: all 5s;
+}
+.counter ul li:hover {
+  transform: scale(1.1);
+}
+.counter {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.counted {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* .counter ul li span:last-child {
