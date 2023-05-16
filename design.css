@@ -3414,3 +3414,98 @@ td {
 }
 
 /* ! 1C page css end */
+/* ! AboutNew page css start */
+.about-wrapper {
+  width: 100%;
+  height: auto;
+  font-family: "Calibri";
+}
+.about-head {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.about-head h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.about-head p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Calibri";
+  line-height: 30px;
+}
+.about-head p span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 18px;
+}
+.about-photo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-photo-style {
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.about-photo-list {
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+  display: flex;
+}
+.about-part1 {
+  width: 50%;
+  height: 350px;
+}
+.about-part2 {
+  width: 50%;
+  padding: 20px;
+  height: 350px;
+  text-align: center;
+}
+.about-part2 p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Calibri";
+  line-height: 25px;
+}
+.about-part2 p span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 18px;
+}
+.about-part3 {
+  width: 50%;
+  height: 350px;
+}
+.about-part4 {
+  width: 50%;
+  padding: 20px;
+  height: 350px;
+  text-align: center;
+  line-height: 27px;
+}
+.about-part4 p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Calibri";
+}
+.about-part4 p span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 18px;
+}
+.about-part4 ul {
+  list-style-type: none;
+}
+.about-part4 ul li {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: "Calibri";
+}
