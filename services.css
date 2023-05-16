@@ -134,7 +134,9 @@ body {
   border: 1px solid var(--color-ui--custom-blue);
   width: 30%;
   height: 35px;
-  color: #087096;;
+  color: #087096;
+  font-size: var(--font-size--body-xs);
+  font-weight: var(--font-weight--bold);
 }
 .webprodactwords button:hover{
   color: white;
