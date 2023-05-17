@@ -486,3 +486,6 @@ document.querySelector("body").onscroll = function () {
     document.querySelector("nav").classList.remove("fixed");
   }
 };
+const currentYear = new Date().getFullYear();
+const footerYear = document.getElementById("footer-year");
+footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;

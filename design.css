@@ -3066,10 +3066,10 @@ header > .prev {
   display: flex;
   border-right: 1px solid black;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .product-img img:hover {
-  transform: scale(1.2);
-  transition: all 1s;
+  transform: scale(1.1);
 }
 
 .product-1C {
@@ -3079,6 +3079,7 @@ header > .prev {
   text-align: center;
   font-size: 18px;
 }
+
 .product-img img {
   display: flex;
   margin: auto;
@@ -3089,14 +3090,25 @@ header > .prev {
   width: 68%;
   padding: 10px;
   margin-left: 2%;
+  font-weight: 500;
+  font-family: "Calibri";
+}
+.text span {
   font-weight: 600;
+  font-family: "Calibri";
+  font-size: 18px;
 }
 .text {
-  font-size: 16px;
+  font-size: 19px;
 }
 .text1 {
-  font-weight: 800;
-  font-size: 17px;
+  font-weight: 900;
+  font-size: 18px;
+}
+.product-1C h4 span {
+  font-size: 23px;
+  font-weight: 1000;
+  font-family: "Calibri";
 }
 .product-button {
   margin-top: 20px;
@@ -3105,13 +3117,13 @@ header > .prev {
 
 .product-button a {
   padding: 10px;
-  background-color: #003d6a;
+  background-color: #115dc4;
   color: white;
   font-weight: 500;
   margin-right: 5px;
 }
 .product-button a:hover {
-  color: red;
+  background-color: #073473;
   transition: all 1s;
 }
 /* ! 1C page css end */
