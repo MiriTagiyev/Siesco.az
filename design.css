@@ -591,6 +591,12 @@ section {
 .swiper2 {
   margin-top: 15px;
 }
+#itsol {
+  width: 80%;
+}
+#erko {
+  width: 80%;
+}
 
 /* スライドの動き等速 */
 .swiper-wrapper {
