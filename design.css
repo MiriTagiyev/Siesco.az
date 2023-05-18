@@ -3367,7 +3367,7 @@ header > .prev {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1000px;
+  height: 1150px;
   width: 100%;
   overflow: hidden;
 }
@@ -3408,7 +3408,7 @@ header > .prev {
   height: 100%;
   position: absolute;
   right: -100%;
-  top: -28%;
+  top: -32%;
 }
 .readmore-detail .readmore-img lottie-player {
   width: 100%;
