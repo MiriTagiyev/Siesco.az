@@ -3646,3 +3646,86 @@ td {
   font-size: 18px;
   font-family: "Calibri";
 }
+/* ! AboutNew page css end */
+/* ! Bitriks page css start */
+.bitrixs-info {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.bitrix-item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: transparent;
+  border-top: solid 1px black;
+}
+
+.bitrix-img {
+  width: 30%;
+  display: flex;
+  border-right: 1px solid black;
+  cursor: pointer;
+  align-items: center;
+}
+.bitrix-img img {
+  padding: 5px;
+  transition: all 0.9s;
+}
+.bitrix-img img:hover {
+  transform: scale(1.2);
+}
+
+.bitrix-1C {
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.bitrix-1C h4 {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 22px;
+}
+
+.bitrix-img img {
+  display: flex;
+  margin: auto;
+  width: 45%;
+}
+
+.bitrix-text {
+  width: 68%;
+  padding: 10px;
+  margin-left: 2%;
+  font-weight: 600;
+}
+.bitrix-text .text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Calibri";
+  line-height: 30px;
+}
+.bitrix-text .text span {
+  font-weight: 600;
+  font-family: "Calibri";
+}
+.bitrix-text .text1 {
+  font-weight: 800;
+  font-size: 17px;
+}
+.bitriks-btn {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.bitriks-btn a {
+  background-color: #115dc4;
+  transition: all 0.3s ease;
+  padding: 10px;
+  color: white;
+}
+.bitriks-btn a:hover {
+  background-color: #073473;
+}
+/* ! Bitriks page css end */
