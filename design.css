@@ -487,11 +487,10 @@ section {
   width: 80%;
   margin-left: 50px;
 }
-#newdd{
+#newdd {
   width: 80%;
   margin-left: 70px;
 }
-
 
 .lottie-anime {
   width: 93%;
@@ -1634,7 +1633,7 @@ header .lotties .current {
   text-decoration: none;
   color: white;
 }
-.detail-text a:hover{
+.detail-text a:hover {
   font-size: 22px;
   transition: 0.5s;
   color: green;
@@ -2921,25 +2920,27 @@ header > .prev {
   font-weight: 500;
   font-family: "Calibri";
 }
-.info1 p span {
+.info1 span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 21px;
 }
 .info7 {
+  font-weight: 500;
+  font-family: "Calibri";
   font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 10px;
 }
 .info8 {
+  font-weight: 500;
+  font-family: "Calibri";
   font-size: 20px;
-  font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .productions-info h3 {
   font-size: 25px;
   font-weight: 600;
+  font-family: "Calibri";
   text-align: center;
   margin-bottom: 10px;
 }
