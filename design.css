@@ -1637,7 +1637,7 @@ header .lotties .current {
   position: absolute;
   width: 100%;
   left: -500%;
-  top: 0;
+  top: -40px;
   transform: translateY(-50%);
   transition: 0.5s;
 }
