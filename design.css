@@ -483,7 +483,7 @@ section {
   padding-bottom: 50px;
   position: relative;
 }
-#newdesign{
+#newdesign {
   width: 80%;
   margin-left: 50px;
 }
@@ -1426,9 +1426,11 @@ footer {
   margin-right: 10px;
   margin-left: 5px;
 }
+.footer-right2 a i {
+  transition: all 0.9ms;
+}
 .footer-right2 a i:hover {
   transform: scale(1.2);
-  transition: all 1ms;
 }
 .footer-right2 h5 {
   font-weight: 600;
@@ -3408,10 +3410,10 @@ td {
 }
 .status-img img {
   padding: 5px;
+  transition: all 0.9s;
 }
 .status-img img:hover {
   transform: scale(1.2);
-  transition: all 1s;
 }
 
 .status-1C {
