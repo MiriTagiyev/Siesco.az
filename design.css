@@ -483,6 +483,10 @@ section {
   padding-bottom: 50px;
   position: relative;
 }
+#newdesign{
+  width: 80%;
+  margin-left: 50px;
+}
 
 .lottie-anime {
   width: 93%;
