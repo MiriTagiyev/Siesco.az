@@ -1622,14 +1622,17 @@ header .lotties .current {
   position: relative;
 }
 .detail-text a {
-  padding: 10px 10px;
-  background-color: green;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 3cm;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
+}
+.detail-text a:hover{
+  font-size: 22px;
+  transition: 0.5s;
+  color: green;
 }
 .detail-text i {
   margin-left: 8px;
@@ -1639,7 +1642,7 @@ header .lotties .current {
   position: absolute;
   width: 100%;
   left: -500%;
-  top: -40px;
+  top: -30px;
   transform: translateY(-50%);
   transition: 0.5s;
 }
