@@ -1,7 +1,6 @@
 #it-services {
   position: relative;
   overflow: hidden;
-
 }
 
 #it-services ul {
@@ -81,7 +80,7 @@ body {
 .it-detail .detail-img lottie-player {
   width: 100%;
 }
-.webtemp{
+.webtemp {
   padding: 20px 7.9%;
 }
 
@@ -94,20 +93,20 @@ body {
 }
 
 .web {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
-.templatewebsite>div {
+.templatewebsite > div {
   width: 31%;
   height: 250px;
   background-color: white;
   margin-bottom: 20px;
 }
-.templatewebsite>div:hover{
+.templatewebsite > div:hover {
   transform: scale(1.02);
 }
 
@@ -138,15 +137,152 @@ body {
   font-size: var(--font-size--body-xs);
   font-weight: var(--font-weight--bold);
 }
-.webprodactwords button:hover{
+.webprodactwords button:hover {
   color: white;
   background-color: #087096;
   transition: 0.5s;
 }
-.webprodactwords h5{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.webprodactwords h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: rgb(0, 0, 0);
   margin-top: 5px;
 }
+/* ! Chat  css start */
+.widget {
+  position: fixed;
+  right: 35px;
+  bottom: 50px;
+  transition: 0.6s;
+  z-index: 9999;
+}
+.open.widget {
+  right: 35px;
+}
+.widget a {
+  color: inherit;
+}
+#chatme {
+  background-color: #467aa9;
+  color: white;
+  border: none;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transition: 0.4s;
+  box-shadow: 0 0 0 0 #467aa9;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  z-index: 9999 !important;
+  cursor: pointer;
+}
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+#chatme:hover {
+  animation: paused;
+}
+#chatme:focus {
+  outline: none;
+}
+
+#chatme svg,
+.socials > div svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  fill: white;
+}
+.socials > div svg {
+  width: 16px;
+  height: 16px;
+}
+#chatme .close {
+  opacity: 0;
+  transition: 0.3s;
+}
+#chatme .chat {
+  opacity: 1;
+  transition: 0.3s;
+}
+.open #chatme .close {
+  opacity: 1;
+  transition: 0.3s;
+}
+.open #chatme .chat {
+  opacity: 0;
+  transition: 0.3s;
+}
+.open #chatme {
+  transform: rotate(45deg);
+}
+.widget:not(.open) .socials {
+  transform: scale(0);
+}
+.socials {
+  position: relative;
+  transition: 0.4s;
+  background: rgba (0, 0, 0, 0.3);
+}
+.socials > div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: white;
+  transition: 0.3s;
+}
+.socials > div:hover {
+  transform: scale(1.2);
+}
+.socials .email {
+  background: #fabc2a;
+  right: 80px;
+  bottom: 0;
+}
+.socials .phone {
+  background: #00cc66;
+  right: 77px;
+  bottom: 45px;
+}
+.socials .youtube {
+  background: red;
+  right: 45px;
+  bottom: 77px;
+}
+.socials .facebook {
+  background: #0000ff;
+  right: 0px;
+  bottom: 80px;
+}
+.socials .linkedin {
+  background: #2f32e8;
+  right: -35px;
+  bottom: 53px;
+}
+/* ! Chat  css end */

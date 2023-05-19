@@ -1632,10 +1632,10 @@ header .lotties .current {
   font-size: 20px;
   text-decoration: none;
   color: white;
+  transition: 0.5s;
 }
 .detail-text a:hover {
   font-size: 22px;
-  transition: 0.5s;
   color: green;
 }
 .detail-text i {
