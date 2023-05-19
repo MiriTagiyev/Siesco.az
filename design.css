@@ -3732,9 +3732,10 @@ td {
 /* ! Chat  css start */
 .widget {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 35px;
+  bottom: 50px;
   transition: 0.6s;
+  z-index: 9999;
 }
 .open.widget {
   right: 35px;
@@ -3839,28 +3840,28 @@ td {
 .socials > div:hover {
   transform: scale(1.2);
 }
-.socials .phone {
-  background: #00cc66;
+.socials .email {
+  background: #fabc2a;
   right: 80px;
   bottom: 0;
 }
-.socials .email {
-  background: #fabc2a;
+.socials .phone {
+  background: #00cc66;
   right: 77px;
   bottom: 45px;
 }
-.socials .instagram {
-  background: #645dd7;
+.socials .youtube {
+  background: red;
   right: 45px;
   bottom: 77px;
 }
-.socials .youtube {
-  background: red;
+.socials .facebook {
+  background: #0000ff;
   right: 0px;
   bottom: 80px;
 }
-.socials .vk {
-  background: #37515f;
+.socials .linkedin {
+  background: #2f32e8;
   right: -35px;
   bottom: 53px;
 }
