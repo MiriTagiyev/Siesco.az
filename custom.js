@@ -486,10 +486,11 @@ document.querySelector("body").onscroll = function () {
     document.querySelector("nav").classList.remove("fixed");
   }
 };
-const currentYear = new Date().getFullYear();
-const footerYear = document.getElementById("footer-year");
-footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;
 
 $("#chatme").click(function () {
   $(".widget").toggleClass("open");
 });
+
+const currentYear = new Date().getFullYear();
+const footerYear = document.getElementById("footer-year");
+footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;
