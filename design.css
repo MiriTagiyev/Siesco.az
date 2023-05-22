@@ -3425,6 +3425,7 @@ header > .prev {
 }
 .img-container img {
   width: 90%;
+  cursor: pointer;
 }
 .readmore-detail p {
   font-size: 16px;
