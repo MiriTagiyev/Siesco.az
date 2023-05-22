@@ -29,3 +29,15 @@ $(document).ready(function () {
     $(this).addClass("active");
   });
 });
+document.querySelectorAll(".jpg-container img").forEach((x) => {
+  x.addEventListener("click", function () {
+    document.querySelector(".popimag").style.display = "block";
+    document.querySelector(".popimag img").src = x.src;
+    document.querySelector(".widget").style.display = "none";
+  });
+});
+
+document.querySelector(".popimag span i").onclick = () => {
+  document.querySelector(".popimag").style.display = "none";
+  document.querySelector(".widget").style.display = "block";
+};
