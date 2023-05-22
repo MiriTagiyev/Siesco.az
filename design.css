@@ -3040,7 +3040,6 @@ header > .prev {
   transform: scale(1);
 }
 
-
 .counter ul li #partnerscount {
   font-size: 16px;
   position: absolute;
@@ -3859,3 +3858,82 @@ td {
   bottom: 53px;
 }
 /* ! Chat  css end */
+/* ! Mobi-s page  css start */
+
+.mobi-btn {
+  margin-top: 20px;
+}
+.mobi-btn a {
+  background-color: #115dc4;
+  transition: all 0.3s ease;
+  color: white;
+  padding: 10px;
+  border-radius: 0.1cm;
+}
+.mobi-btn a:hover {
+  background-color: #073473;
+}
+.mobi-photo {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.mobi-photo img {
+  width: 35%;
+}
+.mobi-wrapper {
+  width: 100%;
+  display: flex;
+}
+.mobi-info {
+  width: 50%;
+  padding: 20px;
+}
+.mobi-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+}
+.mobi-jpg2 {
+  width: 50%;
+}
+.mobi-jpg2 img {
+  width: 75%;
+  margin-left: 15%;
+}
+.mobi-photo {
+  width: 44%;
+}
+
+.mobi-jpg {
+  width: 50%;
+}
+.mobi-jpg p {
+  padding: 5px;
+}
+.mobi-jpg img {
+  width: 25%;
+  display: flex;
+  margin: auto;
+}
+.mobi-product-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.mobi-product-img img {
+  width: 15%;
+}
+.mobi-info1 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Calibri";
+  padding: 20px;
+}
+.mobi-info1 span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 22px;
+}
+/* ! Mobi-s page  css end */
