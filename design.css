@@ -1306,7 +1306,7 @@ section {
 .products .product {
   width: 31%;
   height: 180px;
-  background-color: #1ec8db;
+  background-color: #a2c6e6;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -1315,7 +1315,7 @@ section {
 }
 
 .products .hover {
-  background-color: #467aa9;
+  background-color: #75a2ca;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1327,7 +1327,7 @@ section {
 }
 
 .products .product img {
-  width: 40%;
+  width: 70%;
   display: block;
   transition: 0.3s;
   position: relative;
@@ -1342,7 +1342,7 @@ section {
 
 .products .product:hover .hover img {
   transform: rotate(-360deg) scale(0.7);
-  top: 30px;
+  top: 70px;
 }
 
 .product-name {
@@ -3023,7 +3023,7 @@ header > .prev {
 .counter ul li span:first-child {
   font-size: 90px;
   opacity: 0.9;
-  color: #467aa9;
+  color: #75a2ca;
   transform: all 5s;
 }
 .counter ul li:hover {
