@@ -3040,15 +3040,7 @@ header > .prev {
   transform: scale(1);
 }
 
-/* .counter ul li span:last-child {
-  font-size: 16px;
-  position: absolute;
-  top: 107%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  white-space: nowrap;
-  color: #003d6a;
-} */
+
 .counter ul li #partnerscount {
   font-size: 16px;
   position: absolute;
@@ -3058,6 +3050,7 @@ header > .prev {
   white-space: nowrap;
   color: #003d6a;
 }
+
 .counter ul li #peoplecount {
   font-size: 16px;
   position: absolute;
