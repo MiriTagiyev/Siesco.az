@@ -452,10 +452,10 @@ window.addEventListener("scroll", function () {
     this.document.querySelector(".counter").getBoundingClientRect().top < 800 &&
     document.querySelector(".counter").className == "counter"
   ) {
-    counter("projectcount", 0, 300, 20, "+");
+    counter("projectcount", 0, 300, 10, "+");
     counter("clientount", 0, 10, 1000, null);
     counter("branchcount", 0, 25, 1000, null);
-    counter("yearcount", 0, 350, 20, "+");
+    counter("yearcount", 0, 350, 10, "+");
     document.querySelector(".counter").classList.add("counted");
   } else if (
     this.document.querySelector(".counter").getBoundingClientRect().top > 800
@@ -486,10 +486,11 @@ document.querySelector("body").onscroll = function () {
     document.querySelector("nav").classList.remove("fixed");
   }
 };
-const currentYear = new Date().getFullYear();
-const footerYear = document.getElementById("footer-year");
-footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;
 
 $("#chatme").click(function () {
   $(".widget").toggleClass("open");
 });
+
+const currentYear = new Date().getFullYear();
+const footerYear = document.getElementById("footer-year");
+footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;
