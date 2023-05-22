@@ -3937,3 +3937,81 @@ td {
   font-size: 22px;
 }
 /* ! Mobi-s page  css end */
+/* ! agentplus page  css start */
+.agentplus-btn {
+  margin-top: 20px;
+}
+.agentplus-btn a {
+  background-color: #115dc4;
+  transition: all 0.3s ease;
+  color: white;
+  padding: 10px;
+  border-radius: 0.1cm;
+}
+.agentplus-btn a:hover {
+  background-color: #073473;
+}
+.agentplus-photo {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.agentplus-photo img {
+  width: 35%;
+}
+.agentplus-wrapper {
+  width: 100%;
+  display: flex;
+}
+.agentplus-info {
+  width: 50%;
+  padding: 5px;
+}
+.agentplus-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+}
+.agentplus-jpg2 {
+  width: 50%;
+}
+.agentplus-jpg2 img {
+  width: 75%;
+  margin-left: 15%;
+}
+.agentplus-photo {
+  width: 44%;
+}
+
+.agentplus-jpg {
+  width: 50%;
+}
+.agentplus-jpg p {
+  padding: 5px;
+}
+.agentplus-jpg img {
+  width: 75%;
+  display: flex;
+  margin: auto;
+}
+.agentplus-product-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.agentplus-product-img img {
+  width: 15%;
+}
+.agentplus-info1 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Calibri";
+  padding: 20px;
+}
+.agentplus-info1 span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 22px;
+}
+/* ! agentplus page  css end */
