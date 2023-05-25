@@ -3019,6 +3019,7 @@ header > .prev {
   font-family: "Outfit", sans-serif;
   width: 25%;
   transition: all 0.5s;
+  position: relative;
 }
 .counter ul li span:first-child {
   font-size: 90px;
@@ -3026,9 +3027,17 @@ header > .prev {
   color: #75a2ca;
   transform: all 5s;
 }
-.counter ul li:hover {
+.counter ul li:hover{
   transform: scale(1.1);
+  text-shadow: 2px 2px 5px rgb(53, 53, 69);
 }
+
+
+.counter ul li:hover::before{
+  width: 100%;
+  left: 0%;
+}
+
 .counter {
   opacity: 0;
   transform: scale(0.8);
