@@ -29,15 +29,15 @@ $(document).ready(function () {
     $(this).addClass("active");
   });
 });
-document.querySelectorAll(".jpg-container img").forEach((x) => {
-  x.addEventListener("click", function () {
-    document.querySelector(".popimag").style.display = "block";
-    document.querySelector(".popimag img").src = x.src;
-    document.querySelector(".widget").style.display = "none";
+$(".jpg-container img").each(function () {
+  $(this).on("click", function () {
+    $(".popimag").fadeIn();
+    $(".popimag img").attr("src", $(this).attr("src"));
+    $(".widget").hide();
   });
 });
 
-document.querySelector(".popimag span i").onclick = () => {
-  document.querySelector(".popimag").style.display = "none";
-  document.querySelector(".widget").style.display = "block";
-};
+$(".popimag span i").on("click", function () {
+  $(".popimag").fadeOut();
+  $(".widget").show();
+});

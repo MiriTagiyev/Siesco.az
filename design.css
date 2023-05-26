@@ -3027,13 +3027,12 @@ header > .prev {
   color: #75a2ca;
   transform: all 5s;
 }
-.counter ul li:hover{
+.counter ul li:hover {
   transform: scale(1.1);
   text-shadow: 2px 2px 5px rgb(53, 53, 69);
 }
 
-
-.counter ul li:hover::before{
+.counter ul li:hover::before {
   width: 100%;
   left: 0%;
 }
@@ -3377,7 +3376,7 @@ header > .prev {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1450px;
+  height: 1480px;
   width: 100%;
   overflow: hidden;
 }
@@ -4187,7 +4186,7 @@ td {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.725);
   z-index: 100;
   display: none;
 }
@@ -4198,7 +4197,7 @@ td {
   right: 40px;
   font-size: 40px;
   font-weight: bolder;
-  color: #fff;
+  color: white;
   cursor: pointer;
   z-index: 100;
 }
