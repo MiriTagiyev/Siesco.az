@@ -18,8 +18,10 @@ $("#readmore-services>ul>li").click(function () {
   lastService = currentService;
 });
 window.onload = () => {
-  $("#readmore-services>ul>li:first-child").click();
-};
+  $("#readmore-services>ul>li:first-child").click(); 
+};  
+
+
 
 let lastStatus = "web";
 $(document).ready(function () {
