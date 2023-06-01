@@ -2378,6 +2378,30 @@ header > .prev {
   height: auto;
   display: flex;
 }
+.lottie-container {
+  width: 20%;
+  height: 30%;
+  transform: scale(1.4);
+  margin-bottom: 3%;
+  margin-left: 21%;
+  text-align: right;
+}
+.lottie-container2 {
+  width: 20%;
+  height: 30%;
+  transform: scale(1.3);
+  margin-bottom: 3%;
+  text-align: center;
+}
+.lottie-container3 {
+  width: 15%;
+  height: 30%;
+  transform: scale(1.5);
+  margin-bottom: 0%;
+  margin-right: 10%;
+  background: rgba(0, 0, 0, 0);
+}
+
 .customers-card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -4428,11 +4452,36 @@ td {
     height: auto;
     display: flex;
   }
+  .lottie-container {
+    width: 28%;
+    height: 30%;
+    transform: scale(1.5);
+    margin-bottom: 3%;
+    margin-left: 10%;
+    text-align: right;
+  }
+  .lottie-container2 {
+    width: 28%;
+    height: 30%;
+    transform: scale(1.3);
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-align: center;
+  }
+  .lottie-container3 {
+    width: 23%;
+    height: 30%;
+    transform: scale(1.5);
+    margin-bottom: 0%;
+    margin-right: 0%;
+    background: rgba(0, 0, 0, 0);
+  }
+
   .customers-card {
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    width: 22%;
+    width: 43%;
     height: 18rem;
     margin: 10px;
   }
@@ -4447,7 +4496,7 @@ td {
     margin: auto;
   }
   .card_side {
-    height: 295px;
+    height: 305px;
     transition: all 0.8s;
     position: absolute;
     top: 0;
@@ -4502,13 +4551,14 @@ td {
   }
 
   .card_details {
-    padding-top: 20px;
+    padding: 5px;
+    padding-top: 15px;
     text-align: center;
     height: 35%;
     background-color: #39509e;
   }
   .card_details h3 {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .card_flip {
