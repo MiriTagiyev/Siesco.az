@@ -3606,7 +3606,7 @@ td {
   margin-bottom: 10px;
 }
 
-/* ! 1C page css end */
+/* ! Status page css end */
 /* ! AboutNew page css start */
 .about-wrapper {
   width: 100%;
@@ -4627,3 +4627,75 @@ td {
   }
 }
 /* ! Customers page responsive  css end */
+/* ! Status page responsive css start */
+@media only screen and (max-width: 768px) {
+  .status-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: transparent;
+    border-top: solid 1px black;
+  }
+
+  .status-img {
+    width: 35%;
+    display: flex;
+    border-right: 1px solid black;
+    cursor: pointer;
+    align-items: center;
+  }
+  .status-img img {
+    padding: 0px;
+    transition: all 0.9s;
+  }
+  .status-img img:hover {
+    transform: scale(1.2);
+  }
+
+  .status-1C {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px;
+  }
+  .status-1C h4 {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 14px;
+  }
+  .status-img img {
+    display: flex;
+    margin: auto;
+    width: 50%;
+  }
+
+  .status-text {
+    width: 65%;
+    margin-left: 0%;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .status-text .text {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Calibri";
+    line-height: 25px;
+  }
+  .status-text .text span {
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+  .status-text .text1 {
+    font-weight: 800;
+    font-size: 17px;
+  }
+
+  #qaban {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+/* ! Status page responsive css end */
+/* ! Contact page responsive css start */
+/* ! Contact page responsive css end */
