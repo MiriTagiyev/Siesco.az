@@ -2360,11 +2360,6 @@ header > .prev {
     margin-top: 2rem;
   }
 
-  .about-intro h3,
-  p {
-    width: 80%;
-  }
-
   .about-intro p {
     font-size: 12px;
   }
@@ -4309,3 +4304,276 @@ td {
   font-weight: 500;
 }
 /* ! Bitrixreadmore page  css end */
+/* ! About page responsive  css start */
+@media only screen and (max-width: 768px) {
+  .about-wrapper {
+    width: 100%;
+    height: auto;
+    font-family: "Calibri";
+  }
+  .about-head {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: unset;
+    border-bottom: 1px solid black;
+  }
+  .about-head h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .about-head p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Calibri";
+    line-height: 30px;
+    text-align: center;
+  }
+  .about-head p span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+  .about-photo {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .about-photo-style {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid black;
+    display: block;
+  }
+  .about-photo-list {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: block;
+  }
+  .about-part1 {
+    width: 65%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .about-part2 {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    margin: auto;
+  }
+  .about-part2 p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Calibri";
+    line-height: 30px;
+  }
+  .about-part2 p span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 16px;
+  }
+  .about-part3 {
+    width: 65%;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+  }
+  .about-part4 {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+  }
+  .about-part4 p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Calibri";
+    line-height: 30px;
+    text-align: center;
+  }
+  .about-part4 p span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 16px;
+  }
+  .about-part4 ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .about-part4 ul li {
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: "Calibri";
+  }
+}
+/* ! About page responsive  css end */
+/* ! Customers page responsive  css start */
+@media only screen and (max-width: 768px) {
+  .section-title {
+    font-size: 18px;
+  }
+
+  .customers-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+  }
+  .customers-vektor {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .customers-card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    width: 22%;
+    height: 18rem;
+    margin: 10px;
+  }
+  #haus {
+    object-fit: fill;
+    width: 100%;
+    margin: auto;
+  }
+  #olive {
+    object-fit: contain;
+    width: 100%;
+    margin: auto;
+  }
+  .card_side {
+    height: 295px;
+    transition: all 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .card_side-front {
+    color: white;
+  }
+  .card_side-back {
+    transform: rotateY(180deg);
+  }
+  .card_side-back-1 {
+    background-color: #39509e;
+  }
+  .customers-card:hover .card_side-front {
+    transform: rotateY(-180deg);
+  }
+  .customers-card:hover .card_side-back {
+    transform: rotateY(0);
+  }
+  .card_picture {
+    height: 220px;
+    overflow: hidden;
+  }
+  .card_picture img {
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 10%;
+  }
+  .card_picture-1 {
+    /* background-image: linear-gradient(to right bottom, #fff, #fff),
+    url(https://alexcorvin.design/img/img3.jpg); */
+    background-color: transparent;
+    height: 60%;
+  }
+  .card_heading {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    width: 55%;
+  }
+
+  .card_details {
+    padding-top: 20px;
+    text-align: center;
+    height: 35%;
+    background-color: #39509e;
+  }
+  .card_details h3 {
+    font-size: 17px;
+  }
+
+  .card_flip {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .card_back-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .card_back-title {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .btn:link,
+  .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 15px;
+  }
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  .btn:active::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  .btn-white {
+    background-color: #fff;
+    color: #777;
+  }
+  .btn-white::after {
+    background-color: #fff;
+  }
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  .btn-animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+}
+/* ! Customers page responsive  css end */
