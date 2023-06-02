@@ -2109,6 +2109,7 @@ header > .prev {
   height: auto;
   margin-bottom: 60px;
 }
+
 .vakancy-lottie {
   width: 50%;
 }
@@ -2175,7 +2176,7 @@ header > .prev {
   color: black;
 }
 .vakancy-data {
-  width: 90%;
+  width: 95%;
   background-color: #82d4f2;
   margin-top: 15px;
   display: flex;
@@ -2184,36 +2185,44 @@ header > .prev {
   border-top-right-radius: 0.3cm;
   border-top-left-radius: 0.3cm;
 }
-.readmore-price {
-  background-color: red;
+.vakancy-part1 {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
 }
+.vakancy-part2 {
+  width: 45%;
+  display: flex;
+}
+
 .vakancy-data ul li {
   color: black;
   margin-top: 10px;
 }
 .vakancy-data1 {
-  width: 20%;
+  width: 25%;
 }
 
 .vakancy-data2 {
-  width: 20%;
+  width: 25%;
 }
 .vakancy-data2 ul li {
   color: black;
 }
 .vakancy-data3 {
-  width: 5%;
-  text-align: center;
-}
-.vakancy-data4 {
   width: 50%;
 }
-.vakancy-data4 ul li {
-  color: black;
+.vakancy-data3 ul li {
   list-style: none;
+  margin-top: 10px;
 }
+.vakancy-data3 h3 {
+  font-weight: 600;
+  font-size: 17px;
+}
+
 .vakancy-info {
-  width: 90%;
+  width: 95%;
   display: flex;
   background-color: #82d4f2;
   justify-content: space-between;
@@ -4343,13 +4352,13 @@ td {
     border-bottom: 1px solid black;
   }
   .about-head h3 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     text-align: center;
   }
   .about-head p {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     line-height: 30px;
     text-align: center;
@@ -4390,7 +4399,7 @@ td {
   }
   .about-part2 p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     line-height: 30px;
   }
@@ -4413,7 +4422,7 @@ td {
   }
   .about-part4 p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     line-height: 30px;
     text-align: center;
@@ -4429,7 +4438,7 @@ td {
   }
   .about-part4 ul li {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Calibri";
   }
 }
@@ -4656,7 +4665,6 @@ td {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 18px;
     padding: 0px;
   }
   .status-1C h4 {
@@ -4673,18 +4681,18 @@ td {
   .status-text {
     width: 65%;
     margin-left: 0%;
-    font-weight: 600;
     padding: 10px;
   }
   .status-text .text {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     font-family: "Calibri";
     line-height: 25px;
   }
   .status-text .text span {
-    font-weight: 600;
+    font-weight: 700;
     font-family: "Calibri";
+    font-size: 15px;
   }
   .status-text .text1 {
     font-weight: 800;
@@ -4698,4 +4706,276 @@ td {
 }
 /* ! Status page responsive css end */
 /* ! Contact page responsive css start */
+@media only screen and (max-width: 768px) {
+  .contacts-vektor {
+    width: 100%;
+  }
+  .Contact-wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .contact-container1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .contact-container2 {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+  .contacts-form {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .name-input {
+    width: 100%;
+  }
+  .name-input input {
+    width: 40%;
+    padding: 12px 20px 12px 20px;
+    text-align: left;
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #363636;
+  }
+  .mail-input input {
+    width: 80.3%;
+    padding: 12px 20px 12px 20px;
+    margin-top: 10px;
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #363636;
+  }
+  .sirket-input input {
+    width: 80.3%;
+    padding: 12px 20px 12px 20px;
+    margin-top: 10px;
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #363636;
+  }
+  .sirket-input {
+    margin-bottom: 10px;
+  }
+
+  .textarea-input textarea {
+    width: 80.3%;
+    min-height: 170px;
+    padding: 16px 20px 16px 20px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #0e1013;
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    opacity: 1;
+    outline: none;
+    margin-top: 10px;
+  }
+  .send-button {
+    width: 100%;
+    margin: auto;
+  }
+  .send-button button {
+    padding: 12px 20px 12px 20px;
+    width: auto;
+    margin-top: 15px;
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    background-color: #115dc4;
+    border: 1px solid #115dc4;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .send-button button:hover {
+    background-color: #073473;
+  }
+}
 /* ! Contact page responsive css end */
+/* vakansiya  responsive start */
+@media only screen and (max-width: 768px) {
+  .vakancy {
+    width: 60%;
+    margin: auto;
+  }
+  .vakancy-icon {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .vakancy-lottie {
+    width: 80%;
+    margin: auto;
+  }
+  .vakancy-in {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vakancyabout {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #7585bb;
+    padding: 2% 0% 2% 2%;
+    margin-left: 0px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .vakancyabout p {
+    background-color: #0da3da;
+    width: 30%;
+    margin-top: 10px;
+    padding: 1.5%;
+    border-radius: 0.2cm;
+    color: black;
+    text-align: center;
+  }
+  .vakancyabout:hover {
+    transform: scale(1.02);
+  }
+
+  .vakancyabout a {
+    font-size: 18px;
+    color: black;
+    list-style: disc;
+    margin-left: 2px;
+  }
+
+  .vakancyabout a:nth-last-child(1) {
+    font-size: 13px;
+    color: rgb(2, 1, 1);
+  }
+  .vakancy-readmore {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 2% 0% 0% 8%;
+  }
+  .vakancy-readmore h6 {
+    font-size: 20px;
+    color: black;
+  }
+  .vakancy-readmore p {
+    background-color: transparent;
+    width: 15%;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 0.2cm;
+    background-color: #82d4f2;
+  }
+  .vakancy-readmore span {
+    font-size: 13px;
+    color: black;
+  }
+  .vakancy-data {
+    width: 95%;
+    background-color: #82d4f2;
+    margin-top: 15px;
+    display: block;
+    justify-content: space-around;
+    padding: 0% 0% 0% 0%;
+    border-top-right-radius: 0.3cm;
+    border-top-left-radius: 0.3cm;
+    font-size: 12px;
+  }
+  .vakancy-part1 {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+  }
+  .readmore-price {
+    background-color: red;
+  }
+  .vakancy-data ul li {
+    color: black;
+    margin-top: 10px;
+  }
+  .vakancy-data1 {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .vakancy-data2 {
+    width: 50%;
+  }
+  .vakancy-data2 ul li {
+    color: black;
+  }
+
+  .vakancy-part2 {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+  }
+  .vakancy-data3 {
+    width: 100%;
+    text-align: start;
+  }
+  .vakancy-data3 h3 {
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .vakancy-data3 ul li {
+    list-style: none;
+    margin-top: 5px;
+  }
+
+  .vakancy-info {
+    width: 95%;
+    display: block;
+    background-color: #82d4f2;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom-right-radius: 0.3cm;
+    border-bottom-left-radius: 0.3cm;
+    margin-bottom: 20px;
+  }
+  .vakancy-infoleft {
+    width: 100%;
+  }
+  .vakancy-inforight {
+    width: 100%;
+  }
+  .vakancy-info h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .vakancy-infoleft p {
+    width: 100%;
+    font-weight: 400;
+  }
+  .vakancy-inforight p {
+    width: 100%;
+    font-weight: 400;
+    text-align: start;
+  }
+}
+/* vakansiya responsive end */
