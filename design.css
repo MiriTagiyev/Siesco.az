@@ -4979,3 +4979,83 @@ td {
   }
 }
 /* vakansiya responsive end */
+/* ! 1C page  responsive css start */
+@media only screen and (max-width: 768px) {
+  .product-item {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+
+  .product-img {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-right: none;
+  }
+  .product-img img:hover {
+    transform: scale(1.1);
+  }
+
+  .product-1C {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+  }
+
+  .product-img img {
+    display: flex;
+    margin: auto;
+    width: 35%;
+  }
+
+  .product-text {
+    width: 98%;
+    padding: 10px;
+    margin-left: 2%;
+    font-weight: 400;
+    font-family: "Calibri";
+    border: none;
+  }
+  .text span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 16px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .text1 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .product-1C h4 span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+  .product-button {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .product-button a {
+    padding: 10px;
+    background-color: #115dc4;
+    color: white;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  .product-button a:hover {
+    background-color: #073473;
+    transition: all 1s;
+  }
+}
+/* ! 1C page responsive css end */
