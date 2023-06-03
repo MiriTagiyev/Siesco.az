@@ -4175,16 +4175,16 @@ td {
   margin-bottom: 0px;
 }
 
-#bitrix-services {
+#bitrixreadmore-services {
   position: relative;
 }
-#bitrix-services ul {
+#bitrixreadmore-services ul {
   display: flex;
   list-style: none;
   justify-content: center;
 }
 
-#bitrix-services ul li {
+#bitrixreadmore-services ul li {
   border-radius: 8px;
   padding: 12px 20px;
   background-color: #5dcbf4;
@@ -4197,25 +4197,25 @@ td {
   color: white;
   cursor: pointer;
 }
-#bitrix-services ul li:hover {
+#bitrixreadmore-services ul li:hover {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-#bitrix-services ul li.active {
+#bitrixreadmore-services ul li.active {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: rgb(70, 109, 236);
 }
-.bitrix-detail {
+.bitriksreadmore-detail {
   display: flex;
   flex-wrap: wrap;
   margin: 30px auto;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1450px;
+  height: 1480px;
   width: 100%;
   overflow: hidden;
 }
-.bitrix-detail .readmore-text {
+.bitriksreadmore-detail .bitriksreadmore-text {
   width: 55%;
   padding: 25px;
   text-align: justify;
@@ -4235,7 +4235,7 @@ td {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.725);
+  background-color: rgb(0, 0, 0, 0.9);
   z-index: 100;
   display: none;
 }
@@ -4246,7 +4246,7 @@ td {
   right: 40px;
   font-size: 40px;
   font-weight: bolder;
-  color: white;
+  color: #fff;
   cursor: pointer;
   z-index: 100;
 }
@@ -4270,15 +4270,15 @@ td {
   width: 90%;
   cursor: pointer;
 }
-.bitrix-detail p {
+.bitriksreadmore-detail p {
   font-size: 16px;
 }
-.bitrix-detail h2 {
+.bitriksreadmore-detail h2 {
   font-size: 26px;
   margin-bottom: 10px;
   font-weight: 600;
 }
-.bitrix-detail .readmore-img {
+.bitriksreadmore-detail .bitriksreadmore-img {
   width: 45%;
   position: relative;
   height: 100%;
@@ -4286,21 +4286,21 @@ td {
   right: -100%;
   top: -32%;
 }
-.bitrix-detail .readmore-img lottie-player {
+.bitriksreadmore-detail .readmore-img lottie-player {
   width: 100%;
 }
-.bitrix-text table {
+.bitriksreadmore-text table {
   border-collapse: collapse;
   width: 100%;
   font-size: 16px;
 }
 
-.bitrix-text thead {
+.bitriksreadmore-text thead {
   background-color: #466dec;
   text-align: center;
 }
 
-.bitrix-text th,
+.bitriksreadmore-text th,
 td {
   text-align: left;
   padding: 8px;
@@ -4308,7 +4308,7 @@ td {
   cursor: pointer;
 }
 
-.bitrix-text tr:hover {
+.bitriksreadmore-text tr:hover {
   background-color: #466dec;
 }
 .contact-about {
