@@ -4138,6 +4138,11 @@ td {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
 }
+.bitriksreadmore-info {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
 
 .video-container .thumbnail-vid {
   width: 100%;
@@ -4211,10 +4216,22 @@ td {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1480px;
+  height: 2150px;
   width: 100%;
   overflow: hidden;
 }
+.bitriksreadmore-info p {
+  font-size: 22px;
+  margin-top: 10px;
+  font-family: "Calibri";
+  font-weight: 500;
+}
+
+.bitriksreadmore-info span {
+  font-size: 15px;
+  font-family: "Calibri";
+}
+
 .bitriksreadmore-detail .bitriksreadmore-text {
   width: 55%;
   padding: 25px;
