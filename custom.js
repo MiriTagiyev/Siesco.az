@@ -142,7 +142,7 @@ let VerticalCarousel = function (element) {
           second.classList.add("vs-active");
           second.classList.remove("vs-next");
           second.nextElementSibling.classList.toggle("vs-next");
-        }, 3000);
+        }, 3500);
       });
     }
   };
