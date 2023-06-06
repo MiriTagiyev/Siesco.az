@@ -1283,6 +1283,19 @@ section {
 .service-text {
   width: 50%;
 }
+.service-text p {
+  margin-bottom: 15px;
+}
+.service-text a {
+  padding: 8px;
+  background-color: #115dc4;
+  color: white;
+  font-weight: 500;
+}
+.service-text a:hover {
+  background-color: #073473;
+  transition: all 1s;
+}
 
 .service-text h2 {
   font-size: 24px;

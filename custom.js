@@ -130,6 +130,15 @@ let VerticalCarousel = function (element) {
             second.querySelector(".vs-carousel__item-title").innerText;
           document.querySelector(".service-text p").innerText =
             second.querySelector(".vs-carousel__item-description").innerText;
+          document
+            .querySelector(".service-text a")
+            .setAttribute(
+              "href",
+              second
+                .querySelector(".vs-carousel__item-title")
+                .getAttribute("target")
+            );
+
           second.classList.add("vs-active");
           second.classList.remove("vs-next");
           second.nextElementSibling.classList.toggle("vs-next");
