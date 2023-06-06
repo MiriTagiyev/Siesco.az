@@ -42,27 +42,34 @@ nav {
   z-index: 1000;
   top: 0;
 }
+
 nav img {
   transition: 0.2s;
 }
+
 nav.fixed img {
   width: 140px;
 }
+
 .about-menu li a:hover {
   color: #f30909;
 }
+
 .services-menu li a:hover {
   color: #f30909;
 }
+
 .product-menu li a:hover {
   color: #f30909;
 }
+
 .lang {
   margin: 6px 0 12px 0;
   padding: 0 0 2px 0;
   float: right;
   position: relative;
 }
+
 .lang li {
   float: left;
   list-style: none;
@@ -74,6 +81,7 @@ nav.fixed img {
   text-align: center;
   position: relative;
 }
+
 .lang li a::after {
   content: "";
   width: 2px;
@@ -84,6 +92,7 @@ nav.fixed img {
   right: 0px;
   top: 4px;
 }
+
 .lang li:last-child a::after {
   display: none;
   background-color: blue;
@@ -99,7 +108,7 @@ nav img {
   width: 180px;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
   margin-right: 45px;
   font-size: 16px;
@@ -107,7 +116,7 @@ nav > ul > li {
   position: relative;
 }
 
-nav > ul.menu > li::after {
+nav>ul.menu>li::after {
   content: "";
   width: 0;
   position: absolute;
@@ -121,7 +130,7 @@ nav > ul.menu > li::after {
   z-index: 1001;
 }
 
-nav > ul.menu > li:hover::after {
+nav>ul.menu>li:hover::after {
   width: 80%;
 }
 
@@ -129,7 +138,7 @@ nav ul li a {
   color: #25376a;
 }
 
-nav > ul > li > ul {
+nav>ul>li>ul {
   list-style: none;
   position: absolute;
   background-color: #edf2f4;
@@ -140,31 +149,31 @@ nav > ul > li > ul {
   border-radius: 0 0 5px 3px;
 }
 
-nav > ul > li > ul.about-menu,
-nav > ul > li > ul.product-menu {
+nav>ul>li>ul.about-menu,
+nav>ul>li>ul.product-menu {
   width: 200px;
 }
 
-nav > ul > li > ul.services-menu {
+nav>ul>li>ul.services-menu {
   width: 380px;
   left: -300px;
 }
 
-nav > ul > li:hover > ul.about-menu {
+nav>ul>li:hover>ul.about-menu {
   transform: translateX(25%);
 }
 
-nav > ul > li:hover > ul.services-menu {
+nav>ul>li:hover>ul.services-menu {
   transform: translateX(-25%);
 }
 
-nav > ul > li:hover ul {
+nav>ul>li:hover ul {
   left: -50%;
   visibility: visible;
   transition: 0.5s;
 }
 
-nav > ul > li > ul > li {
+nav>ul>li>ul>li {
   padding: 12px !important;
   border-top: 1px solid #25252533;
   font-size: 15px;
@@ -289,10 +298,12 @@ section {
   background-color: #f4f4f4c6;
   align-items: center;
 }
+
 .About-Container span {
   font-weight: bolder;
   font-size: 22px;
 }
+
 .About-Container p {
   text-align: center;
   font-family: "Calibri";
@@ -302,6 +313,7 @@ section {
   color: #000;
   position: relative;
 }
+
 .About-Container a {
   font-size: 25px;
   text-decoration: none;
@@ -310,11 +322,13 @@ section {
   color: #467aa9;
   font-weight: 600;
 }
+
 .About-Container a i {
   margin-left: 2px;
   margin-top: 7px;
   font-size: 14px;
 }
+
 .about-btn {
   font-size: 20px;
   margin-right: 10px;
@@ -483,10 +497,12 @@ section {
   padding-bottom: 50px;
   position: relative;
 }
+
 #newdesign {
   width: 80%;
   margin-left: 50px;
 }
+
 #newdd {
   width: 80%;
   margin-left: 70px;
@@ -507,6 +523,7 @@ section {
   width: 50%;
   height: auto;
 }
+
 .lottie-about p {
   color: #000000;
 }
@@ -543,7 +560,7 @@ section {
   margin-bottom: 40px;
 }
 
-.Partner-title > * {
+.Partner-title>* {
   display: block;
   margin-bottom: 12px;
 }
@@ -599,9 +616,11 @@ section {
 .swiper2 {
   margin-top: 15px;
 }
+
 #itsol {
   width: 80%;
 }
+
 #erko {
   width: 80%;
 }
@@ -790,7 +809,7 @@ section {
   margin: 0;
 }
 
-.News-title > * {
+.News-title>* {
   display: block;
   margin-bottom: 12px;
 }
@@ -846,8 +865,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
   z-index: 0;
 }
 
@@ -984,7 +1002,7 @@ section {
   transition: 0.3s ease-in-out;
 }
 
-.item > img {
+.item>img {
   width: 100%;
 }
 
@@ -1283,15 +1301,18 @@ section {
 .service-text {
   width: 50%;
 }
+
 .service-text p {
   margin-bottom: 15px;
 }
+
 .service-text a {
   padding: 8px;
   background-color: #115dc4;
   color: white;
   font-weight: 500;
 }
+
 .service-text a:hover {
   background-color: #073473;
   transition: all 1s;
@@ -1412,10 +1433,11 @@ footer {
 
 .rightin a {
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
   color: black;
 }
+
 .footer-right1 ul li {
   list-style: none;
   color: black !important;
@@ -1428,27 +1450,32 @@ footer {
   color: #000000;
   font-weight: 600;
 }
+
 .footer-right2 {
   width: 49%;
   height: 180px;
 }
+
 .footer-right2 h5 {
-  font-size: 18px;
+  font-size: 15px;
   color: #000000 !important;
   font-weight: 600;
-}
+} 
 
 .footer-right2 a {
   font-size: 28px;
   margin-right: 10px;
   margin-left: 5px;
 }
+
 .footer-right2 a i {
   transition: all 0.9ms;
 }
+
 .footer-right2 a i:hover {
   transform: scale(1.2);
 }
+
 .footer-right2 h5 {
   font-weight: 600;
 }
@@ -1457,32 +1484,39 @@ footer {
   color: red;
   font-size: 35px;
 }
+
 .fa-square-whatsapp {
   color: green;
   font-size: 35px;
 }
+
 .fa-square-facebook {
   color: blue;
   font-size: 35px;
 }
+
 .fa-linkedin {
   color: rgb(47, 50, 232);
   font-size: 35px;
 }
+
 .footer-right2 h5 {
   font-size: 18px;
   color: #000000 !important;
 }
+
 .footer-right2 h4 {
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 3px;
   font-weight: 600;
   color: #000000 !important;
 }
+
 .footer-right1 ul li:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
+
 .footer-right2 p {
   margin-top: 3px;
 }
@@ -1491,15 +1525,18 @@ footer {
   margin-top: 5px;
   font-size: 16px;
 }
+
 .footerlogo {
   width: 65%;
   height: 60px;
   overflow: hidden;
 }
+
 .footerlogo img {
   width: 100%;
   height: 100%;
 }
+
 .footer-copright {
   width: 100%;
   height: auto;
@@ -1510,6 +1547,7 @@ footer {
   background-color: #edf2f400;
   font-weight: 500;
 }
+
 /* ! Footer css end */
 /* ! Cursor css start */
 
@@ -1605,6 +1643,7 @@ header .lotties {
   height: 100%;
   position: relative;
 }
+
 .lotties img {
   width: 95%;
   height: 75%;
@@ -1622,6 +1661,7 @@ header .lotties .lottie {
   top: 0;
   transition: 0.5s;
 }
+
 .k {
   width: 100%;
   height: auto;
@@ -1638,6 +1678,7 @@ header .lotties .current {
   width: 30%;
   position: relative;
 }
+
 .detail-text a {
   position: absolute;
   margin-top: 10px;
@@ -1647,14 +1688,17 @@ header .lotties .current {
   color: white;
   transition: 0.5s;
 }
+
 .detail-text a:hover {
   font-size: 22px;
   color: green;
 }
+
 .detail-text i {
   margin-left: 8px;
   font-weight: 600;
 }
+
 .detail-texts .detail-text {
   position: absolute;
   width: 100%;
@@ -1663,6 +1707,7 @@ header .lotties .current {
   transform: translateY(-50%);
   transition: 0.5s;
 }
+
 .detail-texts .current {
   left: 0;
 }
@@ -1672,6 +1717,7 @@ header .lotties .current {
   margin-bottom: 15px;
   font-weight: 600;
 }
+
 .detail-texts p {
   width: 100%;
   font-size: 16px;
@@ -1696,7 +1742,7 @@ header .lotties .current {
   padding: 0;
 }
 
-.circle--rotate > li {
+.circle--rotate>li {
   position: absolute;
   left: 0;
   top: 0;
@@ -1714,7 +1760,7 @@ header .lotties .current {
   border-radius: 100%;
 }
 
-.circle--rotate > li .icon {
+.circle--rotate>li .icon {
   visibility: visible;
   cursor: pointer;
   text-align: center;
@@ -1730,7 +1776,7 @@ header .lotties .current {
   box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-.circle--rotate > li i {
+.circle--rotate>li i {
   color: #0a0a0a;
   font-size: 20px;
   margin: auto;
@@ -1740,12 +1786,12 @@ header .lotties .current {
   display: table;
 }
 
-.circle--rotate > li i::before {
+.circle--rotate>li i::before {
   display: table-cell;
   vertical-align: middle;
 }
 
-.circle--rotate > li img {
+.circle--rotate>li img {
   margin: auto;
 }
 
@@ -1757,7 +1803,7 @@ header .lotties .current {
   margin: 0 auto;
 }
 
-.circle--slider .circle--rotate > li div {
+.circle--slider .circle--rotate>li div {
   position: relative;
   overflow: visible;
   background-color: #edeff1;
@@ -1766,19 +1812,19 @@ header .lotties .current {
   font-size: 6px;
 }
 
-.circle--slider .circle--rotate > li div span {
+.circle--slider .circle--rotate>li div span {
   transform: rotate(0deg);
   transition: all 2s;
   opacity: 0;
 }
 
-.circle--slider .circle--rotate > li.active div {
+.circle--slider .circle--rotate>li.active div {
   font-size: 20px;
   background-color: #654be4;
   transition: all 1s;
 }
 
-.circle--slider .circle--rotate > li.active div span {
+.circle--slider .circle--rotate>li.active div span {
   width: 100%;
   height: 100%;
   display: block;
@@ -1790,7 +1836,7 @@ header .lotties .current {
   opacity: 1;
 }
 
-.circle--slider .circle--rotate > li.active div span:before {
+.circle--slider .circle--rotate>li.active div span:before {
   position: absolute;
   height: 1px;
   top: -50%;
@@ -1806,7 +1852,7 @@ header .lotties .current {
   z-index: -1;
 }
 
-.circle--slider .circle--rotate > li.active div span:after {
+.circle--slider .circle--rotate>li.active div span:after {
   position: absolute;
   height: 1px;
   top: 100%;
@@ -2107,15 +2153,17 @@ header .lotties .current {
   font-size: 30px;
 }
 
-header > .next,
-header > .prev {
+header>.next,
+header>.prev {
   color: white;
   font-size: 20px;
 }
+
 /* vakansiya start */
 .vakancy {
   width: 45%;
 }
+
 .vakancy-icon {
   width: 100%;
   display: flex;
@@ -2126,6 +2174,7 @@ header > .prev {
 .vakancy-lottie {
   width: 50%;
 }
+
 .vakancy-in {
   width: 100%;
   height: auto;
@@ -2133,6 +2182,7 @@ header > .prev {
   flex-wrap: wrap;
   margin: auto;
 }
+
 .vakancyabout {
   width: 46%;
   height: 100px;
@@ -2142,6 +2192,7 @@ header > .prev {
   margin-top: 20px;
   cursor: pointer;
 }
+
 .vakancyabout p {
   background-color: #0da3da;
   width: 30%;
@@ -2151,6 +2202,7 @@ header > .prev {
   color: black;
   text-align: center;
 }
+
 .vakancyabout:hover {
   transform: scale(1.02);
 }
@@ -2166,16 +2218,19 @@ header > .prev {
   font-size: 13px;
   color: rgb(2, 1, 1);
 }
+
 .vakancy-readmore {
   width: 100%;
   margin: auto;
   margin-top: 0px;
   padding: 2% 0% 0% 8%;
 }
+
 .vakancy-readmore h6 {
   font-size: 30px;
   color: black;
 }
+
 .vakancy-readmore p {
   background-color: transparent;
   width: 15%;
@@ -2184,10 +2239,12 @@ header > .prev {
   border-radius: 0.2cm;
   background-color: #82d4f2;
 }
+
 .vakancy-readmore span {
   font-size: 13px;
   color: black;
 }
+
 .vakancy-data {
   width: 95%;
   background-color: #82d4f2;
@@ -2198,11 +2255,13 @@ header > .prev {
   border-top-right-radius: 0.3cm;
   border-top-left-radius: 0.3cm;
 }
+
 .vakancy-part1 {
   width: 55%;
   display: flex;
   justify-content: space-around;
 }
+
 .vakancy-part2 {
   width: 45%;
   display: flex;
@@ -2212,6 +2271,7 @@ header > .prev {
   color: black;
   margin-top: 10px;
 }
+
 .vakancy-data1 {
   width: 25%;
 }
@@ -2219,16 +2279,20 @@ header > .prev {
 .vakancy-data2 {
   width: 25%;
 }
+
 .vakancy-data2 ul li {
   color: black;
 }
+
 .vakancy-data3 {
   width: 50%;
 }
+
 .vakancy-data3 ul li {
   list-style: none;
   margin-top: 10px;
 }
+
 .vakancy-data3 h3 {
   font-weight: 600;
   font-size: 17px;
@@ -2244,21 +2308,26 @@ header > .prev {
   border-bottom-left-radius: 0.3cm;
   margin-bottom: 30px;
 }
+
 .vakancy-infoleft {
   width: 45%;
 }
+
 .vakancy-inforight {
   width: 45%;
 }
+
 .vakancy-info h4 {
   color: black;
   font-size: 20px;
   font-weight: 100;
 }
+
 .vakancy-infoleft p {
   width: 100%;
   font-weight: 400;
 }
+
 .vakancy-inforight p {
   width: 100%;
   font-weight: 400;
@@ -2303,6 +2372,7 @@ header > .prev {
   padding-right: 2rem;
   margin: 0 3rem;
 }
+
 .about-intro h3 {
   color: #000000;
   font-size: 20px;
@@ -2359,6 +2429,7 @@ header > .prev {
   color: black;
   font-weight: 600 !important;
 }
+
 .intro-service {
   font-weight: 900 !important;
 }
@@ -2386,6 +2457,7 @@ header > .prev {
     font-size: 12px;
   }
 }
+
 /* ! About page css end */
 /* ! Customers page css start */
 .customers-container {
@@ -2395,11 +2467,13 @@ header > .prev {
   justify-content: space-around;
   padding: 0px;
 }
+
 .customers-vektor {
   width: 100%;
   height: auto;
   display: flex;
 }
+
 .lottie-container {
   width: 20%;
   height: 30%;
@@ -2408,6 +2482,7 @@ header > .prev {
   margin-left: 21%;
   text-align: right;
 }
+
 .lottie-container2 {
   width: 20%;
   height: 30%;
@@ -2415,6 +2490,7 @@ header > .prev {
   margin-bottom: 3%;
   text-align: center;
 }
+
 .lottie-container3 {
   width: 15%;
   height: 30%;
@@ -2432,16 +2508,19 @@ header > .prev {
   height: 18rem;
   margin: 10px;
 }
+
 #haus {
   object-fit: fill;
   width: 100%;
   margin: auto;
 }
+
 #olive {
   object-fit: contain;
   width: 100%;
   margin: auto;
 }
+
 .card_side {
   height: 295px;
   transition: all 0.8s;
@@ -2457,34 +2536,42 @@ header > .prev {
 .card_side-front {
   color: white;
 }
+
 .card_side-back {
   transform: rotateY(180deg);
 }
+
 .card_side-back-1 {
   background-color: #39509e;
 }
+
 .customers-card:hover .card_side-front {
   transform: rotateY(-180deg);
 }
+
 .customers-card:hover .card_side-back {
   transform: rotateY(0);
 }
+
 .card_picture {
   height: 220px;
   overflow: hidden;
 }
+
 .card_picture img {
   width: 80%;
   height: 100%;
   object-fit: contain;
   margin-left: 10%;
 }
+
 .card_picture-1 {
   /* background-image: linear-gradient(to right bottom, #fff, #fff),
     url(https://alexcorvin.design/img/img3.jpg); */
   background-color: transparent;
   height: 60%;
 }
+
 .card_heading {
   font-size: 2.4rem;
   font-weight: 300;
@@ -2503,6 +2590,7 @@ header > .prev {
   height: 35%;
   background-color: #39509e;
 }
+
 .card_details h3 {
   font-size: 17px;
 }
@@ -2515,11 +2603,13 @@ header > .prev {
   transform: translate(-50%, -50%);
   width: 90%;
 }
+
 .card_back-box {
   text-align: center;
   color: #fff;
   margin-bottom: 1rem;
 }
+
 .card_back-title {
   font-size: 15px;
   font-weight: 400;
@@ -2536,25 +2626,31 @@ header > .prev {
   position: relative;
   font-size: 15px;
 }
+
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
+
 .btn:active::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
+
 .btn-white {
   background-color: #fff;
   color: #777;
 }
+
 .btn-white::after {
   background-color: #fff;
 }
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -2567,10 +2663,12 @@ header > .prev {
   z-index: -1;
   transition: all 0.4s;
 }
+
 .btn-animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+
 /* ! Customers page css end */
 /* ! News page css start */
 .news-vektor {
@@ -2578,12 +2676,14 @@ header > .prev {
   height: auto;
   display: flex;
 }
+
 /* ! News page css end */
 /* ! Customers page css start */
 .customers-wrapper {
   width: 100%;
   background-color: red;
 }
+
 .swiper-pagination-bullet {
   width: 12px !important;
   height: 12px !important;
@@ -2594,12 +2694,10 @@ header > .prev {
 
 .bg {
   animation: slide 10s ease-in-out infinite alternate;
-  background-image: linear-gradient(
-    60deg,
-    #00aeef 50%,
-    #00aeef 50%,
-    #d0eef9fa 50%
-  );
+  background-image: linear-gradient(60deg,
+      #00aeef 50%,
+      #00aeef 50%,
+      #d0eef9fa 50%);
   bottom: 0;
   left: -50%;
   opacity: 0.5;
@@ -2622,10 +2720,12 @@ header > .prev {
   0% {
     transform: translateX(-25%);
   }
+
   100% {
     transform: translateX(25%);
   }
 }
+
 .partners-container {
   width: 100%;
   height: auto;
@@ -2636,15 +2736,19 @@ header > .prev {
   width: 100%;
   object-fit: contain;
 }
+
 #qlik-sens {
   width: 170px;
 }
+
 #papruz {
   width: 180px;
 }
+
 #bitrix {
   width: 85px;
 }
+
 .partners-card {
   display: flex;
   justify-content: center;
@@ -2675,11 +2779,13 @@ header > .prev {
 .text-content {
   font-family: "Roboto", sans-serif;
 }
+
 .partners-card i {
   font-size: 40px;
   color: #e02a1c;
   cursor: pointer;
 }
+
 .partners-card a:hover {
   transform: scale(1.2);
   transition: all 0.2ms;
@@ -2704,6 +2810,7 @@ header > .prev {
 .partners-card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 .partners-vektor {
   width: 100%;
   height: auto;
@@ -2718,6 +2825,7 @@ header > .prev {
   color: white;
   font-weight: 300;
 }
+
 .readmore-news-container {
   width: 100%;
   height: auto;
@@ -2730,6 +2838,7 @@ header > .prev {
   background-color: #39509e;
   margin-top: 10px;
 }
+
 .readmore-news-title {
   width: 100%;
   height: auto;
@@ -2743,6 +2852,7 @@ header > .prev {
 .readmore-news-img {
   width: 48%;
 }
+
 .readmore-news-time {
   width: 100%;
   border: 2px solid #7585bb;
@@ -2750,41 +2860,50 @@ header > .prev {
   border-radius: 0.3cm;
   padding: 10px;
 }
+
 .readmore-news-img img {
   width: 100%;
 }
+
 .readmore-news-text {
   width: 48%;
   height: auto;
   margin-left: 2%;
 }
+
 /* ! ReadmoreNews page css end */
 /* ! Contact page css start */
 .contacts-vektor {
   width: 100%;
 }
+
 .Contact-wrapper {
   width: 100%;
   height: auto;
   display: flex;
 }
+
 .contact-container1 {
   width: 50%;
   height: auto;
   text-align: center;
 }
+
 .contact-container2 {
   width: 50%;
   height: auto;
   text-align: center;
 }
+
 .contacts-form {
   width: 100%;
   height: auto;
 }
+
 .name-input {
   width: 100%;
 }
+
 .name-input input {
   width: 40%;
   padding: 12px 20px 12px 20px;
@@ -2796,6 +2915,7 @@ header > .prev {
   letter-spacing: 0px;
   color: #363636;
 }
+
 .mail-input input {
   width: 80.3%;
   padding: 12px 20px 12px 20px;
@@ -2807,6 +2927,7 @@ header > .prev {
   letter-spacing: 0px;
   color: #363636;
 }
+
 .sirket-input input {
   width: 80.3%;
   padding: 12px 20px 12px 20px;
@@ -2818,6 +2939,7 @@ header > .prev {
   letter-spacing: 0px;
   color: #363636;
 }
+
 .sirket-input {
   margin-bottom: 10px;
 }
@@ -2838,9 +2960,11 @@ header > .prev {
   outline: none;
   margin-top: 10px;
 }
+
 .send-button {
   width: 100%;
 }
+
 .send-button button {
   padding: 12px 32px 12px 32px;
   width: auto;
@@ -2862,57 +2986,71 @@ header > .prev {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .send-button button:hover {
   background-color: #073473;
 }
+
 /* ! Contact page css end */
 /* ! Productions page css start */
 .productions-container {
   width: 100%;
   height: auto;
 }
+
 .productions-img {
   width: 50%;
   height: auto;
   text-align: right;
 }
+
 .productions-lottie {
   width: 50%;
   overflow: hidden;
 }
+
 .productions-vektor {
   width: 100%;
   height: auto;
   display: flex;
 }
+
 .productions-img img {
   width: 30%;
 }
+
 #bitrix-products {
   width: 23%;
 }
+
 #bi-img {
   width: 25%;
 }
+
 #mikro-img {
   width: 35%;
 }
+
 #avto {
   width: 25%;
 }
+
 #agent-plus {
   width: 25%;
 }
+
 .productions-title {
   width: 100%;
   height: auto;
   text-align: center;
 }
+
 .productions-header {
   width: 100%;
   display: flex;
   margin-top: 20px;
 }
+
 .productions-wrapper {
   width: 30%;
   height: auto;
@@ -2920,24 +3058,29 @@ header > .prev {
   font-size: 18px;
   background-color: transparent;
 }
+
 .productions-wrapper ul li {
   margin-top: 10px;
   cursor: pointer;
   border-bottom: 1px solid black;
 }
+
 .productions-status {
   width: 70%;
   height: auto;
   padding: 15px;
 }
+
 .productions-status p {
   color: black;
   font-weight: 500;
   font-size: 15px;
 }
+
 .productions-icon {
   margin-top: 15px;
 }
+
 .productions-icon a {
   padding: 10px;
   background-color: #003d6a;
@@ -2950,27 +3093,32 @@ header > .prev {
   font-weight: 600;
   font-family: "Calibri";
 }
+
 .productions-info {
   width: 100%;
   height: auto;
   margin-top: 20px;
   padding: 0px 40px;
 }
+
 .info1 {
   font-size: 20px;
   font-weight: 500;
   font-family: "Calibri";
 }
+
 .info1 span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 21px;
 }
+
 .info7 {
   font-weight: 500;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .info8 {
   font-weight: 500;
   font-family: "Calibri";
@@ -2978,6 +3126,7 @@ header > .prev {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .productions-info h3 {
   font-size: 25px;
   font-weight: 600;
@@ -2985,28 +3134,34 @@ header > .prev {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .info2 {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 21px;
 }
+
 .productions-info h4 {
   font-size: 20px;
   font-weight: 600;
 }
+
 .productions-info a {
   background-color: #003d6a;
   color: white;
   padding: 15px;
   border-radius: 0.1cm;
 }
+
 .productions-btn {
   margin-top: 25px;
 }
+
 .productions-btn a {
   background-color: #115dc4;
   transition: all 0.3s ease;
 }
+
 .productions-btn a:hover {
   background-color: #073473;
 }
@@ -3015,31 +3170,38 @@ header > .prev {
   font-size: 18px;
   font-weight: 300;
 }
+
 .info5 {
   font-weight: 500;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .info3 {
   font-weight: 500;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .info5 i {
   color: green;
 }
+
 .info6 {
   font-weight: 500;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .info6 i {
   color: green;
 }
+
 .productions-wrapper .active {
   color: #e02a1c;
   transform: scale(1.1);
 }
+
 /* ! Productions page css end */
 /* ! Calculyator page css start */
 .counter {
@@ -3047,6 +3209,7 @@ header > .prev {
   border-radius: 5px;
   color: white;
 }
+
 .counter ul {
   display: flex;
   justify-content: space-around;
@@ -3054,6 +3217,7 @@ header > .prev {
   padding: 0 10%;
   cursor: pointer;
 }
+
 .counter ul li {
   position: relative;
   text-align: center;
@@ -3062,12 +3226,14 @@ header > .prev {
   transition: all 0.5s;
   position: relative;
 }
+
 .counter ul li span:first-child {
   font-size: 90px;
   opacity: 0.9;
   color: #75a2ca;
   transform: all 5s;
 }
+
 .counter ul li:hover {
   transform: scale(1.1);
   text-shadow: 2px 2px 5px rgb(53, 53, 69);
@@ -3108,6 +3274,7 @@ header > .prev {
   white-space: nowrap;
   color: #003d6a;
 }
+
 .counter ul li #userscount {
   font-size: 16px;
   position: absolute;
@@ -3117,6 +3284,7 @@ header > .prev {
   white-space: nowrap;
   color: #003d6a;
 }
+
 .counter ul li #staticcount {
   font-size: 16px;
   position: absolute;
@@ -3146,6 +3314,7 @@ header > .prev {
   transition: all 0.5s;
   padding: 20px;
 }
+
 .product-img img:hover {
   transform: scale(1.1);
 }
@@ -3170,34 +3339,41 @@ header > .prev {
   font-weight: 500;
   font-family: "Calibri";
 }
+
 .text span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 18px;
 }
+
 .text {
   font-size: 19px;
 }
+
 .text-green {
   font-size: 19px;
   color: black;
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
 .text-green span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 18px;
 }
+
 .text1 {
   font-weight: 900;
   font-size: 18px;
 }
+
 .product-1C h4 span {
   font-size: 18px;
   font-weight: 1000;
   font-family: "Calibri";
 }
+
 .product-button {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -3210,21 +3386,25 @@ header > .prev {
   font-weight: 500;
   margin-right: 5px;
 }
+
 .product-button a:hover {
   background-color: #073473;
   transition: all 1s;
 }
+
 /* ! 1C page css end */
 /* ! BISISTEMLER page css start */
 #bi-services {
   position: relative;
 }
+
 #bi-services ul {
   display: flex;
   list-style: none;
   justify-content: center;
   cursor: pointer;
 }
+
 #bi-services ul li {
   border-radius: 8px;
   padding: 12px 20px;
@@ -3237,9 +3417,11 @@ header > .prev {
   font-weight: 600;
   color: white;
 }
+
 #bi-services ul li:hover {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 #bi-services ul li.active {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: rgb(70, 109, 236);
@@ -3256,6 +3438,7 @@ header > .prev {
   width: 100%;
   overflow: hidden;
 }
+
 .bi-detail .bi-detail-text {
   width: 65%;
   padding: 25px;
@@ -3267,6 +3450,7 @@ header > .prev {
   font-family: "Calibri";
   line-height: 30px;
 }
+
 .bi-detail-title {
   width: 100%;
   height: 80px;
@@ -3275,6 +3459,7 @@ header > .prev {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .bi-detail-title img {
   margin-right: 10px;
   width: 10%;
@@ -3291,17 +3476,20 @@ header > .prev {
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .info3 span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .bi-detail h2 {
   font-size: 26px;
   margin-bottom: 20px;
   font-weight: 600;
   font-family: "Calibri";
 }
+
 .bi-detail .bi-detail-img {
   width: 35%;
   position: relative;
@@ -3314,15 +3502,19 @@ header > .prev {
 .bi-detail .bi-detail-img lottie-player {
   width: 80%;
 }
+
 #qlik {
   width: 20%;
 }
+
 #power {
   width: 10%;
 }
+
 #analtik {
   width: 13%;
 }
+
 .bi-detail-text h2 {
   font-size: 40px;
 }
@@ -3351,7 +3543,7 @@ header > .prev {
   cursor: pointer;
 }
 
-.video-container .item > img {
+.video-container .item>img {
   width: 100%;
 }
 
@@ -3400,6 +3592,7 @@ header > .prev {
 #readmore-services {
   position: relative;
 }
+
 #readmore-services ul {
   display: flex;
   list-style: none;
@@ -3419,13 +3612,16 @@ header > .prev {
   color: white;
   cursor: pointer;
 }
+
 #readmore-services ul li:hover {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 #readmore-services ul li.active {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: rgb(70, 109, 236);
 }
+
 .readmore-detail {
   display: flex;
   flex-wrap: wrap;
@@ -3437,6 +3633,7 @@ header > .prev {
   width: 100%;
   overflow: hidden;
 }
+
 .readmore-detail .readmore-text {
   width: 55%;
   padding: 25px;
@@ -3447,10 +3644,12 @@ header > .prev {
   position: absolute;
   top: 0;
 }
+
 .img-container {
   width: 100%;
   height: auto;
 }
+
 .popimag {
   width: 100%;
   height: 100%;
@@ -3482,24 +3681,29 @@ header > .prev {
   width: 45%;
   object-fit: cover;
 }
+
 .img-container h3 {
   font-size: 22px;
   font-weight: 700;
   font-family: "Calibri";
   padding: 10px;
 }
+
 .img-container img {
   width: 90%;
   cursor: pointer;
 }
+
 .readmore-detail p {
   font-size: 16px;
 }
+
 .readmore-detail h2 {
   font-size: 26px;
   margin-bottom: 10px;
   font-weight: 600;
 }
+
 .readmore-detail .readmore-img {
   width: 45%;
   position: relative;
@@ -3508,9 +3712,11 @@ header > .prev {
   right: -100%;
   top: -32%;
 }
+
 .readmore-detail .readmore-img lottie-player {
   width: 100%;
 }
+
 .readmore-text table {
   border-collapse: collapse;
   width: 100%;
@@ -3533,21 +3739,26 @@ td {
 .readmore-text tr:hover {
   background-color: #466dec;
 }
+
 .contact-about {
   width: 100%;
   height: auto;
 }
+
 .contact-about h5 {
   font-size: 17px;
 }
+
 .contact-about a {
   color: black;
   font-size: 16px;
 }
+
 .contact-about p {
   color: black;
   font-size: 16px;
 }
+
 .matrial-about {
   width: 100%;
   display: flex;
@@ -3555,16 +3766,20 @@ td {
   border-bottom: 1px solid black;
   padding: 10px;
 }
+
 .matrial-pdf {
   width: 10%;
 }
+
 .matrial-pdf img {
   width: 100%;
 }
+
 .matrial-info {
   width: 85%;
   margin-left: 10px;
 }
+
 .matrial-info p {
   font-size: 18px;
   font-weight: 500;
@@ -3587,10 +3802,12 @@ td {
   border-right: 1px solid black;
   cursor: pointer;
 }
+
 .status-img img {
   padding: 5px;
   transition: all 0.9s;
 }
+
 .status-img img:hover {
   transform: scale(1.2);
 }
@@ -3602,11 +3819,13 @@ td {
   font-size: 18px;
   padding: 10px;
 }
+
 .status-1C h4 {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 22px;
 }
+
 .status-img img {
   display: flex;
   margin: auto;
@@ -3619,16 +3838,19 @@ td {
   margin-left: 2%;
   font-weight: 600;
 }
+
 .status-text .text {
   font-size: 20px;
   font-weight: 500;
   font-family: "Calibri";
   line-height: 30px;
 }
+
 .status-text .text span {
   font-weight: 600;
   font-family: "Calibri";
 }
+
 .status-text .text1 {
   font-weight: 800;
   font-size: 17px;
@@ -3646,6 +3868,7 @@ td {
   height: auto;
   font-family: "Calibri";
 }
+
 .about-head {
   width: 100%;
   height: auto;
@@ -3653,63 +3876,75 @@ td {
   padding: 10px;
   border-bottom: 1px solid black;
 }
+
 .about-head h3 {
   font-size: 25px;
   font-weight: 600;
 }
+
 .about-head p {
   font-size: 20px;
   font-weight: 500;
   font-family: "Calibri";
   line-height: 30px;
 }
+
 .about-head p span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 18px;
 }
+
 .about-photo {
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
 }
+
 .about-photo-style {
   width: 100%;
   padding: 40px 0px 40px 0px;
   border-bottom: 1px solid black;
   display: flex;
 }
+
 .about-photo-list {
   width: 100%;
   padding: 40px 0px 40px 0px;
   display: flex;
 }
+
 .about-part1 {
   width: 50%;
   height: 350px;
 }
+
 .about-part2 {
   width: 50%;
   padding: 20px;
   height: 350px;
   text-align: center;
 }
+
 .about-part2 p {
   font-size: 18px;
   font-weight: 500;
   font-family: "Calibri";
   line-height: 25px;
 }
+
 .about-part2 p span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 18px;
 }
+
 .about-part3 {
   width: 50%;
   height: 350px;
 }
+
 .about-part4 {
   width: 50%;
   padding: 20px;
@@ -3717,24 +3952,29 @@ td {
   text-align: center;
   line-height: 27px;
 }
+
 .about-part4 p {
   font-size: 18px;
   font-weight: 500;
   font-family: "Calibri";
 }
+
 .about-part4 p span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 18px;
 }
+
 .about-part4 ul {
   list-style-type: none;
 }
+
 .about-part4 ul li {
   margin-top: 5px;
   font-size: 18px;
   font-family: "Calibri";
 }
+
 /* ! AboutNew page css end */
 /* ! Bitriks page css start */
 .bitrixs-info {
@@ -3742,6 +3982,7 @@ td {
   height: auto;
   margin-top: 20px;
 }
+
 .bitrix-item {
   width: 100%;
   height: auto;
@@ -3757,10 +3998,12 @@ td {
   cursor: pointer;
   align-items: center;
 }
+
 .bitrix-img img {
   padding: 0px;
   transition: all 0.9s;
 }
+
 .bitrix-img img:hover {
   transform: scale(1.1);
 }
@@ -3796,24 +4039,29 @@ td {
   margin-left: 2%;
   font-weight: 600;
 }
+
 .bitrix-text .text {
   font-size: 20px;
   font-weight: 500;
   font-family: "Calibri";
   line-height: 30px;
 }
+
 .bitrix-text .text span {
   font-weight: 600;
   font-family: "Calibri";
 }
+
 .bitrix-text .text1 {
   font-weight: 800;
   font-size: 17px;
 }
+
 .bitriks-btn {
   margin-top: 20px;
   margin-bottom: 15px;
 }
+
 .bitriks-btn a {
   background-color: #115dc4;
   transition: all 0.3s ease;
@@ -3821,9 +4069,11 @@ td {
   color: white;
   margin-right: 5px;
 }
+
 .bitriks-btn a:hover {
   background-color: #073473;
 }
+
 /* ! Bitriks page css end */
 /* ! Chat  css start */
 .widget {
@@ -3833,12 +4083,15 @@ td {
   transition: 0.6s;
   z-index: 9999;
 }
+
 .open.widget {
   right: 35px;
 }
+
 .widget a {
   color: inherit;
 }
+
 #chatme {
   background-color: #467aa9;
   color: white;
@@ -3856,21 +4109,25 @@ td {
   z-index: 9999 !important;
   cursor: pointer;
 }
+
 @-webkit-keyframes pulse {
   to {
     box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
   }
 }
+
 @-moz-keyframes pulse {
   to {
     box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
   }
 }
+
 @-ms-keyframes pulse {
   to {
     box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
   }
 }
+
 @keyframes pulse {
   to {
     box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
@@ -3880,12 +4137,13 @@ td {
 #chatme:hover {
   animation: paused;
 }
+
 #chatme:focus {
   outline: none;
 }
 
 #chatme svg,
-.socials > div svg {
+.socials>div svg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -3894,38 +4152,47 @@ td {
   margin: auto;
   fill: white;
 }
-.socials > div svg {
+
+.socials>div svg {
   width: 16px;
   height: 16px;
 }
+
 #chatme .close {
   opacity: 0;
   transition: 0.3s;
 }
+
 #chatme .chat {
   opacity: 1;
   transition: 0.3s;
 }
+
 .open #chatme .close {
   opacity: 1;
   transition: 0.3s;
 }
+
 .open #chatme .chat {
   opacity: 0;
   transition: 0.3s;
 }
+
 .open #chatme {
   transform: rotate(45deg);
 }
+
 .widget:not(.open) .socials {
   transform: scale(0);
 }
+
 .socials {
   position: relative;
   transition: 0.4s;
   background: rgba (0, 0, 0, 0.3);
 }
-.socials > div {
+
+.socials>div {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -3933,40 +4200,48 @@ td {
   color: white;
   transition: 0.3s;
 }
-.socials > div:hover {
+
+.socials>div:hover {
   transform: scale(1.2);
 }
+
 .socials .email {
   background: #fabc2a;
   right: 80px;
   bottom: 0;
 }
+
 .socials .phone {
   background: #00cc66;
   right: 77px;
   bottom: 45px;
 }
+
 .socials .youtube {
   background: red;
   right: 45px;
   bottom: 77px;
 }
+
 .socials .facebook {
   background: #0000ff;
   right: 0px;
   bottom: 80px;
 }
+
 .socials .linkedin {
   background: #2f32e8;
   right: -35px;
   bottom: 53px;
 }
+
 /* ! Chat  css end */
 /* ! Mobi-s page  css start */
 
 .mobi-btn {
   margin-top: 20px;
 }
+
 .mobi-btn a {
   background-color: #115dc4;
   transition: all 0.3s ease;
@@ -3974,38 +4249,47 @@ td {
   padding: 10px;
   border-radius: 0.1cm;
 }
+
 .mobi-btn a:hover {
   background-color: #073473;
 }
+
 .mobi-photo {
   width: 100%;
   text-align: center;
   margin-top: 10px;
 }
+
 .mobi-photo img {
   width: 35%;
 }
+
 .mobi-wrapper {
   width: 100%;
   display: flex;
 }
+
 .mobi-info {
   width: 50%;
   padding: 25px;
 }
+
 .mobi-container {
   width: 100%;
   height: auto;
   display: flex;
   margin-top: 20px;
 }
+
 .mobi-jpg2 {
   width: 50%;
 }
+
 .mobi-jpg2 img {
   width: 75%;
   margin-left: 15%;
 }
+
 .mobi-photo {
   width: 44%;
 }
@@ -4013,38 +4297,46 @@ td {
 .mobi-jpg {
   width: 50%;
 }
+
 .mobi-jpg p {
   padding: 5px;
 }
+
 .mobi-jpg img {
   width: 25%;
   display: flex;
   margin: auto;
 }
+
 .mobi-product-img {
   width: 100%;
   height: auto;
   text-align: center;
 }
+
 .mobi-product-img img {
   width: 15%;
 }
+
 .mobi-info1 {
   font-size: 22px;
   font-weight: 500;
   font-family: "Calibri";
   padding: 20px;
 }
+
 .mobi-info1 span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 22px;
 }
+
 /* ! Mobi-s page  css end */
 /* ! agentplus page  css start */
 .agentplus-btn {
   margin-top: 20px;
 }
+
 .agentplus-btn a {
   background-color: #115dc4;
   transition: all 0.3s ease;
@@ -4052,38 +4344,47 @@ td {
   padding: 10px;
   border-radius: 0.1cm;
 }
+
 .agentplus-btn a:hover {
   background-color: #073473;
 }
+
 .agentplus-photo {
   width: 100%;
   text-align: center;
   margin-top: 10px;
 }
+
 .agentplus-photo img {
   width: 35%;
 }
+
 .agentplus-wrapper {
   width: 100%;
   display: flex;
 }
+
 .agentplus-info {
   width: 50%;
   padding: 5px;
 }
+
 .agentplus-container {
   width: 100%;
   height: auto;
   display: flex;
   margin-top: 20px;
 }
+
 .agentplus-jpg2 {
   width: 50%;
 }
+
 .agentplus-jpg2 img {
   width: 75%;
   margin-left: 15%;
 }
+
 .agentplus-photo {
   width: 44%;
 }
@@ -4091,33 +4392,40 @@ td {
 .agentplus-jpg {
   width: 50%;
 }
+
 .agentplus-jpg p {
   padding: 5px;
 }
+
 .agentplus-jpg img {
   width: 75%;
   display: flex;
   margin: auto;
 }
+
 .agentplus-product-img {
   width: 100%;
   height: auto;
   text-align: center;
 }
+
 .agentplus-product-img img {
   width: 15%;
 }
+
 .agentplus-info1 {
   font-size: 22px;
   font-weight: 500;
   font-family: "Calibri";
   padding: 20px;
 }
+
 .agentplus-info1 span {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 22px;
 }
+
 /* ! agentplus page  css end */
 /* ! Bitrixreadmore page  css start */
 .video-container {
@@ -4142,7 +4450,7 @@ td {
   cursor: pointer;
 }
 
-.video-container .item > img {
+.video-container .item>img {
   width: 100%;
 }
 
@@ -4151,6 +4459,7 @@ td {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
 }
+
 .bitriksreadmore-info {
   width: 100%;
   height: auto;
@@ -4196,6 +4505,7 @@ td {
 #bitrixreadmore-services {
   position: relative;
 }
+
 #bitrixreadmore-services ul {
   display: flex;
   list-style: none;
@@ -4215,13 +4525,16 @@ td {
   color: white;
   cursor: pointer;
 }
+
 #bitrixreadmore-services ul li:hover {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 #bitrixreadmore-services ul li.active {
   box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: rgb(70, 109, 236);
 }
+
 .bitriksreadmore-detail {
   display: flex;
   flex-wrap: wrap;
@@ -4233,6 +4546,7 @@ td {
   width: 100%;
   overflow: hidden;
 }
+
 .bitriksreadmore-info p {
   font-size: 25px;
   margin-top: 10px;
@@ -4255,10 +4569,12 @@ td {
   position: absolute;
   top: 0;
 }
+
 .img-container {
   width: 100%;
   height: auto;
 }
+
 .popimag {
   width: 100%;
   height: 100%;
@@ -4290,24 +4606,29 @@ td {
   width: 45%;
   object-fit: cover;
 }
+
 .img-container h3 {
   font-size: 22px;
   font-weight: 700;
   font-family: "Calibri";
   padding: 10px;
 }
+
 .img-container img {
   width: 90%;
   cursor: pointer;
 }
+
 .bitriksreadmore-detail p {
   font-size: 16px;
 }
+
 .bitriksreadmore-detail h2 {
   font-size: 26px;
   margin-bottom: 10px;
   font-weight: 600;
 }
+
 .bitriksreadmore-detail .bitriksreadmore-img {
   width: 45%;
   position: relative;
@@ -4316,9 +4637,11 @@ td {
   right: -100%;
   top: -32%;
 }
+
 .bitriksreadmore-detail .readmore-img lottie-player {
   width: 100%;
 }
+
 .bitriksreadmore-text table {
   border-collapse: collapse;
   width: 100%;
@@ -4341,21 +4664,26 @@ td {
 .bitriksreadmore-text tr:hover {
   background-color: #466dec;
 }
+
 .contact-about {
   width: 100%;
   height: auto;
 }
+
 .contact-about h5 {
   font-size: 17px;
 }
+
 .contact-about a {
   color: black;
   font-size: 16px;
 }
+
 .contact-about p {
   color: black;
   font-size: 16px;
 }
+
 .matrial-about {
   width: 100%;
   display: flex;
@@ -4363,20 +4691,25 @@ td {
   border-bottom: 1px solid black;
   padding: 10px;
 }
+
 .matrial-pdf {
   width: 10%;
 }
+
 .matrial-pdf img {
   width: 100%;
 }
+
 .matrial-info {
   width: 85%;
   margin-left: 10px;
 }
+
 .matrial-info p {
   font-size: 18px;
   font-weight: 500;
 }
+
 /* ! Bitrixreadmore page  css end */
 /* ! About page responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -4385,6 +4718,7 @@ td {
     height: auto;
     font-family: "Calibri";
   }
+
   .about-head {
     width: 100%;
     height: auto;
@@ -4392,11 +4726,13 @@ td {
     text-align: unset;
     border-bottom: 1px solid black;
   }
+
   .about-head h3 {
     font-size: 19px;
     font-weight: 600;
     text-align: center;
   }
+
   .about-head p {
     font-size: 17px;
     font-weight: 300;
@@ -4404,27 +4740,32 @@ td {
     line-height: 30px;
     text-align: center;
   }
+
   .about-head p span {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 17px;
   }
+
   .about-photo {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
   }
+
   .about-photo-style {
     width: 100%;
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid black;
     display: block;
   }
+
   .about-photo-list {
     width: 100%;
     padding: 10px 0px 10px 0px;
     display: block;
   }
+
   .about-part1 {
     width: 65%;
     height: 350px;
@@ -4438,29 +4779,34 @@ td {
     height: auto;
     margin: auto;
   }
+
   .about-part2 p {
     font-size: 16px;
     font-weight: 300;
     font-family: "Calibri";
     line-height: 30px;
   }
+
   .about-part2 p span {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 16px;
   }
+
   .about-part3 {
     width: 65%;
     height: 350px;
     text-align: center;
     margin: auto;
   }
+
   .about-part4 {
     width: 100%;
     padding: 5px;
     height: auto;
     text-align: center;
   }
+
   .about-part4 p {
     font-size: 16px;
     font-weight: 300;
@@ -4468,21 +4814,25 @@ td {
     line-height: 30px;
     text-align: center;
   }
+
   .about-part4 p span {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 16px;
   }
+
   .about-part4 ul {
     list-style-type: none;
     text-align: center;
   }
+
   .about-part4 ul li {
     margin-top: 5px;
     font-size: 16px;
     font-family: "Calibri";
   }
 }
+
 /* ! About page responsive  css end */
 /* ! Customers page responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -4497,11 +4847,13 @@ td {
     justify-content: space-around;
     padding: 0px;
   }
+
   .customers-vektor {
     width: 100%;
     height: auto;
     display: flex;
   }
+
   .lottie-container {
     width: 28%;
     height: 30%;
@@ -4510,6 +4862,7 @@ td {
     margin-left: 10%;
     text-align: right;
   }
+
   .lottie-container2 {
     width: 28%;
     height: 30%;
@@ -4518,6 +4871,7 @@ td {
     margin-left: 3%;
     text-align: center;
   }
+
   .lottie-container3 {
     width: 23%;
     height: 30%;
@@ -4535,16 +4889,19 @@ td {
     height: 18rem;
     margin: 10px;
   }
+
   #haus {
     object-fit: fill;
     width: 100%;
     margin: auto;
   }
+
   #olive {
     object-fit: contain;
     width: 100%;
     margin: auto;
   }
+
   .card_side {
     height: 305px;
     transition: all 0.8s;
@@ -4560,34 +4917,42 @@ td {
   .card_side-front {
     color: white;
   }
+
   .card_side-back {
     transform: rotateY(180deg);
   }
+
   .card_side-back-1 {
     background-color: #39509e;
   }
+
   .customers-card:hover .card_side-front {
     transform: rotateY(-180deg);
   }
+
   .customers-card:hover .card_side-back {
     transform: rotateY(0);
   }
+
   .card_picture {
     height: 220px;
     overflow: hidden;
   }
+
   .card_picture img {
     width: 80%;
     height: 100%;
     object-fit: contain;
     margin-left: 10%;
   }
+
   .card_picture-1 {
     /* background-image: linear-gradient(to right bottom, #fff, #fff),
     url(https://alexcorvin.design/img/img3.jpg); */
     background-color: transparent;
     height: 60%;
   }
+
   .card_heading {
     font-size: 2.4rem;
     font-weight: 300;
@@ -4607,6 +4972,7 @@ td {
     height: 35%;
     background-color: #39509e;
   }
+
   .card_details h3 {
     font-size: 14px;
   }
@@ -4619,11 +4985,13 @@ td {
     transform: translate(-50%, -50%);
     width: 90%;
   }
+
   .card_back-box {
     text-align: center;
     color: #fff;
     margin-bottom: 1rem;
   }
+
   .card_back-title {
     font-size: 15px;
     font-weight: 400;
@@ -4640,25 +5008,31 @@ td {
     position: relative;
     font-size: 15px;
   }
+
   .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   }
+
   .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
+
   .btn:active::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
+
   .btn-white {
     background-color: #fff;
     color: #777;
   }
+
   .btn-white::after {
     background-color: #fff;
   }
+
   .btn::after {
     content: "";
     display: inline-block;
@@ -4671,11 +5045,13 @@ td {
     z-index: -1;
     transition: all 0.4s;
   }
+
   .btn-animated {
     animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
   }
 }
+
 /* ! Customers page responsive  css end */
 /* ! Status page responsive css start */
 @media only screen and (max-width: 768px) {
@@ -4694,10 +5070,12 @@ td {
     cursor: pointer;
     align-items: center;
   }
+
   .status-img img {
     padding: 0px;
     transition: all 0.9s;
   }
+
   .status-img img:hover {
     transform: scale(1.2);
   }
@@ -4708,11 +5086,13 @@ td {
     text-align: center;
     padding: 0px;
   }
+
   .status-1C h4 {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 14px;
   }
+
   .status-img img {
     display: flex;
     margin: auto;
@@ -4724,17 +5104,20 @@ td {
     margin-left: 0%;
     padding: 10px;
   }
+
   .status-text .text {
     font-size: 15px;
     font-weight: 400;
     font-family: "Calibri";
     line-height: 25px;
   }
+
   .status-text .text span {
     font-weight: 700;
     font-family: "Calibri";
     font-size: 15px;
   }
+
   .status-text .text1 {
     font-weight: 800;
     font-size: 17px;
@@ -4745,36 +5128,43 @@ td {
     margin-bottom: 10px;
   }
 }
+
 /* ! Status page responsive css end */
 /* ! Contact page responsive css start */
 @media only screen and (max-width: 768px) {
   .contacts-vektor {
     width: 100%;
   }
+
   .Contact-wrapper {
     width: 100%;
     height: auto;
     display: block;
   }
+
   .contact-container1 {
     width: 100%;
     height: auto;
     text-align: center;
   }
+
   .contact-container2 {
     width: 80%;
     height: auto;
     text-align: center;
     margin: auto;
   }
+
   .contacts-form {
     width: 80%;
     height: auto;
     margin: auto;
   }
+
   .name-input {
     width: 100%;
   }
+
   .name-input input {
     width: 40%;
     padding: 12px 20px 12px 20px;
@@ -4786,6 +5176,7 @@ td {
     letter-spacing: 0px;
     color: #363636;
   }
+
   .mail-input input {
     width: 80.3%;
     padding: 12px 20px 12px 20px;
@@ -4797,6 +5188,7 @@ td {
     letter-spacing: 0px;
     color: #363636;
   }
+
   .sirket-input input {
     width: 80.3%;
     padding: 12px 20px 12px 20px;
@@ -4808,6 +5200,7 @@ td {
     letter-spacing: 0px;
     color: #363636;
   }
+
   .sirket-input {
     margin-bottom: 10px;
   }
@@ -4828,10 +5221,12 @@ td {
     outline: none;
     margin-top: 10px;
   }
+
   .send-button {
     width: 100%;
     margin: auto;
   }
+
   .send-button button {
     padding: 12px 20px 12px 20px;
     width: auto;
@@ -4853,10 +5248,12 @@ td {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
+
   .send-button button:hover {
     background-color: #073473;
   }
 }
+
 /* ! Contact page responsive css end */
 /* vakansiya  responsive start */
 @media only screen and (max-width: 768px) {
@@ -4864,22 +5261,26 @@ td {
     width: 60%;
     margin: auto;
   }
+
   .vakancy-icon {
     width: 100%;
     display: block;
     height: auto;
     margin-bottom: 60px;
   }
+
   .vakancy-lottie {
     width: 80%;
     margin: auto;
   }
+
   .vakancy-in {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
   }
+
   .vakancyabout {
     width: 100%;
     height: 100px;
@@ -4889,6 +5290,7 @@ td {
     margin-top: 30px;
     cursor: pointer;
   }
+
   .vakancyabout p {
     background-color: #0da3da;
     width: 30%;
@@ -4898,6 +5300,7 @@ td {
     color: black;
     text-align: center;
   }
+
   .vakancyabout:hover {
     transform: scale(1.02);
   }
@@ -4913,16 +5316,19 @@ td {
     font-size: 13px;
     color: rgb(2, 1, 1);
   }
+
   .vakancy-readmore {
     width: 100%;
     margin: auto;
     margin-top: 0px;
     padding: 2% 0% 0% 8%;
   }
+
   .vakancy-readmore h6 {
     font-size: 20px;
     color: black;
   }
+
   .vakancy-readmore p {
     background-color: transparent;
     width: 15%;
@@ -4931,10 +5337,12 @@ td {
     border-radius: 0.2cm;
     background-color: #82d4f2;
   }
+
   .vakancy-readmore span {
     font-size: 13px;
     color: black;
   }
+
   .vakancy-data {
     width: 95%;
     background-color: #82d4f2;
@@ -4946,18 +5354,22 @@ td {
     border-top-left-radius: 0.3cm;
     font-size: 12px;
   }
+
   .vakancy-part1 {
     width: 100%;
     display: flex;
     padding: 20px;
   }
+
   .readmore-price {
     background-color: red;
   }
+
   .vakancy-data ul li {
     color: black;
     margin-top: 10px;
   }
+
   .vakancy-data1 {
     width: 50%;
     margin-left: 10px;
@@ -4966,6 +5378,7 @@ td {
   .vakancy-data2 {
     width: 50%;
   }
+
   .vakancy-data2 ul li {
     color: black;
   }
@@ -4975,14 +5388,17 @@ td {
     display: flex;
     padding: 15px;
   }
+
   .vakancy-data3 {
     width: 100%;
     text-align: start;
   }
+
   .vakancy-data3 h3 {
     font-weight: 600;
     font-size: 17px;
   }
+
   .vakancy-data3 ul li {
     list-style: none;
     margin-top: 5px;
@@ -4998,27 +5414,33 @@ td {
     border-bottom-left-radius: 0.3cm;
     margin-bottom: 20px;
   }
+
   .vakancy-infoleft {
     width: 100%;
   }
+
   .vakancy-inforight {
     width: 100%;
   }
+
   .vakancy-info h4 {
     color: black;
     font-size: 20px;
     font-weight: 100;
   }
+
   .vakancy-infoleft p {
     width: 100%;
     font-weight: 400;
   }
+
   .vakancy-inforight p {
     width: 100%;
     font-weight: 400;
     text-align: start;
   }
 }
+
 /* vakansiya responsive end */
 /* ! 1C page  responsive css start */
 @media only screen and (max-width: 768px) {
@@ -5038,6 +5460,7 @@ td {
     transition: all 0.5s;
     border-right: none;
   }
+
   .product-img img:hover {
     transform: scale(1.1);
   }
@@ -5065,34 +5488,41 @@ td {
     font-family: "Calibri";
     border: none;
   }
+
   .text span {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 16px;
   }
+
   .text-green {
     font-size: 16px;
     color: black;
     margin-bottom: 5px;
     margin-top: 5px;
   }
+
   .text-green span {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 16px;
   }
+
   .text {
     font-size: 16px;
   }
+
   .text1 {
     font-weight: 600;
     font-size: 16px;
   }
+
   .product-1C h4 span {
     font-size: 16px;
     font-weight: 600;
     font-family: "Calibri";
   }
+
   .product-button {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -5105,9 +5535,81 @@ td {
     font-weight: 500;
     margin-right: 5px;
   }
+
   .product-button a:hover {
     background-color: #073473;
     transition: all 1s;
   }
 }
+
 /* ! 1C page responsive css end */
+
+/* footer responsive css start */
+@media only screen and (max-width: 768px) {
+  footer {
+    display: block;
+    padding: 10px 10px 0px 10px;
+  
+  }
+  .footer-left {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .footer-right2 a{
+    margin-right: 0;
+  }
+  .footer-right1 h5{
+    font-size: 18px;
+  }
+  .footer-right1 {
+    width: 50%;
+    text-align: center;
+  }
+
+  .rightin  {
+    margin-left: 20px;
+  }
+  
+  .rightin h5 {
+    font-size: 15px;
+  }
+  .footer-right2 {
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+  }
+  .rightin{
+    text-align: start;
+  }
+  .footer-right2 a i {
+    font-size: 25px;
+  }
+  .footerlogo {
+  display: none;
+  }
+  .footerinfo p{
+    font-size: 16.1px;
+  }
+  .footer-right2 h5{
+    font-size: 15px;
+  }
+  .footer-right2 h4{
+    font-size: 15px;
+  }
+  .footer-copright{
+    padding: 0;
+  }
+  .footer-right1{
+    height: 170px;
+  }
+  
+  
+
+}
