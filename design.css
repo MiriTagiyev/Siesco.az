@@ -4748,6 +4748,11 @@ td {
   display: flex;
   margin-top: 10px;
 }
+.information-btn p {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 20px;
+}
 .information-btn a {
   padding: 10px;
   background-color: #115dc4;
