@@ -88,3 +88,12 @@ $("#design").click(function () {
 $("#web").click(function () {
   $(".webtemp").show();
 });
+
+document.querySelector("body").onscroll = function () {
+  console.log(window.scrollY);
+  if (window.scrollY > 30) {
+    document.querySelector("nav").classList.add("fixed");
+  } else {
+    document.querySelector("nav").classList.remove("fixed");
+  }
+};

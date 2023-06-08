@@ -4743,6 +4743,21 @@ td {
   font-size: 18px;
   margin-top: 5px;
 }
+
+.information-btn {
+  display: flex;
+  margin-top: 10px;
+}
+.information-btn a {
+  padding: 10px;
+  background-color: #115dc4;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.information-btn a:hover {
+  background-color: #073473;
+}
 /* ! 1C melumat page responsive css end */
 /* ! About page responsive  css start */
 @media only screen and (max-width: 768px) {
