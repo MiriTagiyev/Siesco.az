@@ -5644,6 +5644,7 @@ td {
   .bitrixs-info .info1 {
     margin-bottom: 10px;
     font-size: 16px;
+    font-weight: 400;
   }
   .info1 span {
     font-size: 16px;
@@ -5660,7 +5661,7 @@ td {
     width: 100%;
     padding: 10px;
     margin-left: 2%;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .bitrix-text .text {
@@ -5798,7 +5799,7 @@ td {
 
   .agentplus-info1 {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     padding: 20px;
   }
@@ -5808,12 +5809,12 @@ td {
     font-size: 19px;
   }
   .info5 {
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     font-size: 17px;
   }
   .info6 {
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     font-size: 17px;
   }
@@ -5916,7 +5917,7 @@ td {
 
   .mobi-info1 {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Calibri";
     padding: 15px;
   }
@@ -5937,9 +5938,61 @@ td {
     padding: 15px;
   }
 }
-
 /* ! Mobi-c responsive  css end */
+/* ! Mikro Biznes responsive  css start */
+@media only screen and (max-width: 768px) {
+  .productions-info a {
+    background-color: #003d6a;
+    color: white;
+    padding: 5px;
+    border-radius: 0.1cm;
+  }
+  .productions-img {
+    width: 70%;
+    height: auto;
+    text-align: right;
+  }
 
+  .productions-lottie {
+    width: 30%;
+    overflow: hidden;
+  }
+  #mikro-img {
+    width: 60%;
+  }
+  .productions-vektor {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .productions-lottie {
+    width: 55%;
+    height: 100%;
+    transform: scale(1.6);
+    margin-bottom: 0%;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+
+  .productions-img img {
+    width: 30%;
+  }
+
+  .productions-btn {
+    margin-top: 10px;
+  }
+  .info2 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+  .info1 {
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Calibri";
+  }
+}
+/* ! Mikro Biznes responsive  css end */
 /* footer responsive css start */
 @media only screen and (max-width: 768px) {
   footer {
