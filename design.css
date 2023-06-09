@@ -5744,7 +5744,9 @@ td {
     width: 100%;
     padding: 20px;
   }
-
+  .agentplus-info p {
+    margin-top: 5px;
+  }
   .agentplus-container {
     width: 100%;
     height: auto;
@@ -5869,6 +5871,9 @@ td {
     width: 100%;
     padding: 25px;
   }
+  .mobi-info p {
+    margin-top: 5px;
+  }
 
   .mobi-container {
     width: 100%;
@@ -5990,6 +5995,15 @@ td {
     font-size: 17px;
     font-weight: 300;
     font-family: "Calibri";
+  }
+  .productions-info p {
+    margin-top: 5px;
+  }
+  .productions-info {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0px 30px;
   }
 }
 /* ! Mikro Biznes responsive  css end */
