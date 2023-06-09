@@ -5596,7 +5596,349 @@ td {
   }
 }
 
-/* ! 1C page responsive css end */
+/*/* ! Bitrix responsive css start */
+@media only screen and (max-width: 768px) {
+  .bitrixs-info {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .bitrix-item {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+
+  .bitrix-img img {
+    display: flex;
+    width: 40%;
+  }
+  .bitrix-img {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .bitrix-img img {
+    padding: 0px;
+    transition: all 0.9s;
+  }
+
+  .bitrix-img img:hover {
+    transform: scale(1.1);
+  }
+
+  .bitrix-1C {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .bitrixs-info .info1 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .info1 span {
+    font-size: 16px;
+  }
+
+  .bitrix-1C h4 {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .bitrix-text {
+    width: 100%;
+    padding: 10px;
+    margin-left: 2%;
+    font-weight: 600;
+  }
+
+  .bitrix-text .text {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Calibri";
+    line-height: 30px;
+  }
+
+  .bitrix-text .text span {
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+
+  .bitrix-text .text1 {
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  .bitriks-btn {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .bitriks-btn a {
+    background-color: #115dc4;
+    transition: all 0.3s ease;
+    padding: 10px;
+    color: white;
+    margin-right: 5px;
+    font-family: "Calibri";
+  }
+
+  .bitriks-btn a:hover {
+    background-color: #073473;
+  }
+}
+/* ! Bitrix responsive  css end */
+/* ! AgentPlus responsive  css start */
+@media only screen and (max-width: 768px) {
+  .productions-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .agentplus-btn {
+    margin-top: 10px;
+    padding: 0px;
+  }
+
+  .agentplus-btn a {
+    background-color: #115dc4;
+    transition: all 0.3s ease;
+    color: white;
+    padding: 5px;
+    border-radius: 0.1cm;
+    font-size: 13px;
+  }
+
+  .agentplus-btn a:hover {
+    background-color: #073473;
+  }
+
+  .agentplus-photo {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .agentplus-photo img {
+    width: 35%;
+  }
+
+  .agentplus-wrapper {
+    width: 100%;
+    display: block;
+  }
+
+  .agentplus-info {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .agentplus-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .agentplus-jpg2 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+  .agentplus-jpg2 img {
+    width: 60%;
+  }
+
+  .agentplus-photo {
+    width: 100%;
+  }
+
+  .agentplus-jpg {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+
+  .agentplus-jpg p {
+    padding: 0px;
+  }
+
+  .agentplus-jpg img {
+    width: 55%;
+    display: flex;
+    margin: auto;
+  }
+  .agentplus-jpg .info2 {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .agentplus-product-img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .agentplus-product-img img {
+    width: 25%;
+  }
+
+  .agentplus-info1 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Calibri";
+    padding: 20px;
+  }
+  .info2 {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 19px;
+  }
+  .info5 {
+    font-weight: 500;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+  .info6 {
+    font-weight: 500;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+
+  .agentplus-info1 span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+  .productions-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+}
+/* ! AgentPlus responsive  css end */
+/* ! Mobi-c responsive  css start */
+@media only screen and (max-width: 768px) {
+  .mobi-btn {
+    margin-top: 0px;
+    padding: 5px;
+  }
+
+  .mobi-btn a {
+    background-color: #115dc4;
+    transition: all 0.3s ease;
+    color: white;
+    padding: 5px;
+    border-radius: 0.1cm;
+  }
+
+  .mobi-btn a:hover {
+    background-color: #073473;
+  }
+
+  .mobi-photo {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .mobi-photo img {
+    width: 35%;
+  }
+
+  .mobi-wrapper {
+    width: 100%;
+    display: block;
+  }
+
+  .mobi-info {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .mobi-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .mobi-jpg2 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+  .mobi-jpg2 img {
+    width: 65%;
+  }
+
+  .mobi-photo {
+    width: 100%;
+  }
+
+  .mobi-jpg {
+    width: 100%;
+  }
+
+  .mobi-jpg p {
+    padding: 5px;
+  }
+
+  .mobi-jpg img {
+    width: 25%;
+    display: flex;
+    margin: auto;
+  }
+
+  .mobi-product-img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .mobi-product-img img {
+    width: 28%;
+  }
+
+  .mobi-info1 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Calibri";
+    padding: 15px;
+  }
+
+  .mobi-info1 span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+  .mobi-jpg .info2 {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .mobi-jpg {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+  }
+}
+
+/* ! Mobi-c responsive  css end */
 
 /* footer responsive css start */
 @media only screen and (max-width: 768px) {
