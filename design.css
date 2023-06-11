@@ -4714,7 +4714,7 @@ td {
 }
 
 /* ! Bitrixreadmore page  css end */
-/* ! 1C melumat page responsive css start */
+/* ! 1C melumat page  css start */
 .information-vektor {
   width: 100%;
   height: 200px;
@@ -4724,6 +4724,20 @@ td {
   height: auto;
   font-family: "Calibri";
   margin-top: 20px;
+  opacity: 0;
+}
+#slide-from-bottom {
+  animation: slideFromBottom 2s ease forwards;
+}
+@keyframes slideFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 .information-about p {
   font-size: 19px;
@@ -4734,6 +4748,7 @@ td {
   list-style: none;
   margin-top: 5px;
 }
+
 .information-about ul li {
   font-size: 18px;
   font-weight: 400;
@@ -4761,10 +4776,28 @@ td {
   margin-left: 10px;
   margin-top: 5px;
 }
+
 .information-btn a:hover {
   background-color: #073473;
 }
-/* ! 1C melumat page responsive css end */
+.information-allotment {
+  width: 100%;
+  display: flex;
+  margin: 20px 20px;
+}
+.allotment-part1 {
+  width: 48%;
+  margin-left: 2%;
+}
+.allotment-part2 {
+  width: 48%;
+  display: flex;
+  margin-left: 2%;
+}
+.allotment-part2 img {
+  width: 100%;
+}
+/* ! 1C melumat page  css end */
 /* ! About page responsive  css start */
 @media only screen and (max-width: 768px) {
   .about-wrapper {
@@ -6004,6 +6037,136 @@ td {
     height: auto;
     margin-top: 20px;
     padding: 0px 30px;
+  }
+}
+/* ! Mikro Biznes responsive  css end */
+/* ! Mikro Biznes responsive  css start */
+@media only screen and (max-width: 768px) {
+  #bi-services {
+    position: relative;
+  }
+
+  #bi-services ul {
+    display: block;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #bi-services ul li {
+    border-radius: 8px;
+    padding: 12px 10px;
+    background-color: #5dcbf4;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+
+  #bi-services ul li:hover {
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  #bi-services ul li.active {
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: rgb(70, 109, 236);
+  }
+
+  .bi-detail {
+    display: block;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .bi-detail .bi-detail-text {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    position: absolute;
+    top: -3%;
+    font-family: "Calibri";
+    line-height: 30px;
+  }
+
+  .bi-detail-title {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .bi-detail-title img {
+    margin-right: 0px;
+    width: 30%;
+  }
+
+  .bi-detail-text p {
+    font-weight: 500;
+    font-family: "Calibri";
+    font-size: 18px;
+  }
+
+  .bi-detail-text p span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 20px;
+  }
+
+  .info3 span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 20px;
+  }
+
+  .bi-detail h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+
+  .bi-detail .bi-detail-img {
+    width: 60%;
+    position: relative;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 30%;
+    top: 42%;
+  }
+
+  .bi-detail .bi-detail-img lottie-player {
+    width: 80%;
+  }
+
+  #qlik {
+    width: 20%;
+  }
+
+  #power {
+    width: 10%;
+  }
+
+  #analtik {
+    width: 13%;
+  }
+
+  .bi-detail-text h2 {
+    font-size: 30px;
   }
 }
 /* ! Mikro Biznes responsive  css end */
