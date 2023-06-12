@@ -3206,6 +3206,147 @@ header > .prev {
 }
 
 /* ! Productions page css end */
+/* ! RealAvtomatlasdirma page css start */
+.realavtomat-container {
+  width: 100%;
+  height: auto;
+}
+
+.realavtomat-img {
+  width: 50%;
+  height: auto;
+  text-align: right;
+}
+
+.realavtomat-lottie {
+  width: 50%;
+  overflow: hidden;
+}
+
+.realavtomat-vektor {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.realavtomat-img img {
+  width: 30%;
+}
+
+#avto {
+  width: 25%;
+}
+
+.realavtomat-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.realavtomat-title h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Calibri";
+}
+
+.realavtomat-info {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 0px 40px;
+}
+
+.info1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Calibri";
+}
+
+.info1 span {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 21px;
+}
+
+.info7 {
+  font-weight: 500;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.info8 {
+  font-weight: 500;
+  font-family: "Calibri";
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.realavtomat-info h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Calibri";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.realavtomat-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.realavtomat-info a {
+  background-color: #003d6a;
+  color: white;
+  padding: 10px;
+  border-radius: 0.1cm;
+}
+
+.realavtomat-btn {
+  margin-top: 25px;
+}
+
+.realavtomat-btn a {
+  background-color: #115dc4;
+  transition: all 0.3s ease;
+}
+
+.realavtomat-btn a:hover {
+  background-color: #073473;
+}
+
+.info4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.info5 {
+  font-weight: 500;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.info3 {
+  font-weight: 500;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.info5 i {
+  color: green;
+}
+
+.info6 {
+  font-weight: 500;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.info6 i {
+  color: green;
+}
+
+/* ! RealAvtomatlasdirma page css end */
 /* ! Calculyator page css start */
 .counter {
   padding: 20px;
@@ -6171,6 +6312,155 @@ td {
   }
 }
 /* ! Mikro Biznes responsive  css end */
+/* ! RealAvtomatlasdirma responsive page css start */
+@media only screen and (max-width: 768px) {
+  .realavtomat-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .realavtomat-img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .realavtomat-lottie {
+    width: 50%;
+    height: 100%;
+    transform: scale(3);
+    margin-bottom: 0%;
+    margin-left: 42%;
+    display: none;
+  }
+
+  .realavtomat-vektor {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .realavtomat-img img {
+    width: 30%;
+  }
+
+  #avto {
+    width: 25%;
+  }
+
+  .realavtomat-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .realavtomat-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Calibri";
+  }
+
+  .realavtomat-info {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0px 20px;
+  }
+
+  .realavtomat-info .info1 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Calibri";
+  }
+
+  .realavtomat-info .info1 span {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 17px;
+  }
+
+  .realavtomat-info .info7 {
+    font-weight: 300;
+    font-family: "Calibri";
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .realavtomat-info .info8 {
+    font-weight: 300;
+    font-family: "Calibri";
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .realavtomat-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Calibri";
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .realavtomat-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .realavtomat-info a {
+    background-color: #003d6a;
+    color: white;
+    padding: 10px;
+    border-radius: 0.1cm;
+  }
+
+  .realavtomat-btn {
+    margin-top: 20px;
+  }
+
+  .realavtomat-btn a {
+    background-color: #115dc4;
+    transition: all 0.3s ease;
+  }
+
+  .realavtomat-btn a:hover {
+    background-color: #073473;
+  }
+
+  .realavtomat-info .info4 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .realavtomat-info .info5 {
+    font-weight: 300;
+    font-family: "Calibri";
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .realavtomat-info .info3 {
+    font-weight: 500;
+    font-family: "Calibri";
+    font-size: 20px;
+  }
+
+  .realavtomat-info .info5 i {
+    color: green;
+  }
+
+  .realavtomat-info .info6 {
+    font-weight: 300;
+    font-family: "Calibri";
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .realavtomat-info .info6 i {
+    color: green;
+  }
+}
+/* ! RealAvtomatlasdirma responsive page css end */
 /* footer responsive css start */
 @media only screen and (max-width: 768px) {
   footer {
