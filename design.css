@@ -5065,7 +5065,7 @@ td {
 /* ! Customers page responsive  css start */
 @media only screen and (max-width: 768px) {
   .section-title {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .customers-container {
@@ -6461,6 +6461,148 @@ td {
   }
 }
 /* ! RealAvtomatlasdirma responsive page css end */
+/* ! About section responsive page css start */
+@media only screen and (max-width: 768px) {
+  .About-Container {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4c6;
+    align-items: center;
+  }
+
+  .About-Container span {
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+  .About-Container p {
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000;
+    position: relative;
+  }
+
+  .About-Container a {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+    color: #467aa9;
+    font-weight: 600;
+  }
+
+  .About-Container a i {
+    margin-left: 2px;
+    margin-top: 7px;
+    font-size: 14px;
+  }
+
+  .about-btn {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+/* ! About section responsive page css end */
+/* ! Counter section responsive page css start */
+@media only screen and (max-width: 768px) {
+  .counter {
+    padding: 0px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .counter ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0%;
+    cursor: pointer;
+  }
+
+  .counter ul li {
+    position: relative;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 15px;
+  }
+
+  .counter ul li span:first-child {
+    font-size: 40px;
+    opacity: 0.9;
+    color: #75a2ca;
+    transform: all 5s;
+  }
+
+  .counter ul li:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgb(53, 53, 69);
+  }
+
+  .counter ul li:hover::before {
+    width: 100%;
+    left: 0%;
+  }
+
+  .counter {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .counted {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .counter ul li #partnerscount {
+    font-size: 10px;
+    position: absolute;
+    top: 107%;
+    left: 42%;
+    transform: translate(-50%, -40%);
+    white-space: nowrap;
+    color: #003d6a;
+  }
+
+  .counter ul li #peoplecount {
+    font-size: 10px;
+    position: absolute;
+    top: 107%;
+    left: 53%;
+    transform: translate(-50%, -40%);
+    white-space: nowrap;
+    color: #003d6a;
+  }
+
+  .counter ul li #userscount {
+    font-size: 10px;
+    position: absolute;
+    top: 107%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    white-space: nowrap;
+    color: #003d6a;
+  }
+
+  .counter ul li #staticcount {
+    font-size: 10px;
+    position: absolute;
+    top: 107%;
+    left: 42%;
+    transform: translate(-50%, -40%);
+    white-space: nowrap;
+    color: #003d6a;
+  }
+}
+/* ! Counter section responsive page css end */
 /* footer responsive css start */
 @media only screen and (max-width: 768px) {
   footer {
