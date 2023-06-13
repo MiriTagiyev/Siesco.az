@@ -4881,7 +4881,7 @@ td {
   }
 }
 .information-about p {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   margin-top: 10px;
 }
@@ -4930,13 +4930,104 @@ td {
   width: 48%;
   margin-left: 2%;
 }
+.allotment-part1 img {
+  width: 80%;
+  object-fit: contain;
+}
 .allotment-part2 {
   width: 48%;
-  display: flex;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 .allotment-part2 img {
-  width: 100%;
+  width: 90%;
+  object-fit: contain;
+}
+.allotment-part3 {
+  width: 48%;
+}
+.allotment-part3 img {
+  width: 70%;
+  object-fit: contain;
+  display: flex;
+  margin: auto;
+}
+.allotment-part4 {
+  width: 48%;
+}
+.allotment-part4 img {
+  width: 80%;
+  object-fit: contain;
+  display: flex;
+  margin: 30px auto;
+}
+.allotment-part5 {
+  width: 48%;
+}
+.allotment-part5 img {
+  width: 80%;
+  object-fit: contain;
+  display: flex;
+  margin: 20px auto;
+}
+.allotment-part6 {
+  width: 48%;
+  margin-left: 2%;
+}
+.allotment-part7 {
+  width: 48%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.allotment-part7 img {
+  width: 95%;
+  object-fit: contain;
+}
+.allotment-part8 {
+  width: 48%;
+  margin-left: 13%;
+  margin-top: 1%;
+}
+.allotment-part8 img {
+  width: 70%;
+  object-fit: contain;
+}
+.allotment-part9 {
+  width: 48%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.allotment-part9 img {
+  width: 95%;
+  object-fit: contain;
+}
+.allotment-part10 {
+  width: 48%;
+  margin-top: 3%;
+}
+.allotment-part10 img {
+  width: 85%;
+  object-fit: contain;
+}
+.allotment-part11 {
+  width: 48%;
+  margin-left: 2%;
+}
+.allotment-part12 {
+  width: 48%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.allotment-part12 img {
+  width: 90%;
+  object-fit: contain;
+}
+.allotment-part13 {
+  width: 48%;
+  margin-top: 3%;
+}
+.allotment-part13 img {
+  width: 90%;
+  object-fit: contain;
 }
 /* ! 1C melumat page  css end */
 /* ! About page responsive  css start */
