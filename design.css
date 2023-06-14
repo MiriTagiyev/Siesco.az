@@ -4883,7 +4883,7 @@ td {
 .information-about p {
   font-size: 18px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .information-about ul {
   list-style: none;
@@ -4893,7 +4893,7 @@ td {
 .information-about ul li {
   font-size: 18px;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 .information-about h6 {
   font-size: 18px;
@@ -4902,7 +4902,7 @@ td {
 
 .information-btn {
   display: flex;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .information-btn p {
   font-weight: 600;
@@ -4944,7 +4944,7 @@ td {
 }
 .allotment-part3 {
   width: 48%;
-  margin-left: 0px;
+  margin-top: 10px;
 }
 .allotment-part3 img {
   width: 100%;
@@ -5012,7 +5012,7 @@ td {
 }
 .allotment-part16 {
   width: 48%;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .allotment-part16 img {
   width: 93%;
@@ -5067,7 +5067,6 @@ td {
 .allotment-part20 {
   width: 48%;
   display: flex;
-  margin: auto;
 }
 .allotment-part20 img {
   width: 95%;
@@ -5076,6 +5075,9 @@ td {
 .allotment-part11 {
   width: 48%;
   margin-left: 2%;
+}
+.texniki-info {
+  margin-bottom: 20px;
 }
 .allotment-part12 {
   width: 48%;
