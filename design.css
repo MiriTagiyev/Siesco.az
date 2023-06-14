@@ -4864,6 +4864,9 @@ td {
   margin-top: 20px;
   opacity: 0;
 }
+.information-about i {
+  color: green;
+}
 #slide-from-bottom {
   animation: slideFromBottom 2s ease forwards;
 }
