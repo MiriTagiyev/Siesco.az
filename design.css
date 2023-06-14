@@ -4895,6 +4895,9 @@ td {
   list-style: none;
   margin-top: 5px;
 }
+.texniki-info {
+  margin-bottom: 20px;
+}
 
 .information-about ul li {
   font-size: 18px;
