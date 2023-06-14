@@ -108,7 +108,7 @@ nav img {
   width: 180px;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
   margin-right: 45px;
   font-size: 16px;
@@ -116,7 +116,7 @@ nav > ul > li {
   position: relative;
 }
 
-nav > ul.menu > li::after {
+nav>ul.menu>li::after {
   content: "";
   width: 0;
   position: absolute;
@@ -130,7 +130,7 @@ nav > ul.menu > li::after {
   z-index: 1001;
 }
 
-nav > ul.menu > li:hover::after {
+nav>ul.menu>li:hover::after {
   width: 80%;
 }
 
@@ -138,7 +138,7 @@ nav ul li a {
   color: #25376a;
 }
 
-nav > ul > li > ul {
+nav>ul>li>ul {
   list-style: none;
   position: absolute;
   background-color: #edf2f4;
@@ -149,31 +149,31 @@ nav > ul > li > ul {
   border-radius: 0 0 5px 3px;
 }
 
-nav > ul > li > ul.about-menu,
-nav > ul > li > ul.product-menu {
+nav>ul>li>ul.about-menu,
+nav>ul>li>ul.product-menu {
   width: 200px;
 }
 
-nav > ul > li > ul.services-menu {
+nav>ul>li>ul.services-menu {
   width: 380px;
   left: -300px;
 }
 
-nav > ul > li:hover > ul.about-menu {
+nav>ul>li:hover>ul.about-menu {
   transform: translateX(25%);
 }
 
-nav > ul > li:hover > ul.services-menu {
+nav>ul>li:hover>ul.services-menu {
   transform: translateX(-25%);
 }
 
-nav > ul > li:hover ul {
+nav>ul>li:hover ul {
   left: -50%;
   visibility: visible;
   transition: 0.5s;
 }
 
-nav > ul > li > ul > li {
+nav>ul>li>ul>li {
   padding: 12px !important;
   border-top: 1px solid #25252533;
   font-size: 15px;
@@ -560,7 +560,7 @@ section {
   margin-bottom: 40px;
 }
 
-.Partner-title > * {
+.Partner-title>* {
   display: block;
   margin-bottom: 12px;
 }
@@ -809,7 +809,7 @@ section {
   margin: 0;
 }
 
-.News-title > * {
+.News-title>* {
   display: block;
   margin-bottom: 12px;
 }
@@ -865,8 +865,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
   z-index: 0;
 }
 
@@ -1003,7 +1002,7 @@ section {
   transition: 0.3s ease-in-out;
 }
 
-.item > img {
+.item>img {
   width: 100%;
 }
 
@@ -1744,7 +1743,7 @@ header .lotties .current {
   padding: 0;
 }
 
-.circle--rotate > li {
+.circle--rotate>li {
   position: absolute;
   left: 0;
   top: 0;
@@ -1762,7 +1761,7 @@ header .lotties .current {
   border-radius: 100%;
 }
 
-.circle--rotate > li .icon {
+.circle--rotate>li .icon {
   visibility: visible;
   cursor: pointer;
   text-align: center;
@@ -1778,7 +1777,7 @@ header .lotties .current {
   box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-.circle--rotate > li i {
+.circle--rotate>li i {
   color: #0a0a0a;
   font-size: 20px;
   margin: auto;
@@ -1788,12 +1787,12 @@ header .lotties .current {
   display: table;
 }
 
-.circle--rotate > li i::before {
+.circle--rotate>li i::before {
   display: table-cell;
   vertical-align: middle;
 }
 
-.circle--rotate > li img {
+.circle--rotate>li img {
   margin: auto;
 }
 
@@ -1805,7 +1804,7 @@ header .lotties .current {
   margin: 0 auto;
 }
 
-.circle--slider .circle--rotate > li div {
+.circle--slider .circle--rotate>li div {
   position: relative;
   overflow: visible;
   background-color: #edeff1;
@@ -1814,19 +1813,19 @@ header .lotties .current {
   font-size: 6px;
 }
 
-.circle--slider .circle--rotate > li div span {
+.circle--slider .circle--rotate>li div span {
   transform: rotate(0deg);
   transition: all 2s;
   opacity: 0;
 }
 
-.circle--slider .circle--rotate > li.active div {
+.circle--slider .circle--rotate>li.active div {
   font-size: 20px;
   background-color: #654be4;
   transition: all 1s;
 }
 
-.circle--slider .circle--rotate > li.active div span {
+.circle--slider .circle--rotate>li.active div span {
   width: 100%;
   height: 100%;
   display: block;
@@ -1838,7 +1837,7 @@ header .lotties .current {
   opacity: 1;
 }
 
-.circle--slider .circle--rotate > li.active div span:before {
+.circle--slider .circle--rotate>li.active div span:before {
   position: absolute;
   height: 1px;
   top: -50%;
@@ -1854,7 +1853,7 @@ header .lotties .current {
   z-index: -1;
 }
 
-.circle--slider .circle--rotate > li.active div span:after {
+.circle--slider .circle--rotate>li.active div span:after {
   position: absolute;
   height: 1px;
   top: 100%;
@@ -2155,8 +2154,8 @@ header .lotties .current {
   font-size: 30px;
 }
 
-header > .next,
-header > .prev {
+header>.next,
+header>.prev {
   color: white;
   font-size: 20px;
 }
@@ -2696,12 +2695,10 @@ header > .prev {
 
 .bg {
   animation: slide 10s ease-in-out infinite alternate;
-  background-image: linear-gradient(
-    60deg,
-    #7dd2f0b7 50%,
-    #3abff0 50%,
-    #d0eef9fa 50%
-  );
+  background-image: linear-gradient(60deg,
+      #7dd2f0b7 50%,
+      #3abff0 50%,
+      #d0eef9fa 50%);
   bottom: 0;
   left: -50%;
   opacity: 0.5;
@@ -3688,7 +3685,7 @@ header > .prev {
   cursor: pointer;
 }
 
-.video-container .item > img {
+.video-container .item>img {
   width: 100%;
 }
 
@@ -4288,7 +4285,7 @@ td {
 }
 
 #chatme svg,
-.socials > div svg {
+.socials>div svg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4298,7 +4295,7 @@ td {
   fill: white;
 }
 
-.socials > div svg {
+.socials>div svg {
   width: 16px;
   height: 16px;
 }
@@ -4337,7 +4334,7 @@ td {
   background: rgba (0, 0, 0, 0.3);
 }
 
-.socials > div {
+.socials>div {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -4346,7 +4343,7 @@ td {
   transition: 0.3s;
 }
 
-.socials > div:hover {
+.socials>div:hover {
   transform: scale(1.2);
 }
 
@@ -4595,7 +4592,7 @@ td {
   cursor: pointer;
 }
 
-.video-container .item > img {
+.video-container .item>img {
   width: 100%;
 }
 
@@ -4864,27 +4861,33 @@ td {
   margin-top: 20px;
   opacity: 0;
 }
+
 .information-about i {
   color: green;
 }
+
 #slide-from-bottom {
   animation: slideFromBottom 2s ease forwards;
 }
+
 @keyframes slideFromBottom {
   from {
     transform: translateY(100%);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .information-about p {
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
 }
+
 .information-about ul {
   list-style: none;
   margin-top: 5px;
@@ -4895,6 +4898,7 @@ td {
   font-weight: 400;
   margin-top: 7px;
 }
+
 .information-about h6 {
   font-size: 18px;
   margin-top: 5px;
@@ -4904,11 +4908,13 @@ td {
   display: flex;
   margin-top: 5px;
 }
+
 .information-btn p {
   font-weight: 600;
   font-family: "Calibri";
   font-size: 20px;
 }
+
 .information-btn a {
   padding: 10px;
   background-color: #115dc4;
@@ -4921,58 +4927,71 @@ td {
 .information-btn a:hover {
   background-color: #073473;
 }
+
 .information-allotment {
   width: 100%;
   display: flex;
   margin: 20px 20px;
 }
+
 .allotment-part1 {
   width: 48%;
   margin-left: 0%;
 }
+
 .allotment-part1 img {
   width: 80%;
   object-fit: contain;
 }
+
 .allotment-part2 {
   width: 48%;
   margin-left: 5%;
   margin-top: 15px;
 }
+
 .allotment-part2 img {
   width: 90%;
   object-fit: contain;
 }
+
 .allotment-part3 {
   width: 48%;
   margin-top: 10px;
 }
+
 .allotment-part3 img {
   width: 100%;
   object-fit: contain;
   display: flex;
   margin: auto;
 }
+
 .allotment-part4 {
   width: 48%;
 }
+
 .allotment-part4 img {
   width: 95%;
   object-fit: contain;
   display: flex;
   margin: 25px 25px;
 }
+
 .allotment-part14 {
   width: 48%;
   margin-left: 2%;
 }
+
 .allotment-part5 {
   width: 48%;
 }
+
 .allotment-part15 {
   width: 48%;
   margin-left: 2%;
 }
+
 .allotment-part5 img {
   width: 80%;
   object-fit: contain;
@@ -4985,114 +5004,119 @@ td {
   display: flex;
   margin: auto;
 }
+
 .allotment-part7 img {
   width: 60%;
   object-fit: contain;
-}
-.allotment-part22 {
-  width: 48%;
-  margin-top: -10px;
-}
-.allotment-part22 img {
-  width: 90%;
-  object-fit: contain;
-}
-.allotment-part23 {
-  width: 48%;
-  margin-left: 3%;
-  margin-top: 10px;
 }
 .allotment-part8 {
   width: 48%;
   margin-left: 10%;
   margin-top: 1%;
 }
+
 .allotment-part8 img {
   width: 60%;
   object-fit: contain;
 }
+
 .allotment-part16 {
   width: 48%;
   margin-top: 25px;
 }
+
 .allotment-part16 img {
   width: 93%;
   object-fit: contain;
   display: flex;
   margin: auto;
 }
+
 .allotment-part17 {
   width: 48%;
   margin-left: 2%;
 }
+
 .allotment-part6 {
   width: 48%;
   margin-left: 2%;
 }
+
 .allotment-part21 {
   width: 48%;
 }
+
 .allotment-part21 img {
   width: 100%;
   object-fit: contain;
 }
+
 .allotment-part9 {
   width: 48%;
 }
+
 .allotment-part18 {
   width: 48%;
   margin-top: 15px;
 }
+
 .allotment-part18 img {
   width: 93%;
   object-fit: contain;
   display: flex;
   margin: auto;
 }
+
 .allotment-part19 {
   width: 48%;
   margin-left: 5%;
 }
+
 .allotment-part9 img {
   width: 70%;
   object-fit: contain;
 }
+
 .allotment-part10 {
   width: 48%;
   margin-top: 3%;
 }
+
 .allotment-part10 img {
   width: 85%;
   object-fit: contain;
 }
+
 .allotment-part20 {
   width: 48%;
   display: flex;
 }
+
 .allotment-part20 img {
   width: 95%;
   object-fit: contain;
 }
+
 .allotment-part11 {
   width: 48%;
   margin-left: 2%;
-}
-.texniki-info {
-  margin-bottom: 20px;
 }
 .allotment-part12 {
   width: 48%;
   margin-left: 5%;
   margin-top: 8%;
 }
+
 .allotment-part12 img {
   width: 90%;
   object-fit: contain;
 }
+
 .allotment-part13 {
   width: 48%;
   margin-top: 3%;
 }
+
 .allotment-part13 img {
   width: 90%;
   object-fit: contain;
@@ -5951,6 +5975,7 @@ td {
     display: flex;
     width: 40%;
   }
+
   .bitrix-img {
     width: 100%;
     display: flex;
@@ -5980,6 +6005,7 @@ td {
     font-size: 16px;
     font-weight: 400;
   }
+
   .info1 span {
     font-size: 16px;
   }
@@ -6033,6 +6059,7 @@ td {
     background-color: #073473;
   }
 }
+
 /* ! Bitrix responsive  css end */
 /* ! AgentPlus responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -6078,9 +6105,11 @@ td {
     width: 100%;
     padding: 20px;
   }
+
   .agentplus-info p {
     margin-top: 5px;
   }
+
   .agentplus-container {
     width: 100%;
     height: auto;
@@ -6118,6 +6147,7 @@ td {
     display: flex;
     margin: auto;
   }
+
   .agentplus-jpg .info2 {
     font-size: 17px;
     margin-top: 10px;
@@ -6139,16 +6169,19 @@ td {
     font-family: "Calibri";
     padding: 20px;
   }
+
   .info2 {
     font-weight: 600;
     font-family: "Calibri";
     font-size: 19px;
   }
+
   .info5 {
     font-weight: 300;
     font-family: "Calibri";
     font-size: 17px;
   }
+
   .info6 {
     font-weight: 300;
     font-family: "Calibri";
@@ -6160,12 +6193,14 @@ td {
     font-family: "Calibri";
     font-size: 17px;
   }
+
   .productions-title h3 {
     font-size: 20px;
     font-weight: 600;
     font-family: "Calibri";
   }
 }
+
 /* ! AgentPlus responsive  css end */
 /* ! Mobi-c responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -6205,6 +6240,7 @@ td {
     width: 100%;
     padding: 25px;
   }
+
   .mobi-info p {
     margin-top: 5px;
   }
@@ -6266,10 +6302,12 @@ td {
     font-family: "Calibri";
     font-size: 17px;
   }
+
   .mobi-jpg .info2 {
     font-size: 17px;
     margin-top: 10px;
   }
+
   .mobi-jpg {
     width: 100%;
     margin-top: 0px;
@@ -6277,6 +6315,7 @@ td {
     padding: 15px;
   }
 }
+
 /* ! Mobi-c responsive  css end */
 /* ! Mikro Biznes responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -6286,6 +6325,7 @@ td {
     padding: 5px;
     border-radius: 0.1cm;
   }
+
   .productions-img {
     width: 70%;
     height: auto;
@@ -6296,14 +6336,17 @@ td {
     width: 30%;
     overflow: hidden;
   }
+
   #mikro-img {
     width: 60%;
   }
+
   .productions-vektor {
     width: 100%;
     height: auto;
     display: flex;
   }
+
   .productions-lottie {
     width: 55%;
     height: 100%;
@@ -6320,19 +6363,23 @@ td {
   .productions-btn {
     margin-top: 10px;
   }
+
   .info2 {
     font-size: 17px;
     font-weight: 600;
     font-family: "Calibri";
   }
+
   .info1 {
     font-size: 17px;
     font-weight: 300;
     font-family: "Calibri";
   }
+
   .productions-info p {
     margin-top: 5px;
   }
+
   .productions-info {
     width: 100%;
     height: auto;
@@ -6340,6 +6387,7 @@ td {
     padding: 0px 30px;
   }
 }
+
 /* ! Mikro Biznes responsive  css end */
 /* ! Mikro Biznes responsive  css start */
 @media only screen and (max-width: 768px) {
@@ -6471,6 +6519,7 @@ td {
     font-size: 30px;
   }
 }
+
 /* ! Mikro Biznes responsive  css end */
 /* ! RealAvtomatlasdirma responsive page css start */
 @media only screen and (max-width: 768px) {
@@ -6620,6 +6669,7 @@ td {
     color: green;
   }
 }
+
 /* ! RealAvtomatlasdirma responsive page css end */
 /* ! About section responsive page css start */
 @media only screen and (max-width: 768px) {
@@ -6630,6 +6680,11 @@ td {
     align-items: center;
   }
 
+  .bir {
+    height: auto;
+    padding: 15px 10px 0 10px;
+  }
+
   .About-Container span {
     font-weight: bolder;
     font-size: 17px;
@@ -6638,15 +6693,15 @@ td {
   .About-Container p {
     text-align: center;
     font-family: "Calibri";
-    font-size: 17px;
+    font-size: 15px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 25px;
     color: #000;
     position: relative;
   }
 
   .About-Container a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     position: relative;
     z-index: 100;
@@ -6762,6 +6817,7 @@ td {
     color: #003d6a;
   }
 }
+
 /* ! Counter section responsive page css end */
 /* footer responsive css start */
 @media only screen and (max-width: 768px) {
@@ -6769,23 +6825,28 @@ td {
     display: block;
     padding: 10px 10px 0px 10px;
   }
+
   .footer-left {
     width: 100%;
     overflow: hidden;
     margin-bottom: 15px;
   }
+
   .footer-right {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     height: auto;
   }
+
   .footer-right2 a {
     margin-right: 0;
   }
+
   .footer-right1 h5 {
     font-size: 18px;
   }
+
   .footer-right1 {
     width: 50%;
     text-align: center;
@@ -6798,33 +6859,88 @@ td {
   .rightin h5 {
     font-size: 15px;
   }
+
   .footer-right2 {
     width: 50%;
     height: auto;
     padding-left: 20px;
   }
+
   .rightin {
     text-align: start;
   }
+
   .footer-right2 a i {
     font-size: 25px;
   }
+
   .footerlogo {
     display: none;
   }
+
   .footerinfo p {
     font-size: 16.1px;
   }
+
   .footer-right2 h5 {
     font-size: 15px;
   }
+
   .footer-right2 h4 {
     font-size: 15px;
   }
+
   .footer-copright {
     padding: 0;
   }
+
   .footer-right1 {
     height: 170px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .Product-wrapper {
+    padding-bottom: 20px;
+    width: 100%;
+
+
+  }
+
+  .products {
+    padding: 0;
+    width: 100%;
+  }
+
+  .products .product {
+    width: 27%;
+    height: 120px;
+    margin: 10px 10px;
+  }
+
+  .products .product img {
+    width: 100%;
+    display: block;
+  }
+
+  .products .product:hover .hover {
+    transform: translateY(-70%);
+    border-radius: 50%;
+    align-items: flex-end;
+  }
+
+  .product-name {
+    font-size: 15px;
+    top: 50%;
+    height: 30%;
+  }
+
+  .products .product:hover .hover img {
+    transform: rotate(-360deg) scale(0.7);
+    top: 50%;
+    width: 100%;
+    transform: scale(1.1);
+  }
+
 }
