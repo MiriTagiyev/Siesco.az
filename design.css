@@ -4856,10 +4856,6 @@ td {
 
 /* ! Bitrixreadmore page  css end */
 /* ! 1C melumat page  css start */
-.information-vektor {
-  width: 100%;
-  height: 200px;
-}
 .information-about {
   width: 100%;
   height: auto;
@@ -4993,12 +4989,26 @@ td {
 }
 .allotment-part8 {
   width: 48%;
-  margin-left: 13%;
+  margin-left: 10%;
   margin-top: 1%;
 }
 .allotment-part8 img {
-  width: 70%;
+  width: 60%;
   object-fit: contain;
+}
+.allotment-part16 {
+  width: 48%;
+  margin-top: 15px;
+}
+.allotment-part16 img {
+  width: 93%;
+  object-fit: contain;
+  display: flex;
+  margin: auto;
+}
+.allotment-part17 {
+  width: 48%;
+  margin-left: 2%;
 }
 .allotment-part9 {
   width: 48%;
