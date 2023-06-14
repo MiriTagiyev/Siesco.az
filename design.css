@@ -4885,7 +4885,7 @@ td {
 .information-about p {
   font-size: 18px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .information-about ul {
@@ -4896,7 +4896,7 @@ td {
 .information-about ul li {
   font-size: 18px;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .information-about h6 {
@@ -4906,7 +4906,7 @@ td {
 
 .information-btn {
   display: flex;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .information-btn p {
@@ -4956,7 +4956,7 @@ td {
 
 .allotment-part3 {
   width: 48%;
-  margin-left: 0px;
+  margin-top: 10px;
 }
 
 .allotment-part3 img {
@@ -5000,15 +5000,14 @@ td {
 
 .allotment-part7 {
   width: 48%;
-  margin-left: 5%;
-  margin-top: 5%;
+  display: flex;
+  margin: auto;
 }
 
 .allotment-part7 img {
-  width: 95%;
+  width: 60%;
   object-fit: contain;
 }
-
 .allotment-part8 {
   width: 48%;
   margin-left: 10%;
@@ -5022,7 +5021,7 @@ td {
 
 .allotment-part16 {
   width: 48%;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .allotment-part16 img {
@@ -5090,7 +5089,6 @@ td {
 .allotment-part20 {
   width: 48%;
   display: flex;
-  margin: auto;
 }
 
 .allotment-part20 img {
@@ -5102,7 +5100,6 @@ td {
   width: 48%;
   margin-left: 2%;
 }
-
 .allotment-part12 {
   width: 48%;
   margin-left: 5%;
