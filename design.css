@@ -7543,6 +7543,10 @@ margin: auto;
 .service-text p {
   margin-bottom: 5px;
 }
+.vs-carousel__item-head{
+  width: 80px;
+  height: 80px;
+}
 
 }
 
