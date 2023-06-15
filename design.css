@@ -3761,7 +3761,7 @@ header > .prev {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1480px;
+  height: 950px;
   width: 100%;
   overflow: hidden;
 }
@@ -3775,6 +3775,19 @@ header > .prev {
   height: 100%;
   position: absolute;
   top: 0;
+}
+
+.report-container {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: "Calibri";
+}
+.report-container p {
+  font-size: 18px !important;
+  margin-top: 10px;
+}
+.report-container p span {
+  font-weight: 700;
 }
 
 .img-container {
@@ -3803,6 +3816,9 @@ header > .prev {
   cursor: pointer;
   z-index: 100;
 }
+.jpg-container {
+  display: flex;
+}
 
 .popimag img {
   position: absolute;
@@ -3820,9 +3836,14 @@ header > .prev {
   font-family: "Calibri";
   padding: 10px;
 }
+.img-container {
+  margin-right: 10px;
+  margin-top: 10px;
+}
 
 .img-container img {
-  width: 90%;
+  width: 100%;
+  height: 200px;
   cursor: pointer;
 }
 
@@ -4674,7 +4695,7 @@ td {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 2150px;
+  height: 1150px;
   width: 100%;
   overflow: hidden;
 }
@@ -4747,10 +4768,10 @@ td {
 }
 
 .img-container img {
-  width: 90%;
+  width: 100%;
+  height: 200px;
   cursor: pointer;
 }
-
 .bitriksreadmore-detail p {
   font-size: 16px;
 }
@@ -4758,6 +4779,7 @@ td {
 .bitriksreadmore-detail h2 {
   font-size: 26px;
   margin-bottom: 10px;
+  margin-top: 10px;
   font-weight: 600;
 }
 
