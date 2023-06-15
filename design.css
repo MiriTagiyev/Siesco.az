@@ -7,7 +7,7 @@
 }
 
 :root {
-  --swiper-navigation-color: #ffffffd8;
+  --swiper-navigation-color: #ffffff;
   --swiper-theme-color: #ef233c;
 }
 
@@ -3337,7 +3337,6 @@ header > .prev {
 /* ! RealAvtomatlasdirma page css end */
 /* ! Calculyator page css start */
 .counter {
-  padding: 20px;
   border-radius: 5px;
   color: white;
 }
@@ -3348,6 +3347,9 @@ header > .prev {
   list-style: none;
   padding: 0 10%;
   cursor: pointer;
+}
+.count{
+  background-color:#edf2f4;
 }
 
 .counter ul li {
@@ -3362,7 +3364,7 @@ header > .prev {
 .counter ul li span:first-child {
   font-size: 90px;
   opacity: 0.9;
-  color: #75a2ca;
+  color: #3387d0;
   transform: all 5s;
 }
 
