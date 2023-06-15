@@ -4908,6 +4908,7 @@ td {
 .information-about h6 {
   font-size: 18px;
   margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .information-btn {
@@ -4933,6 +4934,52 @@ td {
 .information-btn a:hover {
   background-color: #073473;
 }
+.web-btn {
+  display: flex;
+  margin-top: 5px;
+}
+
+.web-btn p {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.web-btn a {
+  padding: 10px;
+  background-color: #115dc4;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.web-btn a:hover {
+  background-color: #073473;
+}
+.konfiqurasiya-btn {
+  display: flex;
+  margin-top: 5px;
+}
+
+.konfiqurasiya-btn p {
+  font-weight: 600;
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.konfiqurasiya-btn a {
+  padding: 10px;
+  background-color: #115dc4;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.konfiqurasiya-btn a:hover {
+  background-color: #073473;
+}
 
 .information-allotment {
   width: 100%;
@@ -4945,6 +4992,13 @@ td {
   margin-left: 0%;
 }
 .allotment-part1 p span {
+  font-weight: 700;
+}
+.allotment-part26 {
+  width: 48%;
+  margin-left: 0%;
+}
+.allotment-part26 p span {
   font-weight: 700;
 }
 
@@ -5050,7 +5104,14 @@ td {
   width: 48%;
   margin-left: 2%;
 }
-
+.allotment-part27 {
+  width: 48%;
+  margin-left: 2%;
+}
+.allotment-part25 {
+  width: 48%;
+  margin-left: 2%;
+}
 .allotment-part21 {
   width: 48%;
 }
@@ -5153,6 +5214,437 @@ td {
 }
 
 /* ! 1C melumat page  css end */
+/* ! 1C melumat respnsive page  css start */
+@media only screen and (max-width: 768px) {
+  .information-about {
+    width: 100%;
+    height: auto;
+    font-family: "Calibri";
+    margin-top: 5px;
+    opacity: 0;
+  }
+  .information-about p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding: 15px;
+  }
+
+  .information-about ul {
+    list-style: none;
+    margin-top: 5px;
+  }
+  .texniki-info {
+    margin-bottom: 5px;
+  }
+
+  .information-about ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 7px;
+  }
+
+  .information-about h6 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .information-btn {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .information-btn p {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .information-btn a {
+    padding: 10px;
+    background-color: #115dc4;
+    color: white;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .information-btn a:hover {
+    background-color: #073473;
+  }
+  .konfiqurasiya-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .konfiqurasiya-btn p {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding: 0;
+    margin-left: 5px;
+    margin-bottom: 15px;
+  }
+
+  .konfiqurasiya-btn a {
+    padding: 10px;
+    background-color: #115dc4;
+    color: white;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  .konfiqurasiya-btn a:hover {
+    background-color: #073473;
+  }
+  .web-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .web-btn p {
+    font-weight: 600;
+    font-family: "Calibri";
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
+
+  .web-btn a {
+    padding: 10px;
+    background-color: #115dc4;
+    color: white;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  .web-btn a:hover {
+    background-color: #073473;
+  }
+
+  .information-allotment {
+    width: 100%;
+    display: block;
+    margin: 10px 5px;
+  }
+
+  .allotment-part1 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .allotment-part1 p span {
+    font-weight: 700;
+  }
+
+  .allotment-part26 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 20px;
+  }
+  .allotment-part26 h6 {
+    margin-bottom: 20px;
+  }
+  .allotment-part26 p span {
+    font-weight: 700;
+    padding: 0;
+    display: none;
+  }
+
+  .allotment-part1 img {
+    width: 80%;
+    object-fit: contain;
+  }
+
+  .allotment-part2 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0px;
+  }
+
+  .allotment-part2 img {
+    width: 70%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+  .allotment-part3 {
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+  }
+
+  .allotment-part3 img {
+    width: 80%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part4 {
+    width: 48%;
+    display: none;
+  }
+
+  .allotment-part4 img {
+    width: 95%;
+    object-fit: contain;
+    display: flex;
+    margin: 25px 25px;
+  }
+
+  .allotment-part14 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 20px;
+  }
+  .allotment-part14 h6 {
+    margin-bottom: 20px;
+  }
+
+  .allotment-part5 {
+    width: 100%;
+  }
+
+  .allotment-part15 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 20px;
+  }
+  .allotment-part15 h6 {
+    margin-bottom: 20px;
+  }
+
+  .allotment-part5 img {
+    width: 65%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part7 {
+    width: 100%;
+    display: none;
+  }
+
+  .allotment-part7 img {
+    width: 40%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+  .allotment-part8 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .allotment-part8 img {
+    width: 50%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part16 {
+    width: 48%;
+    margin-top: 25px;
+    display: none;
+  }
+
+  .allotment-part16 img {
+    width: 93%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part17 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 5px;
+  }
+  .part17-info {
+    padding: 5px;
+  }
+
+  .allotment-part6 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 5px;
+  }
+  .allotment-part27 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 10px;
+  }
+  .allotment-part27 .texniki-info {
+    padding: 10px;
+  }
+  .allotment-part27 h6 {
+    padding: 10px;
+  }
+  .allotment-part27 ul {
+    padding: 10px;
+  }
+  .allotment-part25 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 10px !important;
+  }
+  .allotment-part25 .texniki-info {
+    padding: 5px !important;
+  }
+  .allotment-part25 h6 {
+    padding: 5px;
+  }
+  .allotment-part25 ul {
+    padding: 5px;
+  }
+
+  .allotment-part21 {
+    width: 100%;
+  }
+
+  .allotment-part21 img {
+    width: 70%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+  .allotment-part22 {
+    width: 100%;
+    margin-top: -10px;
+  }
+  .allotment-part22 img {
+    width: 70%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+  .allotment-part23 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .allotment-part23 h6 {
+    margin-bottom: 20px;
+  }
+
+  .allotment-part9 {
+    width: 48%;
+    display: none;
+  }
+
+  .allotment-part18 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .allotment-part18 img {
+    width: 70%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+  .allotment-part24 {
+    width: 48%;
+    display: none;
+  }
+
+  .allotment-part24 img {
+    width: 80%;
+    object-fit: contain;
+  }
+
+  .allotment-part19 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 20px;
+  }
+  .allotment-part19 h6 {
+    margin-bottom: 20px;
+  }
+
+  .allotment-part9 img {
+    width: 70%;
+    object-fit: contain;
+  }
+
+  .allotment-part10 {
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .allotment-part10 img {
+    width: 70%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part20 {
+    width: 48%;
+    display: none;
+  }
+
+  .allotment-part20 img {
+    width: 95%;
+    object-fit: contain;
+  }
+
+  .allotment-part11 {
+    width: 100%;
+    margin-left: 0%;
+    padding: 10px;
+  }
+  .allotment-part11 p {
+    padding: 10px !important;
+  }
+
+  .allotment-part11 .texniki-info {
+    padding: 10px;
+  }
+  .allotment-part11 h6 {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .allotment-part11 ul {
+    padding: 12px;
+  }
+  .allotment-part12 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .allotment-part12 img {
+    width: 60%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+  }
+
+  .allotment-part13 {
+    width: 48%;
+    margin-top: 3%;
+    display: none;
+  }
+
+  .allotment-part13 img {
+    width: 90%;
+    object-fit: contain;
+  }
+}
+/* ! 1C melumat respnsive page  css end */
 /* ! About page responsive  css start */
 @media only screen and (max-width: 768px) {
   .about-wrapper {
@@ -5279,7 +5771,7 @@ td {
 /* ! Customers page responsive  css start */
 @media only screen and (max-width: 768px) {
   .section-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .customers-container {
