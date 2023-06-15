@@ -14,21 +14,7 @@ const swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
-//Merkez slide end//
-//Mehsullar slide start//
-// function selecionarOpcao(elmnt, className, color) {
-//   var x = document.getElementsByClassName(className)[0].children;
-//   for (i = 1; i < x.length; i++) {
-//     x[i].style.backgroundColor = "#fff";
-//     x[i].style.color = "#111";
-//     x[i].style.border = "solid 1px " + color;
-//   }
-//   elmnt.style.backgroundColor = color;
-//   elmnt.style.color = "#fff";
-//   elmnt.style.border = "1px solid #eee";
-// }
-//Mehsullar slide end//
-//Xidmetler slide start//
+
 let index = 0;
 let interv = setInterval(() => {
   services();
@@ -74,28 +60,27 @@ $(".service-info").hover(
 const swipers = new Swiper(".swiper-partner", {
   autoplay: {
     delay: 0,
-    disableOnInteraction: false, //ユーザーがスワイプなどの操作しても止まらない
-    reverseDirection: true, // 逆方向有効化
+    disableOnInteraction: false, 
+    reverseDirection: true, 
   },
   loop: true,
   spaceBetween: 10,
-  // loopedSlides: 14, //設定すると途中で止まる
+ 
   slidesPerView: 7,
   speed: 3000,
-  allowTouchMove: false, // スワイプ無効,
+  allowTouchMove: false, 
 });
 
 const swiper2 = new Swiper(".swiper2", {
   autoplay: {
-    delay: 0, // 途切れなくループ
-    disableOnInteraction: false, //ユーザーがスワイプなどの操作しても止まらない
+    delay: 0,
+    disableOnInteraction: false, 
   },
-  loop: true, // ループ有効
+  loop: true, 
   spaceBetween: 10,
-  // loopedSlides: 14, //設定すると途中で止まる
-  slidesPerView: 7, // 一度に表示する枚数
-  speed: 3000, // ループの時間
-  allowTouchMove: false, // スワイプ無効
+  slidesPerView: 7, 
+  speed: 3000, 
+  allowTouchMove: false, 
 });
 //Musteri slide end//
 
