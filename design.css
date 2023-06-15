@@ -5038,7 +5038,7 @@ td {
   width: 95%;
   object-fit: contain;
   display: flex;
-  margin: 25px 25px;
+  margin: 50px 25px;
 }
 
 .allotment-part14 {
@@ -5107,6 +5107,9 @@ td {
 .allotment-part27 {
   width: 48%;
   margin-left: 2%;
+}
+.allotment-part27 ul li i {
+  margin-top: 5px;
 }
 .allotment-part25 {
   width: 48%;
