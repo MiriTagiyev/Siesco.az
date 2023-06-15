@@ -1430,7 +1430,7 @@ footer {
 .footer-right1 i {
   margin-top: 5px;
   margin-left: 10px;
-  color: green;
+  color: rgb(75, 203, 75);
   font-size: 25px;
 }
 
@@ -1484,22 +1484,22 @@ footer {
 }
 
 .fa-youtube {
-  color: red;
+  color: rgb(252, 7, 7);
   font-size: 35px;
 }
 
 .fa-square-whatsapp {
-  color: green;
+  color: rgb(35, 245, 35);
   font-size: 35px;
 }
 
 .fa-square-facebook {
-  color: blue;
+  color: rgb(32, 32, 253);
   font-size: 35px;
 }
 
 .fa-linkedin {
-  color: rgb(47, 50, 232);
+  color: rgb(43, 43, 234);
   font-size: 35px;
 }
 
