@@ -7493,7 +7493,8 @@ margin: auto;
   display: none;
   }
   .detail-text a{
-    display: none;
+    color: rgb(76, 190, 76);
+    margin-top: 5px;
     }
 
 .lotties{
@@ -7510,12 +7511,15 @@ margin: auto;
   margin-left: 30%;
   padding-bottom: -10%px;
 }
-
+.delete15{
+  display: none;
+}
 .lottie {
   width: 100%;
   padding-bottom: -10%px;
 }
 
-
 }
 /* slayd responsive end */
+/* xidmetlerrimiz responsive sratr */
+/* xidmetler responsive end */
