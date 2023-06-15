@@ -329,7 +329,6 @@ section {
   font-size: 14px;
 }
 
-
 .about-btn {
   font-size: 20px;
   margin-right: 10px;
@@ -1303,6 +1302,7 @@ section {
 
 .service-text {
   width: 50%;
+  z-index: 100;
 }
 
 .service-text p {
@@ -7455,99 +7455,94 @@ td {
 /* mehsullarimiz responsive end */
 /* slayd responsive start */
 @media only screen and (max-width: 768px) {
-
-.next{
-  display: none;
-}
-.prev{
-  display: none;
-}
-
-header{
-  background-size: auto;
-  height: auto;
-  height: 250px;
-  justify-content: start;
-  overflow: hidden;
-
-}
-.services{
-display: none;
-
-}
-.detail-texts{
-  width: 50%;
-  text-align: start;
-}
-.detail-texts p {
-  width: 100%;
-  font-size: 15px;
-  margin: auto;
-  margin-top: 55px;
-}
-.detail-texts h2{
-font-size: 18px;
-margin: auto;
-}
-.detail-text h2{
-  display: none;
+  .next {
+    display: none;
   }
-  .detail-text a{
+  .prev {
+    display: none;
+  }
+
+  header {
+    background-size: auto;
+    height: auto;
+    height: 250px;
+    justify-content: start;
+    overflow: hidden;
+  }
+  .services {
+    display: none;
+  }
+  .detail-texts {
+    width: 50%;
+    text-align: start;
+  }
+  .detail-texts p {
+    width: 100%;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 55px;
+  }
+  .detail-texts h2 {
+    font-size: 18px;
+    margin: auto;
+  }
+  .detail-text h2 {
+    display: none;
+  }
+  .detail-text a {
     color: rgb(76, 190, 76);
     margin-top: 5px;
-    }
+  }
 
-.lotties{
-  width: 45%;
-  transform: scale(1.9);
-}
-.newddd {
-  transform: scale(1.2)!important;
-  margin-left: 20px!important;
-  width: 70%!important;
-}
-#newdd {
-  width: 80%;
-  margin-left: 30%;
-  padding-bottom: -10%px;
-}
-.delete15{
-  display: none;
-}
-.lottie {
-  width: 100%;
-  padding-bottom: -10%px;
-}
-
+  .lotties {
+    width: 45%;
+    transform: scale(1.9);
+  }
+  .newddd {
+    transform: scale(1.2) !important;
+    margin-left: 20px !important;
+    width: 70% !important;
+  }
+  #newdd {
+    width: 80%;
+    margin-left: 30%;
+    padding-bottom: -10%px;
+  }
+  .delete15 {
+    display: none;
+  }
+  .lottie {
+    width: 100%;
+    padding-bottom: -10%px;
+  }
 }
 /* slayd responsive end */
 /* xidmetlerrimiz responsive sratr */
-@media only screen and (max-width: 768px){
-  .service-text{
+@media only screen and (max-width: 768px) {
+  .service-text {
     display: none;
   }
-  .service-container{
+  .service-container {
     width: 100%;
   }
-  .vs-wrapper{
+  .vs-wrapper {
     width: 100%;
     margin-left: -8%;
   }
-  section{
+  section {
     padding: 20px 0 20px 0;
   }
   .vs-carousel__item-title {
     padding: 15px 10px 15px 20px;
   }
-  
-.service-text p {
-  margin-bottom: 5px;
-}
-.vs-carousel__item-head{
-  width: 80px;
-  height: 80px;
-}
 
+  .service-text p {
+    margin-bottom: 5px;
+  }
+  .vs-carousel__item-head {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 /* xidmetler responsive end */
