@@ -247,7 +247,7 @@ section {
   font-weight: bold;
   line-height: 1.2;
   color: #25376a;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .section-title::after {
@@ -7542,6 +7542,9 @@ td {
     width: 80px;
     height: 80px;
   }
+   .section-title{
+      margin-bottom: 30px;
+   }
 }
 
 /* xidmetler responsive end */
