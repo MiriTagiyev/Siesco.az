@@ -329,6 +329,7 @@ section {
   font-size: 14px;
 }
 
+
 .about-btn {
   font-size: 20px;
   margin-right: 10px;
@@ -1646,13 +1647,6 @@ header .lotties {
   position: relative;
 }
 
-.lotties img {
-  width: 95%;
-  height: 75%;
-  margin-top: 40px;
-  margin-left: 30px;
-}
-
 header .lotties .lottie {
   width: 100%;
   height: 100%;
@@ -1662,13 +1656,6 @@ header .lotties .lottie {
   left: 200%;
   top: 0;
   transition: 0.5s;
-}
-
-.k {
-  width: 100%;
-  height: auto;
-  padding-top: 60px;
-  padding-left: 10%;
 }
 
 header .lotties .current {
@@ -6928,7 +6915,7 @@ td {
     height: 170px;
   }
 }
-
+/* mehsullarimiz responsive start */
 @media only screen and (max-width: 768px) {
   .Product-wrapper {
     padding-bottom: 20px;
@@ -6970,3 +6957,70 @@ td {
     transform: scale(1.1);
   }
 }
+/* mehsullarimiz responsive end */
+/* slayd responsive start */
+@media only screen and (max-width: 768px) {
+
+.next{
+  display: none;
+}
+.prev{
+  display: none;
+}
+
+header{
+  background-size: auto;
+  height: auto;
+  height: 250px;
+  justify-content: start;
+  overflow: hidden;
+
+}
+.services{
+display: none;
+
+}
+.detail-texts{
+  width: 50%;
+  text-align: start;
+}
+.detail-texts p {
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 55px;
+}
+.detail-texts h2{
+font-size: 18px;
+margin: auto;
+}
+.detail-text h2{
+  display: none;
+  }
+  .detail-text a{
+    display: none;
+    }
+
+.lotties{
+  width: 45%;
+  transform: scale(1.9);
+}
+.newddd {
+  transform: scale(1.2)!important;
+  margin-left: 20px!important;
+  width: 70%!important;
+}
+#newdd {
+  width: 80%;
+  margin-left: 30%;
+  padding-bottom: -10%px;
+}
+
+.lottie {
+  width: 100%;
+  padding-bottom: -10%px;
+}
+
+
+}
+/* slayd responsive end */
