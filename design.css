@@ -7,7 +7,7 @@
 }
 
 :root {
-  --swiper-navigation-color: #ffffff;
+  --swiper-navigation-color: #ffffffd8;
   --swiper-theme-color: #ef233c;
 }
 
@@ -555,7 +555,7 @@ section {
 .Partner-header {
   width: 100%;
   height: auto;
-  background-color: #bebebe;
+  background-color: #ffffffe6;
   padding-top: 20px;
   margin-bottom: 40px;
 }
@@ -1317,7 +1317,7 @@ section {
 }
 
 .service-text a:hover {
-  background-color: #073473;
+  background-color: #ffffff;
   transition: all 1s;
 }
 
@@ -1329,7 +1329,7 @@ section {
 .Product-wrapper {
   width: 100%;
   height: auto;
-  background-color: #e3e8ea;
+  background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 40px;
 }
