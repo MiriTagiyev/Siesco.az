@@ -7522,6 +7522,28 @@ margin: auto;
 }
 /* slayd responsive end */
 /* xidmetlerrimiz responsive sratr */
+@media only screen and (max-width: 768px){
+  .service-text{
+    display: none;
+  }
+  .service-container{
+    width: 100%;
+  }
+  .vs-wrapper{
+    width: 100%;
+    margin-left: -8%;
+  }
+  section{
+    padding: 20px 0 20px 0;
+  }
+  .vs-carousel__item-title {
+    padding: 15px 10px 15px 20px;
+  }
+  
+.service-text p {
+  margin-bottom: 5px;
+}
 
+}
 
 /* xidmetler responsive end */
