@@ -5780,7 +5780,7 @@ td {
 /* ! Customers page responsive  css start */
 @media only screen and (max-width: 768px) {
   .section-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .customers-container {
@@ -7552,6 +7552,7 @@ td {
     padding: 20px 0 20px 0;
   }
   .vs-carousel__item-title {
+    font-size: 15px;
     padding: 15px 10px 15px 20px;
   }
 
@@ -7559,8 +7560,8 @@ td {
     margin-bottom: 5px;
   }
   .vs-carousel__item-head {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   .section-title {
     margin-bottom: 30px;
@@ -7659,7 +7660,7 @@ td {
   .swiper-slide img {
     aspect-ratio: 300 / 300;
     width: 100%;
-    height: 120px;
+    height: 60px;
     object-fit: contain;
   }
 
