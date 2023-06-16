@@ -2576,7 +2576,9 @@ header > .prev {
 }
 
 .card_details h3 {
-  font-size: 17px;
+  font-size: 19px;
+  font-family: "Calibri";
+  font-weight: 500;
 }
 
 .card_flip {
@@ -5917,7 +5919,9 @@ td {
   }
 
   .card_details h3 {
-    font-size: 14px;
+    font-size: 17px;
+    font-family: "Calibri";
+    font-weight: 500;
   }
 
   .card_flip {
