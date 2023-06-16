@@ -7346,7 +7346,7 @@ td {
   }
 
   .counter ul li span:first-child {
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.9;
     color: #75a2ca;
     transform: all 5s;
@@ -7509,7 +7509,7 @@ td {
 
   .products .product {
     width: 27%;
-    height: 120px;
+    height: 95px;
     margin: 10px 10px;
   }
 
@@ -7519,13 +7519,13 @@ td {
   }
 
   .products .product:hover .hover {
-    transform: translateY(-70%);
+    transform: translateY(-65%);
     border-radius: 50%;
     align-items: flex-end;
   }
 
   .product-name {
-    font-size: 15px;
+    font-size: 14px;
     top: 50%;
     height: 30%;
   }
