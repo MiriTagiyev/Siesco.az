@@ -3759,7 +3759,7 @@ header > .prev {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 950px;
+  height: 820px;
   width: 100%;
   overflow: hidden;
 }
@@ -3823,7 +3823,7 @@ header > .prev {
 }
 .jpg-container img {
   width: 30%;
-  height: 150px;
+  height: 200px;
   display: flex;
   margin: auto;
   /* margin-left: 10px */
