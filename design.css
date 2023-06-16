@@ -2569,14 +2569,14 @@ header > .prev {
 }
 
 .card_details {
-  padding-top: 20px;
+  padding: 10px;
   text-align: center;
   height: 35%;
   background-color: #39509e;
 }
 
 .card_details h3 {
-  font-size: 19px;
+  font-size: 20px;
   font-family: "Calibri";
   font-weight: 500;
 }
