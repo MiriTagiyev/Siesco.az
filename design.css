@@ -312,24 +312,22 @@ section {
   line-height: 36px;
   color: #000;
   position: relative;
- 
 }
 
- .About-Container a {
+.About-Container a {
   font-size: 25px;
   text-decoration: none;
   position: relative;
   z-index: 100;
   color: #467aa9;
   font-weight: 600;
-  } 
+}
 
 .About-Container a i {
   margin-left: 2px;
   margin-top: 7px;
   font-size: 14px;
 }
-
 
 .bubbles {
   position: absolute;
@@ -1469,7 +1467,7 @@ footer {
 }
 
 .footer-right2 a i {
-  transition: all 0.9ms;
+  transition: 0.3s ease-in-out;
 }
 
 .footer-right2 a i:hover {
@@ -3345,8 +3343,8 @@ header > .prev {
   padding: 0 10%;
   cursor: pointer;
 }
-.count{
-  background-color:#edf2f4;
+.count {
+  background-color: #edf2f4;
 }
 
 .counter ul li {
@@ -7564,9 +7562,9 @@ td {
     width: 80px;
     height: 80px;
   }
-   .section-title{
-      margin-bottom: 30px;
-   }
+  .section-title {
+    margin-bottom: 30px;
+  }
 }
 
 /* xidmetler responsive end */
