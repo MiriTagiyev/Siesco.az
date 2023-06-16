@@ -86,10 +86,35 @@ body {
 
 .templatewebsite {
   width: 100%;
-  padding: 20px 20px 20px 20px;
+  height: 540px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  overflow-y: scroll;
+}
+/* Webkit (Chrome, Safari) */
+.templatewebsite::-webkit-scrollbar {
+  width: 10px;
+}
+
+.templatewebsite::-webkit-scrollbar-thumb {
+  background: #04daf6;
+  border-radius: 10px;
+}
+.templatewebsite::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Firefox */
+.templatewebsite {
+  scrollbar-width: thin;
+}
+
+.templatewebsite::-moz-scrollbar-thumb {
+  background: #04daf6;
+  border-radius: 10px;
 }
 
 .web {
