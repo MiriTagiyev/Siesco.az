@@ -403,15 +403,17 @@ body {
     width: 100%;
   }
   .webtemp {
-    padding: 10px 5.9%;
+    padding: 0px 5%;
   }
 
   .templatewebsite {
     width: 100%;
-    padding: 20px 0px 20px 0px;
+    height: 830px;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow-y: scroll;
   }
 
   .web {
