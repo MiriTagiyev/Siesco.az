@@ -4703,7 +4703,7 @@ td {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 1150px;
+  height: 1020px;
   width: 100%;
   overflow: hidden;
 }
@@ -4721,9 +4721,9 @@ td {
 }
 
 .bitriksreadmore-detail .bitriksreadmore-text {
-  width: 55%;
-  padding: 25px;
-  text-align: justify;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
   position: relative;
   left: -100%;
   height: 100%;
@@ -4798,6 +4798,7 @@ td {
   position: absolute;
   right: -100%;
   top: -32%;
+  display: none;
 }
 
 .bitriksreadmore-detail .readmore-img lottie-player {
