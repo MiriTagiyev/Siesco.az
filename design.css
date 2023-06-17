@@ -3575,7 +3575,6 @@ header > .prev {
   padding: 25px;
   position: relative;
   left: -100%;
-  height: 100%;
   position: absolute;
   top: -3%;
   font-family: "Calibri";
@@ -6986,7 +6985,6 @@ td {
     padding: 25px;
     position: relative;
     left: -100%;
-    height: 100%;
     position: absolute;
     top: -3%;
     font-family: "Calibri";

@@ -9,6 +9,8 @@ $("#bi-services>ul>li").click(function () {
   $(".bi-detail ." + lastBi + "-img").animate({ right: "-100%" }, () => {
     $(".bi-detail ." + currentService + "-img").animate({ right: "0" });
   });
+  document.querySelector(".bi-detail").style.height =
+    document.querySelector(`.${currentService}-text`).clientHeight + "px";
   lastBi = currentService;
 });
 window.onload = () => {
