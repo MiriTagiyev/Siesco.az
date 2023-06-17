@@ -7601,6 +7601,10 @@ td {
     margin-top: 5px;
     font-size: 15px;
   }
+  .detail-text a:hover {
+    font-size: 18px;
+    color: rgb(76, 190, 76);
+  }
 
   .lotties {
     width: 45%;
