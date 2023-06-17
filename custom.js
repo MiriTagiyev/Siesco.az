@@ -488,3 +488,12 @@ $("#chatme").click(function () {
 const currentYear = new Date().getFullYear();
 const footerYear = document.getElementById("footer-year");
 footerYear.textContent = `© ${currentYear} «Siesco» - Bütün hüquqlar qorunur.`;
+
+$('nav>ul>li').click(function(){
+  $('nav>ul>li>ul').slideUp()
+  $(this).find('ul').slideDown();
+})
+$('nav .fa-bars').click(function(){
+  $('nav>ul').slideToggle()
+  $('.right-menu').toggle()
+})
