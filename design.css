@@ -8192,3 +8192,48 @@ nav .fa-bars {
   }
 }
 /* 1CReadmore  responsive end */
+/* Widget  responsive start */
+@media screen and (max-width: 768px) {
+  #chatme {
+    background-color: #467aa9;
+    color: white;
+    border: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: 0.4s;
+    box-shadow: 0 0 0 0 #467aa9;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    z-index: 9999 !important;
+    cursor: pointer;
+  }
+  .socials > div svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  #chatme .close {
+    width: 25px;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  #chatme .chat {
+    width: 25px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .socials > div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: white;
+    transition: 0.3s;
+  }
+}
+/* Widget  responsive end */
