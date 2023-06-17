@@ -15,8 +15,6 @@ window.onload = () => {
   $("#it-services>ul>li:first-child").click();
 };
 
-
-
 $("#chatme").click(function () {
   $(".widget").toggleClass("open");
 });
@@ -49,3 +47,12 @@ document.querySelector("body").onscroll = function () {
     document.querySelector("nav").classList.remove("fixed");
   }
 };
+
+$("nav>ul>li").click(function () {
+  $("nav>ul>li>ul").slideUp();
+  $(this).find("ul").slideDown();
+});
+$("nav .fa-bars").click(function () {
+  $("nav>ul").slideToggle();
+  $(".right-menu").toggle();
+});
