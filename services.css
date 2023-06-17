@@ -52,7 +52,6 @@ body {
   text-align: justify;
   position: relative;
   left: -100%;
-  height: 100%;
   position: absolute;
   top: 0;
   margin-left: 100px;
@@ -373,7 +372,6 @@ body {
     text-align: left;
     position: relative;
     left: -100%;
-    height: 100%;
     position: absolute;
     top: 0;
     margin-left: 20px;

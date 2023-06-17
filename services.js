@@ -9,6 +9,8 @@ $("#it-services>ul>li").click(function () {
   $(".it-detail ." + lastService + "-img").animate({ right: "-100%" }, () => {
     $(".it-detail ." + currentService + "-img").animate({ right: "0" });
   });
+  document.querySelector(".it-detail").style.height =
+    document.querySelector(`.${currentService}-text`).clientHeight + "px";
   lastService = currentService;
 });
 window.onload = () => {

@@ -15,13 +15,13 @@ $("#readmore-services>ul>li").click(function () {
       $(".readmore-detail ." + currentService + "-img").animate({ right: "0" });
     }
   );
+  document.querySelector(".readmore-detail").style.height =
+    document.querySelector(`.${currentService}-text`).clientHeight + "px";
   lastService = currentService;
 });
 window.onload = () => {
-  $("#readmore-services>ul>li:first-child").click(); 
-};  
-
-
+  $("#readmore-services>ul>li:first-child").click();
+};
 
 let lastStatus = "web";
 $(document).ready(function () {

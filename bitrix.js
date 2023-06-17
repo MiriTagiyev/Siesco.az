@@ -19,6 +19,8 @@ $("#bitrixreadmore-services>ul>li").click(function () {
       });
     }
   );
+  document.querySelector(".bitriksreadmore-detail").style.height =
+    document.querySelector(`.${currentService}-text`).clientHeight + "px";
   lastService = currentService;
 });
 window.onload = () => {
