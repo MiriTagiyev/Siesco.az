@@ -1,22 +1,12 @@
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .main,
-  .main2,
-  .menu {
-    width: 100% !important;
-    float: none !important;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .header {
   border: 1px solid red;
   padding: 5px;
-  font-family: "Calibri";
 }
 
 .menu {
@@ -25,7 +15,6 @@
   float: right;
   padding: 35px;
   order: 3;
-  font-family: "Calibri";
 }
 
 .main {
@@ -34,7 +23,6 @@
   float: left;
   padding: 100px 0px 10px 50px;
   order: 1;
-  font-family: "Calibri";
 }
 
 .main2 {
@@ -45,7 +33,6 @@
   order: 2;
   word-spacing: 3px;
   line-height: 25px;
-  font-family: "Calibri";
 }
 
 .bgimg {
@@ -57,12 +44,6 @@ h1 {
   text-align: left;
 }
 
-body {
-  margin: 0;
-  /* color: #6a6f8c;
-  background: #192c3f; */
-  font-family: "Calibri";
-}
 .main2 h1 {
   color: black;
   font-size: 35px;
@@ -588,5 +569,20 @@ a {
 
   .sec-line {
     padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .main,
+  .main2,
+  .menu {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
